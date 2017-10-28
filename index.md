@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Zhenke Wu, PhD
+title: Jing Ma, PhD
 categories:
  - home
 ---
@@ -13,44 +13,30 @@ categories:
 
 <div class="row">
 	<div class="col-md-12">
-		<!-- <object class="pull-left biglogo" data="assets/themes/lab/images/logo/logo-none.svg" type="image/svg+xml"></object> -->
 		<div class="bigtitle logobox">
-			Zhenke Wu Research
+			Jing Ma Research
 		</div>
 	</div>	
-<!-- 	    <i class="fa fa-soundcloud"></i> 
-		<a href="https://soundcloud.com/zhenke-wu/zhenke-wu-name"> Name in Chinese: 吴振科 </a>  -->		
 </div> 
-**Name in Chinese:**[ 吴振科 <i class="fa fa-soundcloud"></i>](https://soundcloud.com/zhenke-wu/zhenke-wu-name). Transliteration: "Jen-Kuh Wu".
 
-[Here](/papers/) are my publication samples. My CV is [here](/assets/pdfs/team/zhenkewu-cv.pdf). My contact info is [here](/team/zhenke-wu). My GitHub is [here](https://github.com/zhenkewu?tab=activity). 
+[Here](/papers/) are my publication samples. My CV is [here](/assets/pdfs/team/jingma-cv.pdf). My contact info is [here](/team/jingma). 
 
-The best way to contact me is email or mobile. Direction to my office is [here](assets/pdfs/team/zhenkewu-office.pdf).
+The best way to contact me is email. Direction to my office is [here](assets/pdfs/team/zhenkewu-office.pdf).
 <hr/>
 
-My main research interests include:
+My primary research concerns estimation and inference from high-dimensional data, in particular to develop statistical machine learning methods to understand biological processes in genetics and genomics. Some areas that I'm currently working on include:
 
-* Bayesian hierarchical models: biomarkers, data integration, scalable computation, model-averaging;
-* Latent variable models: dynamics, measurement errors, local dependence, partial-identifiability; 
-* Robust inference: bias reduction, efficiency enhancement by covariate-calibration, semiparametric locally efficient estimation, deductive inference;
-* Causal analysis of modern study designs;
-* Collaborations: infectious disease, medical diagnosis, epidemiology, health policy, cancer.
+* Graphical and network modeling of structured data;
+* Statistical inference of graphical models and networks; 
+* High-dimensional data analysis;
+* Integrative analysis of Omics data.
 
 <hr/>
-I am a [Assistant Professor](https://sph.umich.edu/faculty-profiles/wu-zhenke.html) in the [Department of Biostatistics](https://sph.umich.edu/biostat/) at [University of Michigan](https://www.umich.edu), with joint appointment as Research Assistant Professor in [Michigan Institute for Data Science (MIDAS)](http://midas.umich.edu). I am also Faculty Associate in [Quantitative Methodology Program](http://www.qmp.isr.umich.edu/), [Survey Research Center](http://home.isr.umich.edu/centers/src/) of Institute for Social Research ([ISR](http://home.isr.umich.edu/)), University of Michigan.
-
-I conduct research on the design and application of statistical methods that inform health decisions made by individuals, or precision medicine. My current focus is on latent variable and causal inference
-methods that can support disease etiology studies, medical diagnosis, and health policy evaluation. Broadly, the statistical goal is to discover simple latent structures that improve inferences and population parameters and individual latent states. I have also worked on causal inference methods 1) to evaluate novel treatment rules under special designs like matched-pair cluster randomized design, as these designs are useful for interventions that can only be applied at cluster level; and 2) to facilitate the inference for novel estimands in semiparametric models by automating and unifying the derivation of efficient influence functions (EIF) and ensuing estimation.
-
-Currently a major focus of my work is on the analysis of multiple mixed-type longitudinal measurements with feedbacks in treatment assignments. I am working on hierarchical Bayesian methods to infer latent trajectories that represent individual disease progressions that have direct applications to childhood pneumonia etiology studies, disease surveillance and just-in-time adaptive interventions (JITAI).
+I am a [Assistant Member](https://research.fhcrc.org/ma/en.html) in the [Biostatistics Program](http://www.fredhutch.org/en/labs/phs/projects/biostats.html) at [Fred Hutch Cancer Research Center](http://www.fredhutch.org/en.html).
 
 I collaborate closely with 
 
-- [The Michigan Genomics Initiative](https://www.michigangenomics.org)
-- [Cancer Control and Population Sciences, University of Michigan Comprehensive Cancer Center](http://www.mcancer.org/research/programs/cancer-control-and-population-sciences)
-- [Intern Health Study](https://www.srijan-sen-lab.com/intern-health-study)
-- [Hopkins inHealth](http://hopkinsinhealth.jhu.edu/) methodology group
-- [International Vaccine Access Center (IVAC)](http://www.jhsph.edu/research/centers-and-institutes/ivac/)
+- [The Michigan Computational Medicine and Bioinformatics](https://medicine.umich.edu/dept/dcmb/alla-karnovsky-phd)
 
 <br />
 

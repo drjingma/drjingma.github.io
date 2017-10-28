@@ -1,4 +1,4 @@
-Zhenke Wu's Research Website: [click to view](http://zhenkewu.com)
+Jing Ma's Research Website: [click to view](http://drjingma.com)
 
 # Notes
 
