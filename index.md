@@ -19,9 +19,9 @@ categories:
 	</div>	
 </div> 
 
-[Here](/papers/) are my publication samples. My CV is [here](/assets/pdfs/team/jingma-cv.pdf). My contact info is [here](/team/jingma). 
 
-The best way to contact me is email. Direction to my office is [here](assets/pdfs/team/zhenkewu-office.pdf).
+I am a [Assistant Member](http://www.fredhutch.org/en/labs/profiles/ma-jing.html) in the [Biostatistics Program](http://www.fredhutch.org/en/labs/phs/projects/biostats.html) at [Fred Hutch Cancer Research Center](http://www.fredhutch.org/en.html).
+
 <hr/>
 
 My primary research concerns estimation and inference from high-dimensional data, in particular to develop statistical machine learning methods to understand biological processes in genetics and genomics. Some areas that I'm currently working on include:
@@ -32,14 +32,10 @@ My primary research concerns estimation and inference from high-dimensional data
 * Integrative analysis of Omics data.
 
 <hr/>
-I am a [Assistant Member](https://research.fhcrc.org/ma/en.html) in the [Biostatistics Program](http://www.fredhutch.org/en/labs/phs/projects/biostats.html) at [Fred Hutch Cancer Research Center](http://www.fredhutch.org/en.html).
 
-I collaborate closely with 
+[Here](/papers/) are my publication samples. For a complete list of publications, see my [Google Scholar](http://scholar.google.com/citations?user=TClZmdkAAAAJ). For more details about my background, read my [CV](/assets/pdfs/team/jingma-cv.pdf). 
 
-- [The Michigan Computational Medicine and Bioinformatics](https://medicine.umich.edu/dept/dcmb/alla-karnovsky-phd)
-
-<br />
-
+The best way to contact me is email [here](/team/jingma). Direction to my office is [here](assets/pdfs/team/ma-office.pdf).
 <hr/>
 
 <div class="row">

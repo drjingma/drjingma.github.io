@@ -15,32 +15,30 @@ markdown: kramdown
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.
 #
-title : Zhenke Wu, PhD
-tagline: Research updates on Bayesian modelling, causal models and individualized health from Johns Hopkins Biostatistics
-url: http://zhenkewu.com
-name : Zhenke Wu, PhD
-description: Research updates on Bayesian modelling, causal models and individualized health from Johns Hopkins Biostatistics
-
+title : Jing Ma, PhD
+tagline: Research updates on graphical modelling, network analysis and integrative genomicss
+url: http://drjingma.com
+name : Jing Ma, PhD
+description: Research updates on graphical modelling, network analysis and integrative genomicss
 
 institution:
-  url: https://www.umich.edu
-  name: University of Michigan
+  url: http://www.fredhutch.org/en.html
+  name: Fred Hutchinson Cancer Research Center
 department:
-  url: https://sph.umich.edu/biostat/
-  name: Department of Biostatistics
-  address: 1415 Washington Heights 
-  office: 4623 SPH-I (within Suite 4605)
-  city: Ann Arbor, MI 48109
-  logo: /assets/images/umich-sph-logo.png
-  map-image: /assets/images/umich-sph-map.png
-  map: http://goo.gl/HXM9Pi
-  workphone: +1-734-764-7067
+  url: http://www.fredhutch.org/en/labs/phs.html
+  name: Division of Public Health Sciences 
+  address: 1100 Fairview Ave. N
+  office: Arnold Building M2-B847 
+  city: Seattle, WA 98109
+  logo: /assets/images/fhcrc.png
+  map: /assets/pdfs/team/ma-office.pdf
+  workphone: +1-206-667-2897
 author :
-  name : Zhenke Wu
-  email : zhenkewu@gmail.com
-  github : zhenkewu
-  twitter : ZhenkeWu
-  uri: http://zhenkewu.com
+  name : Jing Ma
+  email : jingma@fredhutch.org
+  github : jingmafdu
+  twitter : drjingma
+  uri: http://drjingma.com
 #  feedburner : feedname
 
 # The production_url is only used when full-domain names are needed
@@ -51,7 +49,7 @@ author :
 # Else if you are pushing to username.github.io, replace with your username.
 # Finally if you are pushing to a GitHub project page, include the project name at the end.
 #
-production_url : http://zhenkewu.com
+production_url : http://drjingma.com
 
 # All Jekyll-Bootstrap specific configurations are namespaced into this hash
 #
