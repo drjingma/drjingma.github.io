@@ -213,7 +213,5 @@ exclude:
   - "Gemfile.lock"
   
 projects:
-  - zhenkewu/baker
-  - zhenkewu/mpcr
-  - zhenkewu/spotgear
-  - oslerinhealth
+  - jingmafdu/TestBMN
+  - jingmafdu/netgsa
