@@ -1,16 +1,23 @@
 ---
 layout: default
 title: "projects"
-description: ""
+description: "Research projects in the group"
 navtab: "projects"
+categories: 
+ - projects
 group: navigation
 navorder: 2
 ---
 
+{% include JB/setup %}
+
+<div class="bigspacer"></div>
+
+<div class="container">
 {% for project in site.data.projects %}
 
     {% cycle 'add rows': '<div class="row">', nil, nil %}
-		<div class="col-md-4 projectbox">
+		<div class="col-md-8 projectbox">
 			<div class="head">
 				<a href="{{ project.url }}" class="off">{{ project.title }}</a>
 			</div>	
@@ -18,9 +25,14 @@ navorder: 2
 			<div class="note">
 				<a href="{{ project.url }}" class="off">{{ project.description }}</a>
 			</div>
+                        <div class="smallspacer"></div>
 			<div class="bigspacer"></div>
 			<div class="spacer"></div>
 		</div>
     {% cycle 'close rows': nil, nil, '</div>' %}
 {% endfor %}
-{% cycle 'close rows': nil, '</div>', '</div>' %}
+{% cycle 'close rows': nil, '</div>', '</div>' %} 
+
+</div>
+
+
