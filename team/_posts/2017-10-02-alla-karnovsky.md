@@ -12,7 +12,7 @@ image:
 alum: false
 collaborator: true
 web: goo.gl/qbdqjt
-field: metabolomics
+field: science
 ---
 
 
