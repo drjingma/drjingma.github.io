@@ -106,7 +106,7 @@ JB :
   comments :
     provider : disqus
     disqus :
-      short_name : z-wus-stuff
+      short_name : j-mas-stuff
     livefyre :
       site_id : 123
     intensedebate :
