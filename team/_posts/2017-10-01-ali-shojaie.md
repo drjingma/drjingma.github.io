@@ -12,7 +12,7 @@ image:
 alum: false
 collaborator: true
 web: http://www.biostat.washington.edu/~ashojaie/
-field: biostat
+field: stat
 ---
 
 Department of Biostatistics <br/>
