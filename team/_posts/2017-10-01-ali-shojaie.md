@@ -11,13 +11,9 @@ scholar:
 image:
 alum: false
 collaborator: true
-web: http://www.biostat.washington.edu/~ashojaie/
+web: www.biostat.washington.edu/~ashojaie/
 field: stat
 ---
-
-Department of Biostatistics <br/>
-University of Washington <br/>
-Seattle, WA <br/>
 
 
 
