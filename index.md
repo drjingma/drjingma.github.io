@@ -24,7 +24,7 @@ I am an [Assistant Member](http://www.fredhutch.org/en/labs/profiles/ma-jing.htm
 
 <hr/>
 
-My primary research concerns estimation and inference from high-dimensional data, in particular to develop statistical machine learning methods to understand biological processes in genetics and genomics. Some areas that I'm currently working on include:
+My primary research concerns estimation and inference from high-dimensional data, in particular to develop statistical machine learning methods to understand biological processes in genomics, metabolomics and microbiome. Some areas that I'm currently working on include:
 
 * Graphical and network modeling of structured data;
 * Statistical inference of graphical models and networks; 
@@ -35,7 +35,7 @@ My primary research concerns estimation and inference from high-dimensional data
 
 [Here](/papers/) are my publication samples. For a complete list of publications, see my [Google Scholar](http://scholar.google.com/citations?user=TClZmdkAAAAJ). For more details about my background, read my [CV](/assets/pdfs/team/jingma-cv.pdf). 
 
-The best way to contact me is email [here](/team/jingma). Direction to my office is [here](assets/pdfs/team/ma-office.pdf).
+The best way to contact me is [email](/team/jingma). You can find direction to my office [here](assets/pdfs/team/ma-office.pdf).
 <hr/>
 
 <div class="row">
