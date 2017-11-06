@@ -6,6 +6,7 @@
   url: https://cran.r-project.org/web/packages/netgsa/index.html
   contributors:
     - login: jingmafdu
+    - url: https://github.com/jingmafdu
 
 - repo: TestBMN
   title: TestBMN
@@ -14,6 +15,7 @@
   url: https://github.com/jingmafdu/TestBMN
   contributors:
     - login: jingmafdu
+    - url: https://github.com/jingmafdu
 
 - repo: CHIME
   title: CHIME
@@ -22,3 +24,4 @@
   url: https://github.com/jingmafdu/gmm 
   contributors:
     - login: jingmafdu
+    - url: https://github.com/jingmafdu
