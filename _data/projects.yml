@@ -1,5 +1,5 @@
 ---
-- repo: netgsa
+- repo: jingmafdu/netgsa
   title: netgsa
   owner: jingma
   description: R package for carrying out Network-based Gene Set Analysis
@@ -8,7 +8,7 @@
     - login: jingmafdu
     - url: https://github.com/jingmafdu
 
-- repo: TestBMN
+- repo: jingmafdu/TestBMN
   title: TestBMN
   owner: jingma
   description: Two-sample testing of high-dimensional binary Markov random fields
@@ -17,7 +17,7 @@
     - login: jingmafdu
     - url: https://github.com/jingmafdu
 
-- repo: CHIME
+- repo: jingmafdu/CHIME
   title: CHIME
   owner: jingma
   description: Clustering of Gaussian mixtures with the EM algorithm 
