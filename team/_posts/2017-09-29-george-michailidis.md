@@ -7,7 +7,7 @@ handle: George Michailidis
 email: gmichail@ufl.edu
 twitter: 
 github: 
-scholar:G2nlf8AAAAJ
+scholar:_G2nlf8AAAAJ
 image:
 alum: false
 collaborator: true
