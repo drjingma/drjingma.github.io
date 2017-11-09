@@ -20,7 +20,7 @@ categories:
 </div> 
 
 
-I am an [Assistant Member](http://www.fredhutch.org/en/labs/profiles/ma-jing.html) in the [Biostatistics Program](http://www.fredhutch.org/en/labs/phs/projects/biostats.html) at [Fred Hutch Cancer Research Center](http://www.fredhutch.org/en.html). Before coming to the Hutch, I was a postdoctoral fellow at the University of Pennsylvania, working under the supervision of [Prof. Hongzhe Li](http://statgene.med.upenn.edu/) and [Prof. T. Tony Cai](http://www-stat.wharton.upenn.edu/~tcai/) from 2015-2017. I received my Ph.D. degree in Statistics in 2015 from the University of Michigan, under the supervision of [Prof. George Michailidis](http://www.stat.ufl.edu/personnel/Faculty%20Listing/index.html).
+I am an [Assistant Member](http://www.fredhutch.org/en/labs/profiles/ma-jing.html) in the [Biostatistics Program](http://www.fredhutch.org/en/labs/phs/projects/biostats.html) at [Fred Hutch Cancer Research Center](http://www.fredhutch.org/en.html). Before coming to the Hutch, I was a postdoctoral fellow at the University of Pennsylvania mentored by [Prof. Hongzhe Li](http://statgene.med.upenn.edu/) and [Prof. T. Tony Cai](http://www-stat.wharton.upenn.edu/~tcai/) from 2015-2017. I received my Ph.D. degree in Statistics in 2015 from the University of Michigan, under the supervision of [Prof. George Michailidis](http://www.stat.ufl.edu/personnel/Faculty%20Listing/index.html).
 
 <hr/>
 
