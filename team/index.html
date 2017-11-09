@@ -9,10 +9,7 @@ navorder: 4
 {% include JB/setup %}
 
 <div class="container">
-<div class="title text-left">Research Group Members</div>
-<!-- 
-<div class="smalltitle text-left">Research Group Members </div>
--->
+<div class="title text-left">Research Group Members </div>
 <div class="bigspacer"></div>
 {% for member in site.categories.team reversed %}
 	{% if member.alum == false and member.collaborator == false %}
