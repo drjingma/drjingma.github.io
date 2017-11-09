@@ -20,11 +20,11 @@ categories:
 </div> 
 
 
-I am an [Assistant Member](http://www.fredhutch.org/en/labs/profiles/ma-jing.html) in the [Biostatistics Program](http://www.fredhutch.org/en/labs/phs/projects/biostats.html) at [Fred Hutch Cancer Research Center](http://www.fredhutch.org/en.html).
+I am an [Assistant Member](http://www.fredhutch.org/en/labs/profiles/ma-jing.html) in the [Biostatistics Program](http://www.fredhutch.org/en/labs/phs/projects/biostats.html) at [Fred Hutch Cancer Research Center](http://www.fredhutch.org/en.html). Before coming to the Hutch, I was a postdoctoral fellow at the University of Pennsylvania, working under the supervision of [Prof. Hongzhe Li](http://statgene.med.upenn.edu/) and [Prof. T. Tony Cai](http://www-stat.wharton.upenn.edu/~tcai/) from 2015-2017. I received my Ph.D. degree in Statistics in 2015 from the University of Michigan, under the supervision of [Prof. George Michailidis](http://www.stat.ufl.edu/personnel/Faculty%20Listing/index.html).
 
 <hr/>
 
-My primary research concerns estimation and inference from high-dimensional data, in particular to develop statistical machine learning methods to understand biological processes in genomics, metabolomics and microbiome. Some areas that I'm currently working on include:
+My primary research concerns estimation and inference from high-dimensional 'omics' data, in particular to develop statistical machine learning methods to understand biological processes in genomics, metabolomics and microbiome. Some areas that I'm currently working on include:
 
 * Graphical and network modeling of structured data;
 * Statistical inference of graphical models and networks; 
