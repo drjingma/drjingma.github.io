@@ -36,7 +36,7 @@ department:
 author :
   name : Jing Ma
   email : jingma@fredhutch.org
-  github : jingmafdu
+  github : drjingma
   twitter : drjingma
   uri: http://drjingma.com
 #  feedburner : feedname
@@ -213,5 +213,5 @@ exclude:
   - "Gemfile.lock"
   
 projects:
-  - jingmafdu/TestBMN
-  - jingmafdu/netgsa
+  - drjingma/TestBMN
+  - drjingma/netgsa
