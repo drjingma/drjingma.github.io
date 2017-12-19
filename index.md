@@ -24,11 +24,12 @@ I am an [Assistant Member](http://www.fredhutch.org/en/labs/profiles/ma-jing.htm
 
 <hr/>
 
-My primary research concerns estimation and inference from high-dimensional 'omics' data, in particular to develop statistical machine learning methods to understand biological processes in genomics, metabolomics and microbiome. Some areas that I'm currently working on include:
+My primary research concerns estimation and inference from high-dimensional 'omics' data, in particular to develop statistical machine learning methods to understand biological processes in genomics, metabolomics and microbiome. Networks are important in this learning process because they are well-suited to represent- ing interactions between biomolecules. 
+Some projects that I'm currently working on are:
 
-* Graphical and network modeling of structured data;
-* Statistical inference of graphical models and networks; 
-* High-dimensional data analysis;
+* Microbiome data analysis;
+* High-dimensional inference of graphical models and networks;
+* Network-based pathway enrichment analysis
 * Integrative analysis of Omics data.
 
 <hr/>
