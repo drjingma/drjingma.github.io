@@ -11,7 +11,7 @@ scholar:
 image:
 alum: false
 collaborator: true
-web: www.biostat.washington.edu/~ashojaie/
+web: biostat.washington.edu/~ashojaie/
 field: stat
 ---
 
