@@ -24,7 +24,7 @@ I am an [Assistant Member](http://www.fredhutch.org/en/labs/profiles/ma-jing.htm
 
 <hr/>
 
-My primary research concerns estimation and inference from high-dimensional 'omics' data, in particular to develop statistical machine learning methods to solve problems in genomics, metabolomics and metagenomics. Networks are important in this learning process because they are well-suited to represent-ing interactions between biomolecules. 
+My primary research concerns estimation and inference from high-dimensional 'omics' data, in particular to develop statistical machine learning methods to solve problems in genomics, metabolomics and metagenomics. Networks are important in this learning process because they are well-suited to representing interactions between biomolecules. 
 Some projects that I'm currently working on are:
 
 * Joint analysis of metabolomic and microbiome data;
