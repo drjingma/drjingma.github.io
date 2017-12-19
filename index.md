@@ -36,7 +36,7 @@ Some projects that I'm currently working on are:
 
 [Here](/papers/) are my publication samples. For a complete list of publications, see my [Google Scholar](http://scholar.google.com/citations?user=TClZmdkAAAAJ). For more details about my background, read my [CV](/assets/pdfs/team/jingma-cv.pdf). 
 
-The best way to contact me is [email](/team/jingma). You can find direction to my office [here](assets/pdfs/team/ma-office.pdf).
+The best way to contact me is through [email](/team/jingma). You can find direction to my office [here](assets/pdfs/team/ma-office.pdf).
 <hr/>
 
 <div class="row">
