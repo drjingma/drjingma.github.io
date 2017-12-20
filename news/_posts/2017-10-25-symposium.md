@@ -1,6 +1,6 @@
 ---
 layout: news
-title: "2018 Fred Hutch Microbiome Symposium"
+title: "Save the date: 2018 Fred Hutch Microbiome Symposium"
 description: ""
 author: "Jing Ma"
 author_handle: "Jing Ma"
@@ -9,4 +9,8 @@ tags:
   - symposium
 ---
 
-Save the date: Fred Hutch is excited to host the [2018 Microbiome Symposium](fredhutch.org/microbiome2018) on March 16th, 2018!
+Fred Hutch is excited to host the [2018 Microbiome Symposium](www.fredhutch.org/microbiome2018) on March 16th, 2018! Sessons include 
+ * Making sense of the human microbiome,
+ * Microbiome and infectious disease,
+ * Bioinformatics for the microbiome,
+ * Microbiome data analysis.
