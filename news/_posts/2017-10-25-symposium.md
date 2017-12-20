@@ -9,4 +9,4 @@ tags:
   - symposium
 ---
 
-Fred Hutch is excited to host the 2018 Microbiome Symposium on March 16th, 2018! Stay tuned.
+Save the date: Fred Hutch is excited to host the [2018 Microbiome Symposium](fredhutch.org/microbiome2018) on March 16th, 2018!
