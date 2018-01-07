@@ -11,7 +11,7 @@
   title: TestBMN
   owner: jingma
   description: Two-sample testing of high-dimensional binary Markov random fields
-  url: /projects/testbmn
+  url: /projects/TestBMN
   contributors:
     - login: drjingma
     - url: https://github.com/drjingma
@@ -19,7 +19,7 @@
   title: CHIME
   owner: jingma
   description: Clustering of Gaussian mixtures with the EM algorithm 
-  url: /projects/gmm 
+  url: /projects/CHIME 
   contributors:
     - login: drjingma
     - url: https://github.com/drjingma
