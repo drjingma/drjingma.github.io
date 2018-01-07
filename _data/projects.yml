@@ -3,7 +3,7 @@
   title: netgsa
   owner: jingma
   description: R package for carrying out Network-based Gene Set Analysis
-  url: projects/netgsa 
+  url: netgsa 
   contributors:
     - login: drjingma
     - url: https://github.com/drjingma
@@ -12,7 +12,7 @@
   title: TestBMN
   owner: jingma
   description: Two-sample testing of high-dimensional binary Markov random fields
-  url: https://github.com/drjingma/TestBMN
+  url: TestBMN
   contributors:
     - login: drjingma
     - url: https://github.com/drjingma
@@ -21,7 +21,7 @@
   title: CHIME
   owner: jingma
   description: Clustering of Gaussian mixtures with the EM algorithm 
-  url: https://github.com/drjingma/gmm 
+  url: gmm 
   contributors:
     - login: drjingma
     - url: https://github.com/drjingma
