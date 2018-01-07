@@ -213,5 +213,6 @@ exclude:
   - "Gemfile.lock"
   
 projects:
-  - drjingma/TestBMN
+  - drjingma/testbmn
+  - drjingma/gmm
   - drjingma/netgsa
