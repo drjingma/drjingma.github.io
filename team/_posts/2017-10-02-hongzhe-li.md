@@ -8,7 +8,7 @@ email: hongzhe@upenn.edu
 twitter: 
 github: 
 scholar: rI_TQQEAAAAJ
-image:
+image: /assets/images/team/Hongzhe_Li.jpg
 alum: false
 collaborator: true
 web: statgene.med.upenn.edu/ 
