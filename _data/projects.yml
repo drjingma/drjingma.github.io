@@ -3,7 +3,7 @@
   title: netgsa
   owner: jingma
   description: R package for carrying out Network-based Gene Set Analysis
-  url: https://cran.r-project.org/web/packages/netgsa/index.html
+  url: projects/netgsa 
   contributors:
     - login: drjingma
     - url: https://github.com/drjingma
