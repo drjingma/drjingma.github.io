@@ -7,7 +7,6 @@
   contributors:
     - login: drjingma
     - url: https://github.com/drjingma
-
 - repo: drjingma/TestBMN
   title: TestBMN
   owner: jingma
@@ -16,7 +15,6 @@
   contributors:
     - login: drjingma
     - url: https://github.com/drjingma
-
 - repo: drjingma/CHIME
   title: CHIME
   owner: jingma
