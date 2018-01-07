@@ -12,7 +12,7 @@
   title: TestBMN
   owner: jingma
   description: Two-sample testing of high-dimensional binary Markov random fields
-  url: TestBMN
+  url: testbmn
   contributors:
     - login: drjingma
     - url: https://github.com/drjingma
