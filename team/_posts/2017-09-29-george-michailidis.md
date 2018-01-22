@@ -8,7 +8,7 @@ email: gmichail@ufl.edu
 twitter: 
 github: 
 scholar: _G2nlf8AAAAJ
-image:
+image:/assets/images/team/Michailidis.jpg
 alum: false
 collaborator: true
 web: 
