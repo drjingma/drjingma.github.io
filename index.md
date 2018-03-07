@@ -26,13 +26,12 @@ The best way to contact me is through [email](/team/jingma). You can find direct
 
 <hr/>
 
-My primary research concerns estimation and inference from high-dimensional 'omics' data, in particular to develop statistical machine learning methods to solve problems in genomics, metabolomics and metagenomics. Networks are important in this learning process because they are well-suited to representing interactions between biomolecules. 
+My primary research concerns estimation and inference from high-dimensional data, in particular to develop statistical machine learning methods to solve problems in genomics and microbiome. Networks are important in this learning process because they are well-suited to representing interactions between biomolecules/microbes. 
 Some projects that I'm currently working on are:
 
 * Joint analysis of metabolomic and microbiome data;
 * High-dimensional inference of graphical models and networks;
-* Network-based pathway enrichment analysis;
-* Integrative analysis of omics data.
+* Network-based pathway enrichment analysis.
 
 <hr/>
 
