@@ -8,7 +8,7 @@ email: ashojaie@uw.edu
 twitter: 
 github: 
 scholar:
-image:
+image: /assets/images/team/Ali_Shojaie.jpg
 alum: false
 collaborator: true
 web: biostat.washington.edu/~ashojaie/
