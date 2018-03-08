@@ -10,7 +10,7 @@
 - repo: drjingma/TestBMN
   title: TestBMN
   owner: jingma
-  description: Testing high-dimensional binary Markov networks
+  description: R package for testing high-dimensional binary Markov networks
   url: /projects/TestBMN
   contributors:
     - login: drjingma
