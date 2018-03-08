@@ -10,7 +10,7 @@
 - repo: drjingma/TestBMN
   title: TestBMN
   owner: jingma
-  description: Two-sample testing of high-dimensional binary Markov random fields
+  description: Testing high-dimensional binary Markov networks
   url: /projects/TestBMN
   contributors:
     - login: drjingma
