@@ -4,10 +4,10 @@ title: What I believe -- by Einstein (1930)
 author: Jing Ma
 ---
 
-The following was originally published in October 1930 on FORUM, vol. LXXXIV, No.4. It has been a great inspiration to me, so I would like to share it here.
+The following was originally published in October 1930 on FORUM, vol. LXXXIV, No.4. It has been a great inspiration to me, and I hope you enjoy reading it as well.
 
 <div class="bigspacer"></div>
-What I Believe<br>
+**What I Believe**<br>
 Living Philosophies XIII<br>
 by Albert Einstein<br>
 <div class="bigspacer"></div>
