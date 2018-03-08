@@ -1,6 +1,6 @@
 Jing Ma's Research Website: [click to view](http://drjingma.com)
 
-# Notes
+# Notes from Zhenke Wu's Research Website
 
 * After cloning the repo to your local folder, you'll need to install jekyll to build and test your modified site. 
 
