@@ -3,9 +3,9 @@ layout: paper
 title: Graphical models in genetics, genomics and metagenomics
 image: /assets/images/papers/graph-binary.png
 authors: Hongzhe Li, Jing Ma 
-year: 2018
-shortref: Li and Ma (2018). Handbook of Graphical Models.
-journal: "Handbook of Graphical Models"
+year: 2017
+shortref: Li and Ma (2017). Handbook of Graphical Models.
+journal: "Handbook of Graphical Models, edited by Mathias Drton, Steffen Lauritzen, Marloes Maathuis, Martin Wainwright. Chapman & Hall / CRC"
 pdf: 
 doi: 
 type: book
