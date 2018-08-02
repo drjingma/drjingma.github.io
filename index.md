@@ -21,6 +21,7 @@ categories:
 
 
 I am an [Assistant Member](http://www.fredhutch.org/en/labs/profiles/ma-jing.html) in the [Biostatistics Program](http://www.fredhutch.org/en/labs/phs/projects/biostats.html) at [Fred Hutch Cancer Research Center](http://www.fredhutch.org/en.html). 
+
 The best way to contact me is through [email](/team/jingma). You can find direction to my office [here](assets/pdfs/team/ma-office.pdf).
 
 
