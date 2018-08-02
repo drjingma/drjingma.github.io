@@ -15,7 +15,7 @@
   contributors:
     - login: drjingma
     - url: https://github.com/drjingma
-- repo: drjingma/CHIME
+- repo: drjingma/gmm
   title: CHIME
   owner: jingma
   description: Clustering of Gaussian mixtures with the EM algorithm 
