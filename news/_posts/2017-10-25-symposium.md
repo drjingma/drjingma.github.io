@@ -1,7 +1,7 @@
 ---
 layout: news
 title: "Save the date: 2018 Fred Hutch Microbiome Symposium"
-description: ""
+description: "symposium"
 author: "Jing Ma"
 author_handle: "Jing Ma"
 category: news
