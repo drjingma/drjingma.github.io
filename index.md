@@ -21,7 +21,6 @@ categories:
 
 
 I am an [Assistant Member](http://www.fredhutch.org/en/labs/profiles/ma-jing.html) in the [Biostatistics Program](http://www.fredhutch.org/en/labs/phs/projects/biostats.html) at [Fred Hutch Cancer Research Center](http://www.fredhutch.org/en.html). 
-
 The best way to contact me is through [email](/team/jingma). You can find direction to my office [here](assets/pdfs/team/ma-office.pdf).
 
 
@@ -38,7 +37,8 @@ Some projects that I'm currently working on are:
 
 <hr/>
 
-Before coming to the Hutch, I was a postdoctoral fellow at the University of Pennsylvania mentored by [Prof. Hongzhe Li](http://statgene.med.upenn.edu/) and [Prof. T. Tony Cai](http://www-stat.wharton.upenn.edu/~tcai/) from 2015-2017. I received my Ph.D. degree in Statistics in 2015 from the University of Michigan, under the supervision of [Prof. George Michailidis](http://www.stat.ufl.edu/personnel/Faculty%20Listing/index.html).
+<!-- Before coming to the Hutch, I was a postdoctoral fellow at the University of Pennsylvania mentored by [Prof. Hongzhe Li](http://statgene.med.upenn.edu/) and [Prof. T. Tony Cai](http://www-stat.wharton.upenn.edu/~tcai/) from 2015-2017. I received my Ph.D. degree in Statistics in 2015 from the University of Michigan, under the supervision of [Prof. George Michailidis](http://www.stat.ufl.edu/personnel/Faculty%20Listing/index.html).
+-->
 
 For a complete list of publications, see my [Google Scholar](http://scholar.google.com/citations?user=TClZmdkAAAAJ). For more details about my background, read my [CV](/assets/pdfs/team/jingma-cv.pdf). 
 
