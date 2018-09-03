@@ -14,7 +14,7 @@ categories:
 <div class="row">
 	<div class="col-md-12">
 		<div class="bigtitle logobox">
-			Jing Ma Research
+			Jing Ma's Research
 		</div>
 	</div>	
 </div> 
