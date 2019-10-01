@@ -73,6 +73,10 @@ navorder: 4
 <div class="smalltitle text-left">Scientific </div>
 <div class="bigspacer"></div>
 
+	<ul>
+			<li>Daniel Promislow, University of Washington</li>
+	</ul>
+		
 {% for member in site.categories.team %}
 	{% if member.field == "science" and member.collaborator == true%}
 	    {% cycle 'add scientist rows': '<div class="row">', '', '' %}
