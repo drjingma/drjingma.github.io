@@ -23,3 +23,11 @@
   contributors:
     - login: drjingma
     - url: https://github.com/drjingma
+- repo: taryue/GMDecomp
+  title: GMDecomp
+  owner: taryue
+  description: GMD-biplot for microbiome data 
+  url: /projects/GMDecomp 
+  contributors:
+    - login: taryue
+    - url: https://github.com/taryue
