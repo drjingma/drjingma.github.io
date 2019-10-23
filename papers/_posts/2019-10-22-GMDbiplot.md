@@ -6,8 +6,8 @@ authors: Yue Wang, Timothy Randolph, Ali Shojaie, Jing Ma
 year: 2019
 shortref: Wang et al. (2019). 
 journal: "biorxiv"
-pdf: 
-doi: https://www.biorxiv.org/content/10.1101/814269v1
+pdf: https://www.biorxiv.org/content/biorxiv/early/2019/10/22/814269.full.pdf
+doi: 
 type: preprint
 ---
 
