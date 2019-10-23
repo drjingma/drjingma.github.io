@@ -7,7 +7,7 @@ year: 2019
 shortref: Wang et al. (2019). bioRxiv. 
 journal: "bioRxiv"
 pdf: https://www.biorxiv.org/content/biorxiv/early/2019/10/22/814269.full.pdf
-doi: 
+doi: doi.org/10.1101/814269
 type: preprint
 ---
 
