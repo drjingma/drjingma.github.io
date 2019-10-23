@@ -8,6 +8,33 @@ navorder: 1
 {% include JB/setup %}
 
 <div class="bigspacer"></div>
+<div class="smalltitle text-left"> <strong> Preprints </strong></div>
+<div class="bigspacer"></div>
+<div class="container">
+<div class="bigspacer"></div>
+{% for paper in site.categories.papers %}
+  {% if paper.type == "preprint"%}
+    {% cycle 'add rows': '<div class="row">', '', '' %}
+		<div class="col-md-12 paperbox">
+			<div class="media">
+  				<a class="pull-right" href="{{ paper.url }}">
+    				<img width=100 class="media-object" src="{{ paper.image }}">
+  				</a>
+ 			 	<div class="media-body">
+    				<div class="smallhead media-heading"><a href="{{ paper.url }}" class="off">{{ paper.title }}</a></div>
+    				<p class="note">{{ paper.shortref }}</p>
+  				</div>
+			</div>
+			<div class="bigspacer"></div>
+			<div class="spacer"></div>
+        </div>
+    {% cycle 'close rows': '', '', '</div>' %}
+ {% endif %}
+{% endfor %}
+{% cycle 'close rows': '', '</div><div class="bigspacer"></div>', '</div><div class="bigspacer"></div>' %}
+</div>
+
+<hr/>
 <div class="smalltitle text-left"> <strong> Statistical Methods </strong></div>
 <div class="bigspacer"></div>
 <div class="container">
