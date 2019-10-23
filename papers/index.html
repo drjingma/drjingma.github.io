@@ -15,9 +15,9 @@ navorder: 1
     <div class="bigspacer"></div>
     {% for paper in site.categories.papers %}
     {% if paper.type == "preprint"%}
-    {% cycle 'add rows': '<div class="row">', '', '' %}
-		<div class="col-md-12 paperbox">
-			  <div class="media">
+      {% cycle 'add rows': '<div class="row">', '', '' %}
+	   	<div class="col-md-12 paperbox">
+			   <div class="media">
   				<a class="pull-right" href="{{ paper.url }}">
     				<img width=100 class="media-object" src="{{ paper.image }}">
   				</a>
@@ -25,14 +25,13 @@ navorder: 1
     				<div class="smallhead media-heading"><a href="{{ paper.url }}" class="off">{{ paper.title }}</a></div>
     				<p class="note">{{ paper.shortref }}</p>
   			  </div>
-			  </div>
-			<div class="bigspacer"></div>
-			<div class="spacer"></div>
-    </div>
-    {% cycle 'close rows': '', '', '</div>' %}
+			   </div>
+		  	<div class="bigspacer"></div>
+			  <div class="spacer"></div>
+      </div>
+      {% cycle 'close rows': '', '', '</div>' %}
     {% endif %}
     {% endfor %}
- <!--   {% cycle 'close rows': '', '</div> <div class="bigspacer"></div>', '</div><div class="bigspacer"></div>' %}-->
 </div>
 
 <hr/>
@@ -40,66 +39,10 @@ navorder: 1
 <div class="bigspacer"></div>
 
 <div class="container">
-<div class="bigspacer"></div>
-{% for paper in site.categories.papers %}
-  {% if paper.type == "statistical"%}
-    {% cycle 'add rows': '<div class="row">', '', '' %}
-		<div class="col-md-12 paperbox">
-			<div class="media">
-  				<a class="pull-right" href="{{ paper.url }}">
-    				<img width=100 class="media-object" src="{{ paper.image }}">
-  				</a>
- 			 	<div class="media-body">
-    				<div class="smallhead media-heading"><a href="{{ paper.url }}" class="off">{{ paper.title }}</a></div>
-    				<p class="note">{{ paper.shortref }}</p>
-  			</div>
-			</div>
-			<div class="bigspacer"></div>
-			<div class="spacer"></div>
-    </div>
-    {% cycle 'close rows': '', '', '</div>' %}
-  {% endif %}
-{% endfor %}
-<!--{% cycle 'close rows': '', '</div><div class="bigspacer"></div>', '</div><div class="bigspacer"></div>' %}-->
-</div>
-
-<hr/>
-<div class="smalltitle text-left"> <strong> Statistical Applications </strong> </div>
-<div class="bigspacer"></div>
-
-<div class="container">
-   <div class="bigspacer"></div>
-   {% for paper in site.categories.papers %}
-   {% if paper.type == "substantive"%}
-   {% cycle 'add rows2': '<div class="row">', '', '' %}
-		  <div class="col-md-12 paperbox">
-			   <div class="media">
-  			  	<a class="pull-right" href="{{ paper.url }}">
-    				   <img width=100 class="media-object" src="{{ paper.image }}">
-  				  </a>
- 			 	 <div class="media-body">
-    				<div class="smallhead media-heading"><a href="{{ paper.url }}" class="off">{{ paper.title }}</a></div>
-    				<p class="note">{{ paper.shortref }}</p>
-  			 </div>
-		  	</div>
-			  <div class="bigspacer"></div>
-			  <div class="spacer"></div>
-      </div>
-    {% cycle 'close rows2': '', '', '</div>' %}
-   {% endif %}
-   {% endfor %}
-<!--   {% cycle 'close rows2': '', '</div><div class="bigspacer"></div>', '</div><div class="bigspacer"></div>' %}-->
-</div>
-
-<hr/>
-<div class="smalltitle text-left"> <strong> Book Chapters </strong> </div>
-<div class="bigspacer"></div>
-
-<div class="container">
     <div class="bigspacer"></div>
     {% for paper in site.categories.papers %}
-    {% if paper.type == "book"%}
-    {% cycle 'add rows2': '<div class="row">', '', '' %}
+    {% if paper.type == "statistical"%}
+       {% cycle 'add rows2': '<div class="row">', '', '' %}
         <div class="col-md-12 paperbox">
             <div class="media">
                 <a class="pull-right" href="{{ paper.url }}">
@@ -113,10 +56,63 @@ navorder: 1
             <div class="bigspacer"></div>
             <div class="spacer"></div>
         </div>
-        {% cycle 'close rows2': '', '', '</div>' %}
+      {% cycle 'close rows2': '', '', '</div>' %}
     {% endif %}
     {% endfor %}
-<!--    {% cycle 'close rows2': '', '</div><div class="bigspacer"></div>', '</div><div class="bigspacer"></div>' %}-->
+</div>
+
+<hr/>
+<div class="smalltitle text-left"> <strong> Statistical Applications </strong> </div>
+<div class="bigspacer"></div>
+
+<div class="container">
+   <div class="bigspacer"></div>
+   {% for paper in site.categories.papers %}
+   {% if paper.type == "substantive"%}
+      {% cycle 'add rows3': '<div class="row">', '', '' %}
+		  <div class="col-md-12 paperbox">
+			   <div class="media">
+  			  	<a class="pull-right" href="{{ paper.url }}">
+    				   <img width=100 class="media-object" src="{{ paper.image }}">
+  				  </a>
+ 			 	 <div class="media-body">
+    				<div class="smallhead media-heading"><a href="{{ paper.url }}" class="off">{{ paper.title }}</a></div>
+    				<p class="note">{{ paper.shortref }}</p>
+  			 </div>
+		  	</div>
+			  <div class="bigspacer"></div>
+			  <div class="spacer"></div>
+      </div>
+      {% cycle 'close rows3': '', '', '</div>' %}
+   {% endif %}
+   {% endfor %}
+</div>
+
+<hr/>
+<div class="smalltitle text-left"> <strong> Book Chapters </strong> </div>
+<div class="bigspacer"></div>
+
+<div class="container">
+    <div class="bigspacer"></div>
+    {% for paper in site.categories.papers %}
+    {% if paper.type == "book"%}
+       {% cycle 'add rows4': '<div class="row">', '', '' %}
+        <div class="col-md-12 paperbox">
+            <div class="media">
+                <a class="pull-right" href="{{ paper.url }}">
+                    <img width=100 class="media-object" src="{{ paper.image }}">
+                        </a>
+                <div class="media-body">
+                    <div class="smallhead media-heading"><a href="{{ paper.url }}" class="off">{{ paper.title }}</a></div>
+                    <p class="note">{{ paper.shortref }}</p>
+                </div>
+            </div>
+            <div class="bigspacer"></div>
+            <div class="spacer"></div>
+        </div>
+      {% cycle 'close rows4': '', '', '</div>' %}
+    {% endif %}
+    {% endfor %}
 </div>
 
 <div class="bigspacer"></div>
