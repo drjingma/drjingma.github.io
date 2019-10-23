@@ -9,7 +9,6 @@ navorder: 1
 
 <div class="bigspacer"></div>
 
-<hr/>
 <div class="smalltitle text-left"> <strong> Preprints </strong></div>
 <div class="bigspacer"></div>
 <div class="container">
@@ -34,7 +33,6 @@ navorder: 1
     {% endif %}
     {% endfor %}
 </div>
-<div class="bigspacer"></div>
 
 <hr/>
 <div class="smalltitle text-left"> <strong> Statistical Methods </strong></div>
@@ -61,8 +59,8 @@ navorder: 1
       {% cycle 'close rows2': '', '', '</div>' %}
     {% endif %}
     {% endfor %}
+{% cycle 'close rows2': '', '</div><div class="bigspacer"></div>', '</div><div class="bigspacer"></div>' %}
 </div>
-<div class="bigspacer"></div>
 
 <hr/>
 <div class="smalltitle text-left"> <strong> Statistical Applications </strong> </div>
@@ -90,7 +88,6 @@ navorder: 1
    {% endif %}
    {% endfor %}
 </div>
-<div class="bigspacer"></div>
 
 <hr/>
 <div class="smalltitle text-left"> <strong> Book Chapters </strong> </div>
