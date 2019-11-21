@@ -27,18 +27,19 @@ The best way to contact me is through [email](/team/jingma).
 <hr/>
 
 <!--My primary research concerns estimation and inference from high-dimensional data, in particular to develop statistical machine learning methods to solve problems in genomics and microbiome.-->
-I am a statistician with broad interests in statistical machine learning and high-dimensional data. The goal of my research is to develop new statistical methods for problems in the emerging 'omics' field, including genomics, metabolomics and microbiome, and address the associated algorithmic and inference issues. These new methods and computational tools have the potential for accelerating mechanistic understanding of the complex biological processes and developing vital resources for enabling systematic achievement of many biological, clinical, and public health problems.
-Networks are important in this learning process because they are well-suited to representing interactions between biomolecules/microbes.
+I am a statistician with broad interests in statistical machine learning and high-dimensional data. The goal of my research is to develop new statistical methods for problems in the emerging 'omics' field, including genomics, metabolomics and microbiome, and address the associated algorithmic and inference issues. These new methods and computational tools have the potential for accelerating mechanistic understanding of the complex biological processes and developing vital resources for enabling systematic achievement of many biological, clinical, and public health problems. Networks are important in this learning process because they are well-suited to representing interactions between biomolecules/microbes.
+
 Some projects that I'm currently working on are:
 
-* Joint analysis of metabolomic and microbiome data;
-* High-dimensional inference of graphical models and networks;
+* Joint analysis of microbiome and other omics data types;
+* High-dimensional inference for graphical models and networks;
 * Network-based pathway enrichment analysis.
 
 <hr/>
 
-<!-- Before coming to the Hutch, I was a postdoctoral fellow at the University of Pennsylvania mentored by [Prof. Hongzhe Li](http://statgene.med.upenn.edu/) and [Prof. T. Tony Cai](http://www-stat.wharton.upenn.edu/~tcai/) from 2015-2017. I received my Ph.D. degree in Statistics in 2015 from the University of Michigan, under the supervision of [Prof. George Michailidis](http://www.stat.ufl.edu/personnel/Faculty%20Listing/index.html).
--->
+I collaborate with Dr. [Daniel Promislow](http://www.promislowlab.org/) on the [Dog Aging Project](https://dogagingproject.org/), supported by U19 grant AG057377 from the National Institute on Aging, a part of the National Institutes of Health. 
+
+<hr/>
 
 For a complete list of publications, see my [Google Scholar](http://scholar.google.com/citations?user=TClZmdkAAAAJ). For more details about my background, read my [CV](/assets/pdfs/team/jingma-cv.pdf). 
 
