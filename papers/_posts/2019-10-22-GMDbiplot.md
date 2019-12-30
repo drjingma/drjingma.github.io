@@ -8,7 +8,7 @@ shortref: Wang et al. (2019). mSystems.
 journal: "mSystems"
 pdf: https://msystems.asm.org/content/msys/4/6/e00504-19.full.pdf
 doi: 10.1128/mSystems.00504-19
-type: stat
+type: statistical
 ---
 
 # Abstract
