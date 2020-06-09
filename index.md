@@ -20,20 +20,12 @@ categories:
 </div> 
 
 
-I am an Assistant Professor in [Department of Statistics](https://www.stat.tamu.edu/) at Texas A&M University. 
-The best way to contact me is through [email](/team/jingma). 
+I am an Assistant Professor in [Department of Statistics](https://www.stat.tamu.edu/) at Texas A&M University. The best way to contact me is through [email](/team/jingma). 
 
 
 <hr/>
 
-<!--My primary research concerns estimation and inference from high-dimensional data, in particular to develop statistical machine learning methods to solve problems in genomics and microbiome.-->
-I am a statistician with broad interests in statistical learning applied to biomedical big data. My methodological is to develop new statistical methods for problems in the emerging 'omics' field, including genomics, metabolomics and microbiome, and address the associated algorithmic and inference issues. These new methods and computational tools have the potential for accelerating mechanistic understanding of the complex biological processes and developing vital resources for enabling systematic achievement of many biological, clinical, and public health problems. Networks are important in this learning process because they are well-suited to representing interactions between biomolecules/microbes.
-
-Some projects that I'm currently working on are:
-
-* Joint analysis of microbiome and other omics data types;
-* High-dimensional inference for graphical models and networks;
-* Network-based pathway enrichment analysis.
+I am a statistician with broad interests in statistical learning applied to biomedical big data. My research includes graphical models, high-dimensional inference, and data integration. I am currently working on robust and efficient statistical methods for microbiome data analysis.  
 
 <hr/>
 
