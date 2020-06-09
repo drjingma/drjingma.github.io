@@ -1,4 +1,4 @@
-# Author: Trevor Bedford
+# Author: Jing Ma
 # License: MIT
 
 # Examples:
@@ -17,7 +17,7 @@ module Jekyll
 			parsed = Liquid::Template.parse(@markup).render context
 			url = parsed.split(/ /).first
 			if url =~ /^\//
-				url = "http://bedford.io" + url
+				url = "http://drjingma.com" + url
 			end				
 			text = parsed.split(/ /).drop(1).join(' ')
 			html = ""
