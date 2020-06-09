@@ -96,7 +96,6 @@ Each of the major areas is structured like a blog. For example:
 		index.html
 		_posts/
 			2014-12-09-queuosine.md
-			2015-04-18-mrna-protein.md
 	protocols/
 		index.html
 		_posts/
@@ -105,7 +104,6 @@ Each of the major areas is structured like a blog. For example:
 		index.html
 		_posts/
 			2011-10-01-d-allan-drummond.md
-			2011-10-01-edward-wallace.md
 	news/
 		index.html
 		_posts/
@@ -117,23 +115,13 @@ For team, use a tag to indicate 'current' vs 'alumni'?
 
 * Home page
 	* Text
-	* Picture
 	* Links to About, Join, Contact
-* Styles -- Sass
-* Blog post on what is happening here, experiences getting up and running.
 * About page
 * Twitter/Disqus...
 
-
-## Done
-
-* Figure out how top navbar works
 
 ## Hosting
 
 Name registration at [NameCheap]. Custom domain via [GitHub Pages].
 [NameCheap]: https://www.namecheap.com
-
-[Trevor Bedford]: http://bedford.io/team/trevor-bedford/
-[1]: http://bedford.io
 
