@@ -27,7 +27,7 @@ The best way to contact me is through [email](/team/jingma).
 <hr/>
 
 <!--My primary research concerns estimation and inference from high-dimensional data, in particular to develop statistical machine learning methods to solve problems in genomics and microbiome.-->
-I am a statistician with broad interests in statistical machine learning and high-dimensional data. The goal of my research is to develop new statistical methods for problems in the emerging 'omics' field, including genomics, metabolomics and microbiome, and address the associated algorithmic and inference issues. These new methods and computational tools have the potential for accelerating mechanistic understanding of the complex biological processes and developing vital resources for enabling systematic achievement of many biological, clinical, and public health problems. Networks are important in this learning process because they are well-suited to representing interactions between biomolecules/microbes.
+I am a statistician with broad interests in statistical learning applied to biomedical big data. My methodological is to develop new statistical methods for problems in the emerging 'omics' field, including genomics, metabolomics and microbiome, and address the associated algorithmic and inference issues. These new methods and computational tools have the potential for accelerating mechanistic understanding of the complex biological processes and developing vital resources for enabling systematic achievement of many biological, clinical, and public health problems. Networks are important in this learning process because they are well-suited to representing interactions between biomolecules/microbes.
 
 Some projects that I'm currently working on are:
 
