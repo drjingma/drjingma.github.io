@@ -29,7 +29,7 @@ I am a statistician with broad interests in statistical learning applied to biom
 
 <hr/>
 
-I collaborate with Dr. [Daniel Promislow](http://www.promislowlab.org/) on the [Dog Aging Project](https://dogagingproject.org/), supported by U19 grant AG057377 from the National Institute on Aging, a part of the National Institutes of Health. 
+I collaborate with Dr. [Daniel Promislow](http://www.promislowlab.org/) on the [Dog Aging Project](https://dogagingproject.org/), supported by U19 grant AG057377 from the National Institute of Aging, a part of the National Institutes of Health. 
 
 <hr/>
 
