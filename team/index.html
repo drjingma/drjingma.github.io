@@ -35,7 +35,7 @@ navorder: 4
 						{% endif %}
 	  				</div>
 				</div>
-	        </div>	  
+	     </div>	  
 	    {% cycle 'close rows': '', '', '</div><div class="bigspacer"></div>' %}
 	{% endif %}
 {% endfor %}
@@ -43,13 +43,12 @@ navorder: 4
 </div>
 
 <hr/>
-<div class="title text-center">Collaborators </div>
+<div class="title text-left">Alumni</div>
 
-<div class="container">
-<div class="smalltitle text-left">Statistical </div>
-{% for member in site.categories.team %}
-	{% if member.field == "stat" and member.collaborator == true %}
-	    {% cycle 'add collaborator rows': '<div class="row">', '', '' %}
+<div class="bigspacer"></div>
+{% for member in site.categories.team reversed %}
+	{% if member.alum == true and member.collaborator == false %}
+	    {% cycle 'add rows': '<div class="row">', '', '' %}
 			<div class="col-md-4 memberbox">
 				<div class="media">
 	  				<a class="pull-left" href="{{ member.url }}">
@@ -58,43 +57,25 @@ navorder: 4
 	 			 	<div class="media-body">
 	    				<div class="head media-heading member-name"><a href="{{ member.url }}" class="off">{{ member.title }}</a></div>
 	    				<p class="note">{{ member.position }}</p>
+						{% if member.cv %}		
+						<div class="smallhead">
+							CV
+						</div>	
+						<div class="pad-left note">
+							<div class="smallspacer"></div>
+							<i class="fa fa-file-text-o fa-fw"></i>			
+							<a class="off" href="{{ member.cv }}">{{ member.cv | split: '/' | last }}</a>
+						</div>		
+						<div class="bigspacer"></div>		
+						{% endif %}
 	  				</div>
 				</div>
-	        </div>	  
-	    {% cycle 'close collaborator rows': '', '', '</div><div class="bigspacer"></div>' %}
+	     </div>	  
+	    {% cycle 'close rows': '', '', '</div><div class="bigspacer"></div>' %}
 	{% endif %}
 {% endfor %}
-{% cycle 'close collaborator rows': '', '</div><div class="bigspacer"></div>', '</div><div class="bigspacer"></div>' %}
+{% cycle 'close rows': '', '</div><div class="bigspacer"></div>', '</div><div class="bigspacer"></div>' %}
 </div>
-
-<div class="bigspacer"></div>
-<hr/>
-<div class="container">
-<div class="smalltitle text-left">Scientific </div>
-<div class="bigspacer"></div>
-
-	<ul>
-			<li><a href="http://www.promislowlab.org/">Daniel Promislow</a>, University of Washington</li>
-	</ul>
-		
-{% for member in site.categories.team %}
-	{% if member.field == "science" and member.collaborator == true%}
-	    {% cycle 'add scientist rows': '<div class="row">', '', '' %}
-			<div class="col-md-4 memberbox">
-				<div class="media">
-	  				<a class="pull-left" href="{{ member.url }}">
-	    				<img class="media-object member-photo" src="{{ member.image }}">
-	  				</a>
-	 			 	<div class="media-body">
-	    				<div class="head media-heading member-name"><a href="{{ member.url }}" class="off">{{ member.title }}</a></div>
-	    				<p class="note">{{ member.position }}</p>
-	  				</div>
-				</div>
-	        </div>	  
-	    {% cycle 'close scientist rows': '', '', '</div><div class="bigspacer"></div>' %}
-	{% endif %}
-{% endfor %}
-{% cycle 'close scientist rows': '', '</div><div class="bigspacer"></div>', '</div><div class="bigspacer"></div>' %}
 
 
 <!-- comment out this next line if there are multiples of three alumni -->
