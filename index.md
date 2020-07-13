@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Jing Ma, PhD
+title: Ma Lab
 categories:
  - home
 ---
