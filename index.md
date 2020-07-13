@@ -14,26 +14,23 @@ categories:
 <div class="row">
 	<div class="col-md-12">
 		<div class="bigtitle logobox">
-			Jing Ma's Research
+			Statistical Learning for Big Biomedical Data
 		</div>
 	</div>	
 </div> 
 
 
-I am an Assistant Professor in [Department of Statistics](https://www.stat.tamu.edu/) at Texas A&M University. The best way to contact me is through [email](/team/jingma). 
-
-
+<!-- I am an Assistant Professor of [Biostatistics](https://www.fredhutch.org/en/research/divisions/public-health-sciences-division/research/biostatistics.html) in the Public Health Sciences Division at [Fred Hutchinson Cancer Research Center](https://www.fredhutch.org/en.html). During the 2019-2020 academic year, I was an Assistant Professor in the [Department of Statistics](https://www.stat.tamu.edu/) at Texas A&M University.  
 <hr/>
 
-I am a statistician with broad interests in statistical learning applied to biomedical big data. My research includes graphical models, high-dimensional inference, and data integration. I am currently working on robust and efficient statistical methods for microbiome data analysis.  
+I am a statistician with broad interests in statistical learning applied to biomedical big data. My research interests include graphical models, high-dimensional inference, and data integration. I am currently working on robust and efficient statistical methods for microbiome data analysis.  -->
 
-<hr/>
+The Ma Lab at [Fred Hutchinson Cancer Research Center](https://www.fredhutch.org/en.html) specializes in statistical and computational methods for big biomedical data. We address statistical challenges faced with understanding and interpreting complex health data, and develop novel statistical methods to enhance reproducible biomedical discoveries. Our current research interests include microbiome data analysis and statistical data integration with applications to cancer biology and aging.   
 
-I collaborate with Dr. [Daniel Promislow](http://www.promislowlab.org/) on the [Dog Aging Project](https://dogagingproject.org/), supported by U19 grant AG057377 from the National Institute of Aging, a part of the National Institutes of Health. 
 
-<hr/>
+Our lab collaborates with Dr. [Daniel Promislow](http://www.promislowlab.org/) on the [Dog Aging Project](https://dogagingproject.org/), supported by U19 grant AG057377 from the National Institute of Aging, a part of the National Institutes of Health. 
 
-For a complete list of publications, see my [Google Scholar](http://scholar.google.com/citations?user=TClZmdkAAAAJ). For more details about my background, read my [CV](/assets/pdfs/team/jingma-cv.pdf). 
+<!--For a complete list of publications, see my [Google Scholar](http://scholar.google.com/citations?user=TClZmdkAAAAJ). For more details about my background, read my [CV](/assets/pdfs/team/jingma-cv.pdf). The best way to contact me is through [email](/team/jingma).-->
 
 <hr/>
 
