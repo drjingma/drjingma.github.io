@@ -8,4 +8,4 @@ category: news
 tags: [job, move]
 ---
 
-I will join [Department of Statistics](https://www.stat.tamu.edu/) at Texas A&M University as Assistant Professor, starting from Fall 2019. 
+I will join [Department of Statistics](https://www.stat.tamu.edu/) at Texas A&M University as Assistant Professor, during the academic year 2019-2020. 
