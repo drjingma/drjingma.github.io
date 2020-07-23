@@ -20,6 +20,7 @@ image style from Zhenke Wu
     }
 </style>
 
+<div class="container">
 <div class="bigspacer"></div>
 <div class="title text-left">Research Group Members</div>
 
@@ -33,7 +34,8 @@ image style from Zhenke Wu
 	    				<img class="media-object member-photo" src="{{ member.image }}">
 	  				</a>
 	 			 	<div class="media-body">
-	    		 <div class="head media-heading member-name"><a href="{{ member.url }}" class="off">{{ member.title }}</a>
+	    		 <div class="head media-heading member-name">
+	    		   <a href="{{ member.url }}" class="off">{{ member.title }}</a>
 	    		 </div>
 	    				<p class="note">{{ member.position }}</p>
 						{% if member.cv %}		
@@ -54,13 +56,14 @@ image style from Zhenke Wu
 	{% endif %}
 {% endfor %}  
 </div>
+</div>
 
 <div class="bigspacer"></div>
 <hr/>
 <div class="bigspacer"></div>
 
-<div class="title text-left">  Alumni</div>
-
+<div class="title text-center">Alumni</div>
+<div class="container">
 <div class="row">
 {% for member in site.categories.team reversed %}
 	{% if member.alum == true and member.collaborator == false %}
@@ -71,7 +74,9 @@ image style from Zhenke Wu
 	    				<img class="media-object member-photo" src="{{ member.image }}">
 	  				</a>
 	 			 	<div class="media-body">
-	    				<div class="head media-heading member-name"><a href="{{ member.url }}" class="off">{{ member.title }}</a></div>
+	    				<div class="head media-heading member-name">
+	    				  <a href="{{ member.url }}" class="off">{{ member.title }}</a>
+	    				</div>
 	    				<p class="note">{{ member.position }}</p>
 						{% if member.cv %}		
 						<div class="smallhead">
@@ -84,12 +89,13 @@ image style from Zhenke Wu
 						</div>		
 						<div class="bigspacer"></div>		
 						{% endif %}
-	  				</div>
+	  			</div>
 				</div>
 	     </div>	  
 	    {% cycle 'close rows': '', '', '</div><div class="bigspacer"></div>' %}
 	{% endif %}
 {% endfor %}
+</div>
 </div>
 
 <!-- <div class="container"> -->
