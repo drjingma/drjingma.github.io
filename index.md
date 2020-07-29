@@ -36,7 +36,7 @@ Our lab collaborates with Dr. [Daniel Promislow](http://www.promislowlab.org/) o
 
 **Postdoc Position Available**
 
- - [Post-doc Position on Statistical Methods for Microbiome Research](https://docs.google.com/document/d/1NCBW1isIPvrEo5hCW5bgrRrILr_VPLl8pUUXT6nkXH8/edit?usp=sharing)
+ - [Postdoc Position on Statistical Methods for Microbiome Research](https://docs.google.com/document/d/1NCBW1isIPvrEo5hCW5bgrRrILr_VPLl8pUUXT6nkXH8/edit?usp=sharing)
 
 **Advising**: We are recruiting motivated and hard-working students interested in statistical learning for bimedical data. If you are an undergrad or graduate student at the University of Washington, and you are interested in any of the papers or projects listed on this website, send me an email with your interests and CV. 
 
