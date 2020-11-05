@@ -30,7 +30,7 @@ The Ma Lab at [Fred Hutchinson Cancer Research Center](https://www.fredhutch.org
 
 Our lab collaborates with Dr. [Daniel Promislow](http://www.promislowlab.org/) on the [Dog Aging Project](https://dogagingproject.org/), supported by U19 grant AG057377 from the National Institute of Aging, a part of the National Institutes of Health. 
 
-For a complete list of publications, see my [Google Scholar](http://scholar.google.com/citations?user=TClZmdkAAAAJ). For more details about my background, read my [CV](/assets/pdfs/team/jingma-cv.pdf). The best way to contact me is through [email](/team/jingma).
+<!--For a complete list of publications, see my [Google Scholar](http://scholar.google.com/citations?user=TClZmdkAAAAJ). For more details about my background, read my [CV](/assets/pdfs/team/jingma-cv.pdf). The best way to contact me is through [email](/team/jingma).-->
 
 <hr/>
 
