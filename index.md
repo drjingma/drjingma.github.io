@@ -25,12 +25,12 @@ categories:
 
 I am a statistician with broad interests in statistical learning applied to biomedical big data. My research interests include graphical models, high-dimensional inference, and data integration. I am currently working on robust and efficient statistical methods for microbiome data analysis.  -->
 
-The Ma Lab at [Fred Hutchinson Cancer Research Center](https://www.fredhutch.org/en.html) specializes in statistical and computational methods for big biomedical data. We address statistical challenges faced with understanding and interpreting complex health data, and develop novel statistical methods to enhance reproducible biomedical discoveries. Our current research interests include microbiome data analysis and statistical data integration with applications to cancer biology and aging.   
+The Ma Lab at [Fred Hutchinson Cancer Research Center](https://www.fredhutch.org/en/faculty-lab-directory/ma-jing.html) specializes in statistical and computational methods for big biomedical data. We address statistical challenges faced with interpreting complex health data, and develop novel statistical methods to enhance reproducible biomedical discoveries. Our current research interests include microbiome data analysis and statistical data integration with applications to cancer biology and aging.   
 
 
 Our lab collaborates with Dr. [Daniel Promislow](http://www.promislowlab.org/) on the [Dog Aging Project](https://dogagingproject.org/), supported by U19 grant AG057377 from the National Institute of Aging, a part of the National Institutes of Health. 
 
-<!--For a complete list of publications, see my [Google Scholar](http://scholar.google.com/citations?user=TClZmdkAAAAJ). For more details about my background, read my [CV](/assets/pdfs/team/jingma-cv.pdf). The best way to contact me is through [email](/team/jingma).-->
+For a complete list of publications, see my [Google Scholar](http://scholar.google.com/citations?user=TClZmdkAAAAJ). For more details about my background, read my [CV](/assets/pdfs/team/jingma-cv.pdf). The best way to contact me is through [email](/team/jingma).
 
 <hr/>
 
