@@ -30,13 +30,14 @@ The Ma Lab at [Fred Hutchinson Cancer Research Center](https://www.fredhutch.org
 
 Our lab collaborates with Dr. [Daniel Promislow](http://www.promislowlab.org/) on the [Dog Aging Project](https://dogagingproject.org/), supported by U19 grant AG057377 from the National Institute of Aging, a part of the National Institutes of Health. 
 
-<!--For a complete list of publications, see my [Google Scholar](http://scholar.google.com/citations?user=TClZmdkAAAAJ). For more details about my background, read my [CV](/assets/pdfs/team/jingma-cv.pdf). The best way to contact me is through [email](/team/jingma).-->
-
-<hr/>
-
+<!--For a complete list of publications, see my [Google Scholar](http://scholar.google.com/citations?user=TClZmdkAAAAJ). For more details about my background, read my [CV](/assets/pdfs/team/jingma-cv.pdf). The best way to contact me is through [email](/team/jingma). 
 **Postdoc Position Available**
 
  - [Postdoc Position on Statistical Methods for Microbiome Research](https://docs.google.com/document/d/1NCBW1isIPvrEo5hCW5bgrRrILr_VPLl8pUUXT6nkXH8/edit?usp=sharing)
+-->
+
+<hr/>
+
 
 **Advising**: We are recruiting motivated and hard-working students interested in statistical learning for bimedical data. If you are an undergrad or graduate student at the University of Washington, and you are interested in any of the papers or projects listed on this website, send me an email with your interests and CV. 
 
