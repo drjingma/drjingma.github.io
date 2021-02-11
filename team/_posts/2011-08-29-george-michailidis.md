@@ -11,7 +11,7 @@ scholar: _G2nlf8AAAAJ
 image: /assets/images/team/Michailidis.jpg
 alum: false
 collaborator: true
-web: 
+web: informatics.research.ufl.edu/homepage/about-us/michailidis.html
 field: stat
 ---
 
