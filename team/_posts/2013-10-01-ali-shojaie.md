@@ -11,7 +11,7 @@ scholar:
 image: /assets/images/team/Ali_Shojaie.jpg
 alum: false
 collaborator: true
-web: biostat.washington.edu/~ashojaie/
+web: http://faculty.washington.edu/ashojaie/
 field: stat
 ---
 
