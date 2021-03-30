@@ -23,14 +23,19 @@ categories:
 <!-- I am an Assistant Professor of [Biostatistics](https://www.fredhutch.org/en/research/divisions/public-health-sciences-division/research/biostatistics.html) in the Public Health Sciences Division at [Fred Hutchinson Cancer Research Center](https://www.fredhutch.org/en.html). During the 2019-2020 academic year, I was an Assistant Professor in the [Department of Statistics](https://www.stat.tamu.edu/) at Texas A&M University.  
 <hr/>
 
-I am a statistician with broad interests in statistical learning applied to biomedical big data. My research interests include graphical models, high-dimensional inference, and data integration. I am currently working on robust and efficient statistical methods for microbiome data analysis.  -->
+I am a statistician with broad interests in statistical learning and network biology. I trained in mathematics, and became interested in statistics and its applications to biomedical science in graduate school. My postdoctoral training in biostatistics further prepared me for high-dimensional omics data analysis.  
+-->
 
-The Ma Lab at [Fred Hutchinson Cancer Research Center](https://www.fredhutch.org/en/faculty-lab-directory/ma-jing.html) specializes in statistical and computational methods for big biomedical data. We address statistical challenges faced with interpreting complex health data, and develop novel statistical methods to enhance reproducible biomedical discoveries. Our current research interests include statistical learning, network analysis, and systems biology, with applications to cancer biology and aging.   
+The Ma Lab at [Fred Hutchinson Cancer Research Center](https://www.fredhutch.org/en/faculty-lab-directory/ma-jing.html) specializes in statistical and computational methods for big biomedical data. We employ a variety of statistical tools, ranging from dimension reduction, graphical models, and high-dimensional data analysis, to address the analytical challenges faced with interpreting complex health data. The long-term goals of our research are to enhance biomarker discoveries through powerful and robust statistical inference, and to translate these findings to advance clinical research.
 
+Our current research interests include statistical learning, network analysis, and systems biology, with applications to cancer biology and aging.  
+<!--We address statistical challenges faced with interpreting complex health data, and develop novel statistical methods to enhance reproducible biomedical discoveries. Our current research interests include statistical learning, network analysis, and systems biology, with applications to cancer biology and aging.   
+-->
 
 Our lab collaborates with Dr. [Daniel Promislow](http://www.promislowlab.org/) on the [Dog Aging Project](https://dogagingproject.org/), supported by U19 grant AG057377 from the National Institute of Aging, a part of the National Institutes of Health. 
 
 <!--For a complete list of publications, see my [Google Scholar](http://scholar.google.com/citations?user=TClZmdkAAAAJ). For more details about my background, read my [CV](/assets/pdfs/team/jingma-cv.pdf). The best way to contact me is through [email](/team/jingma). 
+
 **Postdoc Position Available**
 
  - [Postdoc Position on Statistical Methods for Microbiome Research](https://docs.google.com/document/d/1NCBW1isIPvrEo5hCW5bgrRrILr_VPLl8pUUXT6nkXH8/edit?usp=sharing)
