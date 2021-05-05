@@ -26,7 +26,7 @@
 - repo: taryue/GMDecomp
   title: GMDecomp
   owner: taryue
-  description: GMD-biplot for microbiome data 
+  description: R package for structured dimensionality reduction 
   url: /projects/GMDecomp 
   contributors:
     - login: taryue
