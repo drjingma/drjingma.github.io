@@ -13,7 +13,7 @@ cv:
 alum: false
 assistant: false
 postdoc: true
-web: 
+web: www.linkedin.com/in/iliasmoysidis/
 field: stat
 ---
 
