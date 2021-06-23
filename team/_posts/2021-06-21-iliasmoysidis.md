@@ -1,7 +1,7 @@
 ---
 layout: member
 title: Ilias Moysidis
-position: Postdoctoral Research Fellow 
+position: Postdoc 
 institute: Penn State University
 handle: Ilias Moysidis
 email: imoysidi@fredhutch.org
@@ -17,9 +17,7 @@ web: www.linkedin.com/in/iliasmoysidis/
 field: stat
 ---
 
-# Education
-
-Ph.D. in Biostatistics, University of North Carolina at Chapel Hill
+Ilias received his Ph.D. in Statistics from Pennsylvania State University in 2021. 
 
 
 
