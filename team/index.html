@@ -62,11 +62,11 @@ image style from Zhenke Wu
 <div class="bigspacer"></div>
 <hr/>
 
-<div class="title text-left">Postdoctoral Fellows</div>
+<div class="title text-left">Research Group Members</div>
 
 <div class="row">
 {% for member in site.categories.team reversed %}
-	{% if member.alum == false and member.assistant == false and member.postdoc == true %}
+	{% if member.alum == false and member.assistant == true %}
 	    {% cycle 'add rows': '<div class="row">', '', '' %}
 			<div class="col-md-4 memberbox">
 				<div class="media">
@@ -100,6 +100,7 @@ image style from Zhenke Wu
 
 <div class="bigspacer"></div>
 <hr/>
+<!--
 <div class="title text-left">Current RA</div>
 
 <div class="row">
@@ -138,7 +139,7 @@ image style from Zhenke Wu
 
 <div class="bigspacer"></div>
 <hr/>
-
+-->
 <div class="title text-left">Alumni</div>
 
 <div class="row">
@@ -211,41 +212,6 @@ image style from Zhenke Wu
 </div>
 
 <hr/>
-
-<div class="title text-center">Alumni</div>
-
-<div class="bigspacer"></div>
-{% for member in site.categories.team reversed %}
-	{% if member.alum == true and member.assistant == false %}
-	    {% cycle 'add rows': '<div class="row">', '', '' %}
-			<div class="col-md-4 memberbox">
-				<div class="media">
-	  				<a class="pull-left" href="{{ member.url }}">
-	    				<img class="media-object member-photo" src="{{ member.image }}">
-	  				</a>
-	 			 	<div class="media-body">
-	    				<div class="head media-heading member-name"><a href="{{ member.url }}" class="off">{{ member.title }}</a></div>
-	    				<p class="note">{{ member.position }}</p>
-						{% if member.cv %}		
-						<div class="smallhead">
-							CV
-						</div>	
-						<div class="pad-left note">
-							<div class="smallspacer"></div>
-							<i class="fa fa-file-text-o fa-fw"></i>			
-							<a class="off" href="{{ member.cv }}">{{ member.cv | split: '/' | last }}</a>
-						</div>		
-						<div class="bigspacer"></div>		
-						{% endif %}
-	  				</div>
-				</div>
-	     </div>	  
-	    {% cycle 'close rows': '', '', '</div><div class="bigspacer"></div>' %}
-	{% endif %}
-{% endfor %}
-{% cycle 'close rows': '', '</div><div class="bigspacer"></div>', '</div><div class="bigspacer"></div>' %}
-</div>
-
 
 <!-- comment out this next line if there are multiples of three alumni -->
 <!-- </div>-->
