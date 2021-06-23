@@ -11,7 +11,7 @@ scholar:
 image: 
 cv: 
 alum: false
-assistant: false
+assistant: true
 postdoc: true
 web: www.linkedin.com/in/iliasmoysidis/
 field: stat
