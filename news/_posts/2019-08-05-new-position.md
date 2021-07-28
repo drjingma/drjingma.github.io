@@ -1,6 +1,6 @@
 ---
 layout: news
-title: "Will visit Texas A&M Statistics"
+title: "Jing will visit Texas A&M Statistics"
 description: "My new position at TAMU"
 author: "Jing Ma"
 author_handle: "Jing Ma"
