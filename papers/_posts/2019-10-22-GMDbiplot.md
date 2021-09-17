@@ -6,7 +6,7 @@ authors: Yue Wang, Timothy Randolph, Ali Shojaie, Jing Ma
 year: 2019
 shortref: Wang et al. (2019). mSystems. 
 journal: "mSystems"
-pdf: https://msystems.asm.org/content/msys/4/6/e00504-19.full.pdf
+pdf: /assets/pdfs/papers/2019-Wang-GMD.pdf 
 doi: 10.1128/mSystems.00504-19
 type: statistical
 ---
