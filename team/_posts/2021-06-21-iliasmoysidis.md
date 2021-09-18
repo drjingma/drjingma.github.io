@@ -8,7 +8,7 @@ email: imoysidi@fredhutch.org
 twitter: 
 github:  
 scholar:  
-image: 
+image: /assets/images/team/Moysidis.jpg
 cv: 
 alum: false
 assistant: true
