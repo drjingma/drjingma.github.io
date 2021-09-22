@@ -7,7 +7,7 @@ handle: Ilias Moysidis
 email: imoysidi@fredhutch.org
 twitter: 
 github:  
-scholar:  
+scholar: VIuGjW4AAAAJ&hl 
 image: /assets/images/team/Moysidis.jpg
 cv: 
 alum: false
