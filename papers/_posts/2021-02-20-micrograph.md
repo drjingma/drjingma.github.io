@@ -2,7 +2,7 @@
 layout: paper
 title: Networks for compositional data
 image: /assets/images/papers/micrograph.png
-authors: Jing Ma, Yue Kun, Ali Shojaie 
+authors: Jing Ma, Kun Yue, Ali Shojaie 
 year: 2021
 shortref: Ma et al. (2021). Statistical Analysis of Microbiome Data.
 journal: "Statistical Analysis of Microbiome Data, edited by Subharup Guha, Somnath Datta. Springer"
