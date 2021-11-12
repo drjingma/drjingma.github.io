@@ -212,7 +212,7 @@ exclude:
   - "Gemfile"
   - "Gemfile.lock"
   
-projects:
+software:
   - drjingma/TestBMN
   - drjingma/CHIME
   - drjingma/netgsa
