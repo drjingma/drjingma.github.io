@@ -8,7 +8,7 @@ shortref: Wang et al. (2019). mSystems.
 journal: "mSystems"
 pdf: /assets/pdfs/papers/2019-Wang-GMD.pdf 
 doi: 10.1128/mSystems.00504-19
-type: 2019
+type: twentynineteen
 ---
 
 # Abstract
