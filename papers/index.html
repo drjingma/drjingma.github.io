@@ -36,13 +36,13 @@ navorder: 1
 </div>
 
 <hr/>
-<div class="smalltitle text-left"> <strong> Statistical Methods </strong></div>
+<div class="smalltitle text-left"> <strong> 2021 </strong></div>
 <div class="bigspacer"></div>
 
 <div class="container">
     <div class="bigspacer"></div>
     {% for paper in site.categories.papers %}
-    {% if paper.type == "statistical"%}
+    {% if paper.type == "2021"%}
        {% cycle 'add rows2': '<div class="row">', '', '' %}
         <div class="col-md-12 paperbox">
             <div class="media">
@@ -64,13 +64,13 @@ navorder: 1
 </div>
 
 <hr/>
-<div class="smalltitle text-left"> <strong> Statistical Applications </strong> </div>
+<div class="smalltitle text-left"> <strong> 2020 </strong> </div>
 <div class="bigspacer"></div>
 
 <div class="container">
    <div class="bigspacer"></div>
    {% for paper in site.categories.papers %}
-   {% if paper.type == "substantive"%}
+   {% if paper.type == "2020"%}
       {% cycle 'add rows3': '<div class="row">', '', '' %}
 		  <div class="col-md-12 paperbox">
 			   <div class="media">
@@ -92,13 +92,42 @@ navorder: 1
 </div>
 
 <hr/>
-<div class="smalltitle text-left"> <strong> Book Chapters </strong> </div>
+
+<div class="smalltitle text-left"> <strong> 2019 </strong></div>
 <div class="bigspacer"></div>
 
 <div class="container">
     <div class="bigspacer"></div>
     {% for paper in site.categories.papers %}
-    {% if paper.type == "book"%}
+    {% if paper.type == "2019"%}
+       {% cycle 'add rows2': '<div class="row">', '', '' %}
+        <div class="col-md-12 paperbox">
+            <div class="media">
+                <a class="pull-right" href="{{ paper.url }}">
+                    <img width=200 class="media-object" src="{{ paper.image }}">
+                        </a>
+                <div class="media-body">
+                    <div class="smallhead media-heading"><a href="{{ paper.url }}" class="off">{{ paper.title }}</a></div>
+                    <p class="note">{{ paper.shortref }}</p>
+                </div>
+            </div>
+            <div class="bigspacer"></div>
+            <div class="spacer"></div>
+        </div>
+      {% cycle 'close rows2': '', '', '</div>' %}
+    {% endif %}
+    {% endfor %}
+{% cycle 'close rows2': '', '</div><div class="bigspacer"></div>', '</div><div class="bigspacer"></div>' %}
+</div>
+
+<hr/>
+<div class="smalltitle text-left"> <strong> 2018 and earlier </strong> </div>
+<div class="bigspacer"></div>
+
+<div class="container">
+    <div class="bigspacer"></div>
+    {% for paper in site.categories.papers %}
+    {% if paper.type == "2018"%}
        {% cycle 'add rows4': '<div class="row">', '', '' %}
         <div class="col-md-12 paperbox">
             <div class="media">

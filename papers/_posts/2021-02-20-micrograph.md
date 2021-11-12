@@ -7,8 +7,8 @@ year: 2021
 shortref: Ma et al. (2021). Statistical Analysis of Microbiome Data.
 journal: "Statistical Analysis of Microbiome Data, edited by Subharup Guha, Somnath Datta. Springer"
 pdf: 
-doi:  
-type: book
+doi: 10.1007/978-3-030-73351-3
+type: 2021
 ---
 
 # Abstract
