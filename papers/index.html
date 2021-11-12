@@ -42,7 +42,7 @@ navorder: 1
     <div class="bigspacer"></div>
     {% for paper in site.categories.papers %}
     {% if paper.type == "2021"%}
-       {% cycle 'add rows': '<div class="row">', '', '' %}
+       {% cycle 'add rows2': '<div class="row">', '', '' %}
         <div class="col-md-12 paperbox">
             <div class="media">
                 <a class="pull-right" href="{{ paper.url }}">
@@ -56,10 +56,10 @@ navorder: 1
             <div class="bigspacer"></div>
             <div class="spacer"></div>
         </div>
-      {% cycle 'close rows': '', '', '</div>' %}
+      {% cycle 'close rows2': '', '', '</div>' %}
     {% endif %}
     {% endfor %}
-{% cycle 'close rows': '', '</div><div class="bigspacer"></div>', '</div><div class="bigspacer"></div>' %}
+{% cycle 'close rows2': '', '</div><div class="bigspacer"></div>', '</div><div class="bigspacer"></div>' %}
 </div>
 <hr/>
 
