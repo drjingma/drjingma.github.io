@@ -6,8 +6,10 @@
   url: /projects/netgsa 
   contributors:
     - login: drjingma
+      avatar: https://avatars.githubusercontent.com/u/20731517?v=4
       url: https://github.com/drjingma
     - login: mikehellstern
+      avatar: https://avatars.githubusercontent.com/u/28374298?v=4
       url: https://github.com/mikehellstern
 - repo: drjingma/JSEM
   title: JSEM
