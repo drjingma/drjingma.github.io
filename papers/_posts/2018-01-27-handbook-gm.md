@@ -6,7 +6,7 @@ authors: Hongzhe Li, Jing Ma
 year: 2018
 shortref: Li and Ma (2018). Handbook of Graphical Models.
 journal: "Handbook of Graphical Models, edited by Mathias Drton, Steffen Lauritzen, Marloes Maathuis, Martin Wainwright. Chapman & Hall / CRC"
-pdf: 
+pdf: /assets/pdfs/papers/2018-LiMa.pdf
 doi: 10.1201/9780429463976-21 
 type: twentyeighteen
 ---
