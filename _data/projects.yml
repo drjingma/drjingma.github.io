@@ -18,6 +18,7 @@
   url: /projects/JSEM 
   contributors:
     - login: drjingma
+      avatar: https://avatars.githubusercontent.com/u/20731517?v=4
       url: https://github.com/JSEM
 - repo: wiggie/DNEA
   title: DNEA
@@ -26,7 +27,8 @@
   url: /projects/DNEA
   contributors:
     - login: wiggie
-      url: https://github.com/wiggie/DNEA
+      avatar: https://avatars.githubusercontent.com/u/7587087?v=4
+      url: https://github.com/wiggie
 - repo: drjingma/TestBMN
   title: TestBMN
   owner: jingma
@@ -34,6 +36,7 @@
   url: /projects/TestBMN
   contributors:
     - login: drjingma
+      avatar: https://avatars.githubusercontent.com/u/20731517?v=4
       url: https://github.com/drjingma
 - repo: drjingma/gmm
   title: CHIME
@@ -42,6 +45,7 @@
   url: /projects/CHIME 
   contributors:
     - login: drjingma
+      avatar: https://avatars.githubusercontent.com/u/20731517?v=4
       url: https://github.com/drjingma
 - repo: taryue/GMDecomp
   title: GMDecomp
@@ -50,4 +54,5 @@
   url: /projects/GMDecomp 
   contributors:
     - login: taryue
+      avatar: https://avatars.githubusercontent.com/u/15363993?v=4
       url: https://github.com/taryue
