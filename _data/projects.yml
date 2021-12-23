@@ -2,15 +2,23 @@
 - repo: drjingma/netgsa
   title: netgsa
   owner: jingma
-  description: R package for carrying out Network-based Gene Set Analysis
+  description: Network-based pathway enrichment analysis
   url: /projects/netgsa 
   contributors:
     - login: drjingma
     - url: https://github.com/drjingma
+- repo: drjingma/JSEM
+  title: JSEM
+  owner: jingma
+  description: Joint structural estimation of multiple graphical models
+  url: /projects/JSEM 
+  contributors:
+    - login: drjingma
+    - url: https://github.com/JSEM
 - repo: drjingma/TestBMN
   title: TestBMN
   owner: jingma
-  description: R package for testing high-dimensional binary Markov networks
+  description: Testing for differential binary Markov networks
   url: /projects/TestBMN
   contributors:
     - login: drjingma
@@ -26,7 +34,7 @@
 - repo: taryue/GMDecomp
   title: GMDecomp
   owner: taryue
-  description: R package for structured dimensionality reduction 
+  description:  Dimensionality reduction with generalized matrix decomposition 
   url: /projects/GMDecomp 
   contributors:
     - login: taryue
