@@ -7,7 +7,14 @@ year: 2019
 shortref: Wang et al. (2019). mSystems. 
 journal: "mSystems"
 pdf: /assets/pdfs/papers/2019-Wang-GMD.pdf 
+supplement:
+slides:
+github: https://github.com/taryue/GMDecomp
 doi: 10.1128/mSystems.00504-19
+arXiv:
+external_link:
+dryad_doi:
+video_link:
 type: twentynineteen
 ---
 
