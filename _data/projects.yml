@@ -65,6 +65,13 @@
     - login: drjingma
       avatar: https://avatars.githubusercontent.com/u/20731517?v=4
       url: https://github.com/drjingma
+  commits:
+    - date: 2019-12-22 09:22:08.000000000 Z
+      message: add vignette
+      url: https://github.com/drjingma/metaMint/commit/fd6b6d16221e3bea7f951cef1fc58767834f5d90
+      author_login: drjingma 
+      author_url: https://github.com/drjingma
+    
 - repo: yuek9/REHE
   title: REHE
   owner: yuek9
