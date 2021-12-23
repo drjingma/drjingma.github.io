@@ -56,3 +56,12 @@
     - login: taryue
       avatar: https://avatars.githubusercontent.com/u/15363993?v=4
       url: https://github.com/taryue
+- repo: yuek9/REHE
+  title: REHE
+  owner: yuek9
+  description: Variance components estimation with restricted Haseman-Elston regression
+  url: /projects/REHE
+  contributors:
+    - login: yuek9
+      avatar: https://avatars.githubusercontent.com/u/61337841?v=4
+      url: https://github.com/yuek9
