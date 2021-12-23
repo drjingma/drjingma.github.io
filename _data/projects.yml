@@ -15,7 +15,7 @@
   contributors:
     - login: drjingma
     - url: https://github.com/JSEM
-- repo: drjingma/DNEA
+- repo: wiggie/DNEA
   title: DNEA
   owner: jingma
   description: Differential network enrichment analysis
