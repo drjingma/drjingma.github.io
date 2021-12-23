@@ -6,7 +6,9 @@
   url: /projects/netgsa 
   contributors:
     - login: drjingma
-    - url: https://github.com/drjingma
+      url: https://github.com/drjingma
+    - login: mikehellstern
+      url: https://github.com/mikehellstern
 - repo: drjingma/JSEM
   title: JSEM
   owner: jingma
@@ -14,15 +16,15 @@
   url: /projects/JSEM 
   contributors:
     - login: drjingma
-    - url: https://github.com/JSEM
+      url: https://github.com/JSEM
 - repo: wiggie/DNEA
   title: DNEA
   owner: jingma
   description: Differential network enrichment analysis
   url: /projects/DNEA
   contributors:
-    - login: Janis Wigginton
-    - url: https://github.com/wiggie/DNEA
+    - login: wiggie
+      url: https://github.com/wiggie/DNEA
 - repo: drjingma/TestBMN
   title: TestBMN
   owner: jingma
@@ -30,7 +32,7 @@
   url: /projects/TestBMN
   contributors:
     - login: drjingma
-    - url: https://github.com/drjingma
+      url: https://github.com/drjingma
 - repo: drjingma/gmm
   title: CHIME
   owner: jingma
@@ -38,7 +40,7 @@
   url: /projects/CHIME 
   contributors:
     - login: drjingma
-    - url: https://github.com/drjingma
+      url: https://github.com/drjingma
 - repo: taryue/GMDecomp
   title: GMDecomp
   owner: taryue
@@ -46,4 +48,4 @@
   url: /projects/GMDecomp 
   contributors:
     - login: taryue
-    - url: https://github.com/taryue
+      url: https://github.com/taryue
