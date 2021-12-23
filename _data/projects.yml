@@ -48,14 +48,23 @@
       avatar: https://avatars.githubusercontent.com/u/20731517?v=4
       url: https://github.com/drjingma
 - repo: taryue/GMDecomp
-  title: GMDecomp
+  title: GMD
   owner: taryue
-  description:  Dimensionality reduction with generalized matrix decomposition 
-  url: /projects/GMDecomp 
+  description: Analysis of microbiome data with generalized matrix decomposition 
+  url: /projects/GMD
   contributors:
     - login: taryue
       avatar: https://avatars.githubusercontent.com/u/15363993?v=4
       url: https://github.com/taryue
+- repo: drjingma/metaMint
+  title: metaMint
+  owner: jingma
+  description: Joint estimation of metabolite and microbial interaction networks
+  url: /projects/metaMint 
+  contributors:
+    - login: drjingma
+      avatar: https://avatars.githubusercontent.com/u/20731517?v=4
+      url: https://github.com/drjingma
 - repo: yuek9/REHE
   title: REHE
   owner: yuek9
