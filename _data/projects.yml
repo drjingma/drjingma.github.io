@@ -11,6 +11,17 @@
     - login: mikehellstern
       avatar: https://avatars.githubusercontent.com/u/28374298?v=4
       url: https://github.com/mikehellstern
+  commits:
+    - date: 2021-10-03 09:57:00
+      message: Updated DS_Store
+      url: https://github.com/drjingma/netgsa/commit/090b107582bcb33f33da87bbb210e624db5f2d6c
+      author_login: mikehellstern 
+      author_url: https://github.com/mikehellstern
+    - date: 2021-09-13
+      message: Patch update
+      url: https://github.com/drjingma/netgsa/commit/caa65759af3aa7a81949902ec8aafed1563cdb35
+      author_login: mikehellstern 
+      author_url: https://github.com/mikehellstern      
 - repo: drjingma/JSEM
   title: JSEM
   owner: jingma
@@ -20,6 +31,12 @@
     - login: drjingma
       avatar: https://avatars.githubusercontent.com/u/20731517?v=4
       url: https://github.com/JSEM
+  commits:
+    - date: 2020-11-29 09:57:00
+      message: Add instructions
+      url: https://github.com/drjingma/JSEM/commit/0399ceb6d646f6c11281edaa2a1ef88ecbf5d67f
+      author_login: drjingma 
+      author_url: https://github.com/drjingma
 - repo: wiggie/DNEA
   title: DNEA
   owner: jingma
@@ -38,6 +55,12 @@
     - login: drjingma
       avatar: https://avatars.githubusercontent.com/u/20731517?v=4
       url: https://github.com/drjingma
+  commits:
+    - date: 2018-03-06 09:57:00
+      message: Update bib
+      url: https://github.com/drjingma/TestBMN/commit/cf7a4a8e36e21a6e2689d06ff9236a26921f9b0b
+      author_login: drjingma 
+      author_url: https://github.com/drjingma
 - repo: drjingma/gmm
   title: CHIME
   owner: jingma
