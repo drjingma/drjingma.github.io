@@ -15,7 +15,7 @@ arXiv:
 external_link:
 dryad_doi:
 video_link:
-type: twentynineteen
+type:
 ---
 
 # Abstract
