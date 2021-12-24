@@ -47,6 +47,12 @@
     - login: drjingma
       avatar: https://avatars.githubusercontent.com/u/20731517?v=4
       url: https://github.com/drjingma
+  commits:
+    - date: 2018-11-20 09:57:00
+      message: Update file name
+      url: https://github.com/drjingma/gmm/commit/44d7a6f992bf58ff07b2850d4e3c7c3bbb052348
+      author_login: drjingma 
+      author_url: https://github.com/drjingma
 - repo: taryue/GMDecomp
   title: GMD
   owner: taryue
@@ -71,7 +77,6 @@
       url: https://github.com/drjingma/metaMint/commit/fd6b6d16221e3bea7f951cef1fc58767834f5d90
       author_login: drjingma 
       author_url: https://github.com/drjingma
-    
 - repo: yuek9/REHE
   title: REHE
   owner: yuek9
@@ -81,3 +86,9 @@
     - login: yuek9
       avatar: https://avatars.githubusercontent.com/u/61337841?v=4
       url: https://github.com/yuek9
+  commits:
+    - date: 2020-12-14 09:57:00
+      message: Update README.md
+      url: https://github.com/yuek9/REHE/commit/13490695d3035e2af80011066272a672cb79e531
+      author_login: yuek9 
+      author_url: https://github.com/yuek9
