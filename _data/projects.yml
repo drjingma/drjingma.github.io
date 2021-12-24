@@ -46,6 +46,12 @@
     - login: wiggie
       avatar: https://avatars.githubusercontent.com/u/7587087?v=4
       url: https://github.com/wiggie
+  commits:
+    - date: 2018-02-24 09:57:00
+      message: Update README.md
+      url: https://github.com/wiggie/DNEA/commit/a477c08d1e0c2a168533d3114b297824a57f3af8
+      author_login: wiggie 
+      author_url: https://github.com/wiggie
 - repo: drjingma/TestBMN
   title: TestBMN
   owner: jingma
@@ -85,6 +91,12 @@
     - login: taryue
       avatar: https://avatars.githubusercontent.com/u/15363993?v=4
       url: https://github.com/taryue
+  commits:
+    - date: 2019-10-17 09:57:00
+      message: Update README.md
+      url: https://github.com/taryue/GMDecomp/commit/0de3a6634614026c26d68df2de657feaf5a427c4
+      author_login: taryue 
+      author_url: https://github.com/taryue
 - repo: drjingma/metaMint
   title: metaMint
   owner: jingma
