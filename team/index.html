@@ -24,9 +24,7 @@ image style from Zhenke Wu
 
 
 <!--
-<div class="bigspacer"></div>
 <div class="title text-left">Principal Investigator</div>
-
 <div class="row">
 {% for member in site.categories.team reversed %}
 	{% if member.alum == false and member.assistant == false and member.postdoc == false %}
@@ -64,12 +62,18 @@ image style from Zhenke Wu
 <hr/>
 
 <div class="title text-left">Research Group Members</div>
+<h2 align='left'>{{ Research Group Members }}</h2>
 -->
+
+<hr/>
 <div class="row">
-    <div class="title text-left">
-      <h2>{{ Research Group Members }}</h2>
-   </div>
+	<div class="col-lg-12">
+		<div class="title">
+			Current members
+		</div>
+	</div>
 </div>
+<div class="bigspacer"></div>
 
 <div class="row">
 {% for member in site.categories.team reversed %}
@@ -105,11 +109,17 @@ image style from Zhenke Wu
 </div>
 
 
-<div class="bigspacer"></div>
 <hr/>
 
-<h2 align='left'>{{ Alumni }}</h2>
-  
+<div class="row">
+	<div class="col-lg-12">
+		<div class="title">
+			Past members
+		</div>
+	</div>
+</div>  
+<div class="bigspacer"></div>
+
 <div class="row">
 {% for member in site.categories.team reversed %}
 	{% if member.alum == true %}
