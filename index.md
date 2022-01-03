@@ -14,20 +14,19 @@ categories:
 <div class="row">
 	<div class="col-md-12">
 		<div class="bigtitle logobox">
-			Statistical Learning for Big Biomedical Data
+			Statistical Machine Learning for the Microbiome 
 		</div>
 	</div>	
 </div> 
 
 
-The Ma Lab at [Fred Hutchinson Cancer Research Center](https://www.fredhutch.org/en/faculty-lab-directory/ma-jing.html) specializes in statistical and computational methods for big biomedical data. We employ a variety of statistical learning methods, ranging from dimensionality reduction, graphical models, and high-dimensional data analysis, to address the analytical challenges faced with interpreting complex health data. The long-term goals of our research are to enhance biomarker discoveries through powerful and robust statistical inference, and to translate these findings to advance clinical research.
-
-Our current research interests include analysis of microbiome data and systems biology, with applications to cancer biology and aging.  
-
+The Ma Lab at [Fred Hutchinson Cancer Research Center](https://www.fredhutch.org/en/faculty-lab-directory/ma-jing.html) specializes in statistical and computational methods for microbiome data. We employ a variety of statistical learning methods, ranging from dimensionality reduction, graphical models, and high-dimensional data analysis, to address the analytical challenges faced with interpreting complex microbiome data. The long-term goals of our research are to enhance biomarker discoveries through powerful and robust statistical inference, and to translate these findings to advance clinical research.
 
 Our lab collaborates with Dr. [Daniel Promislow](http://www.promislowlab.org/) on the [Dog Aging Project](https://dogagingproject.org/), supported by U19 grant AG057377 from the National Institute of Aging, a part of the National Institutes of Health. 
 
 <!--For a complete list of publications, see my [Google Scholar](http://scholar.google.com/citations?user=TClZmdkAAAAJ). For more details about my background, read my [CV](/assets/pdfs/team/jingma-cv.pdf). The best way to contact me is through [email](/team/jingma). 
+
+Our current research focuses on integrative analysis of microbiome multi-omics data with applications to cancer biology and aging. 
 
 **Postdoc Position Available**
 
