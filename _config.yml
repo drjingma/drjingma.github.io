@@ -16,10 +16,10 @@ markdown: kramdown
 # so be sure to set them if your theme uses them.
 #
 title : Jing Ma, PhD
-tagline: Research updates on graphical modelling and statistical data integration from Ma Lab
+tagline: Principal Investigator 
 url: http://drjingma.com
 name : Jing Ma, PhD
-description: Research updates on graphical modelling statistical data integration from Ma Lab 
+description: Statistical Machine Learning for the Microbiome 
 
 institution:
   url: https://www.fredhutch.org/en.html
