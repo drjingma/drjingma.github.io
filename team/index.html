@@ -15,8 +15,8 @@ image style from Zhenke Wu
     img.photo{
           object-fit: cover;
           object-position: 10% 50%; 
-          width:200px;
-          height:300px;
+          width:160px;
+          height:240px;
     }
 </style>
 
@@ -37,7 +37,7 @@ image style from Zhenke Wu
 {% for member in site.categories.team reversed %}
 	{% if member.alum == false and member.assistant == false and member.postdoc == false %}
 	   {% cycle 'add rows': '<div class="row">', '', '' %}
-			<div class="col-md-4 memberbox">
+			<div class="col-lg-4 memberbox">
 				<div class="media">
 	  				<a class="pull-left" href="{{ member.url }}">
 	    				<img class="media-object member-photo" src="{{ member.image }}">
@@ -87,7 +87,7 @@ image style from Zhenke Wu
 {% for member in site.categories.team reversed %}
 	{% if member.alum == false %}
 	    {% cycle 'add rows': '<div class="row">', '', '' %}
-			<div class="col-md-4 memberbox">
+			<div class="col-lg-4 memberbox">
 				<div class="media">
 	  				<a class="pull-left" href="{{ member.url }}">
 	    				<img class="media-object member-photo" src="{{ member.image }}">
@@ -131,7 +131,7 @@ image style from Zhenke Wu
 {% for member in site.categories.team reversed %}
 	{% if member.alum == true %}
 	    {% cycle 'add rows': '<div class="row">', '', '' %}
-			<div class="col-md-4 memberbox">
+			<div class="col-lg-4 memberbox">
 				<div class="media">
 	  				<a class="pull-left" href="{{ member.url }}">
 	    				<img class="media-object member-photo" src="{{ member.image }}">
