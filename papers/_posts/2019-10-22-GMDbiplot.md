@@ -9,7 +9,7 @@ journal: "mSystems"
 pdf: /assets/pdfs/papers/2019-Wang-GMD.pdf 
 supplement:
 slides:
-github: https://github.com/taryue/GMDecomp
+github: https://github.com/pknight24/KPR
 doi: 10.1128/mSystems.00504-19
 arXiv:
 external_link:
