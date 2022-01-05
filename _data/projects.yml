@@ -82,21 +82,24 @@
       url: https://github.com/drjingma/gmm/commit/44d7a6f992bf58ff07b2850d4e3c7c3bbb052348
       author_login: drjingma 
       author_url: https://github.com/drjingma
-- repo: taryue/GMDecomp
-  title: GMD
-  owner: taryue
-  description: Analysis of microbiome data with generalized matrix decomposition 
-  url: /projects/GMD
+- repo: pknight24/KPR
+  title: KPR
+  owner: pknight24
+  description: Analysis of microbiome data with kernel penalized regression 
+  url: /projects/KPR
   contributors:
     - login: taryue
       avatar: https://avatars.githubusercontent.com/u/15363993?v=4
       url: https://github.com/taryue
+    - login: pknight24
+      avatar: https://avatars.githubusercontent.com/u/27926727?v=4
+      url: https://github.com/pknight24
   commits:
-    - date: 2019-10-17 09:57:00
-      message: Update README.md
-      url: https://github.com/taryue/GMDecomp/commit/0de3a6634614026c26d68df2de657feaf5a427c4
-      author_login: taryue 
-      author_url: https://github.com/taryue
+    - date: 2021-06-30 09:57:00
+      message: use natural lasso
+      url: https://github.com/pknight24/KPR/commit/539b48eaa7027f0de017d0d7dc2e1cd09b73ac79
+      author_login: pknight24 
+      author_url: https://github.com/pknight24
 - repo: drjingma/metaMint
   title: metaMint
   owner: jingma
