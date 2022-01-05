@@ -62,9 +62,9 @@
       avatar: https://avatars.githubusercontent.com/u/20731517?v=4
       url: https://github.com/drjingma
   commits:
-    - date: 2018-03-06 09:57:00
-      message: Update bib
-      url: https://github.com/drjingma/TestBMN/commit/cf7a4a8e36e21a6e2689d06ff9236a26921f9b0b
+    - date: 2022-01-05 09:57:00
+      message: Update paper details
+      url: https://github.com/drjingma/TestBMN/commit/bcb6b18b8a700e0457d825a2a7a485d059cfeee6
       author_login: drjingma 
       author_url: https://github.com/drjingma
 - repo: drjingma/gmm
