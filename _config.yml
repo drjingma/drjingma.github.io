@@ -28,11 +28,11 @@ department:
   url: https://www.fredhutch.org/en/research/divisions/public-health-sciences-division.html 
   name: Public Health Sciences Division 
   address: 1100 Fairview Ave N
-  office: Arnold Building B847 
+  office: Robert M. Arnold Building M2-B847 
   city: Seattle, WA 98109
   logo: 
-  map: 
-  workphone: 
+  map: https://goo.gl/maps/Ahtvgf7vTHppYBe58
+  workphone: 206.667.2897
 author :
   name : Jing Ma
   email : jingma@fredhutch.org
