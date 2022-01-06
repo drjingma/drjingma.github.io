@@ -177,6 +177,7 @@ JB :
 plugins:
   - jekyll-redirect-from
   - jekyll-feed
+  - jekyll-twitter-plugin
   
   
 future: true
