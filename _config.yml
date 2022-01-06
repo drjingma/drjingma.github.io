@@ -213,12 +213,11 @@ exclude:
   - "Gemfile.lock"
   
 projects:
-  - drjingma/netgsa
-  - drjingma/JSEM
+  - yuek9/REHE
+  - pknight24/KPR
+  - wiggie/DNEA
+  - drjingma/metaMint  
   - drjingma/TestBMN
   - drjingma/gmm
-  - drjingma/metaMint
-  - pknight24/KPR
-  - yuek9/REHE
-  - wiggie/DNEA
-  
+  - drjingma/netgsa
+  - drjingma/JSEM
