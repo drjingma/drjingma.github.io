@@ -1,9 +1,32 @@
 ---
+- repo: drjingma/netgsa
+  title: netgsa
+  owner: drjingma
+  description: Network-based Gene Set Analysis
+  url: "/projects/netgsa/"
+  contributors:
+  - login: mikehellstern
+    avatar: https://avatars.githubusercontent.com/u/28374298?v=4&s=50
+    url: https://github.com/mikehellstern
+  - login: drjingma
+    avatar: https://avatars.githubusercontent.com/u/20731517?v=4&s=50
+    url: https://github.com/drjingma
+  commits:
+  - date: 2022-01-06 17:23:19.000000000 Z
+    message: Update Readme page
+    url: https://github.com/drjingma/netgsa/commit/18cee25b1936a42317c2d9839bad39f9339f1f0a
+    author_login: drjingma
+    author_url: https://github.com/drjingma
+  - date: 2021-10-03 17:18:29.000000000 Z
+    message: Updated DS_Store
+    url: https://github.com/drjingma/netgsa/commit/090b107582bcb33f33da87bbb210e624db5f2d6c
+    author_login: mikehellstern
+    author_url: https://github.com/mikehellstern
 - repo: drjingma/TestBMN
   title: TestBMN
   owner: drjingma
   description: Testing binary Markov networks
-  url: "/projects/TestBMN"
+  url: "/projects/TestBMN/"
   contributors:
   - login: drjingma
     avatar: https://avatars.githubusercontent.com/u/20731517?v=4&s=50
@@ -34,24 +57,6 @@
     url: https://github.com/drjingma/TestBMN/commit/454250a231c12dbf4359820ffa5dc13d980f1e26
     author_login: drjingma
     author_url: https://github.com/drjingma
-- repo: drjingma/netgsa
-  title: netgsa
-  owner: drjingma
-  description: Network-based Gene Set Analysis
-  url: "/projects/netgsa"
-  contributors:
-  - login: mikehellstern
-    avatar: https://avatars.githubusercontent.com/u/28374298?v=4&s=50
-    url: https://github.com/mikehellstern
-  - login: drjingma
-    avatar: https://avatars.githubusercontent.com/u/20731517?v=4&s=50
-    url: https://github.com/drjingma
-  commits:
-  - date: 2021-10-03 17:18:29.000000000 Z
-    message: Updated DS_Store
-    url: https://github.com/drjingma/netgsa/commit/090b107582bcb33f33da87bbb210e624db5f2d6c
-    author_login: mikehellstern
-    author_url: https://github.com/mikehellstern
 - repo: pknight24/KPR
   title: KPR
   owner: pknight24
