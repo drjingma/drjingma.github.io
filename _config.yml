@@ -213,7 +213,8 @@ exclude:
   - "Gemfile.lock"
   
 projects:
-  - drjingma/TestBMN
-  - drjingma/CHIME
   - drjingma/netgsa
-  - taryue/GMDecomp
+  - drjingma/JSEM
+  - drjingma/TestBMN
+  - drjingma/gmm
+  - drjingma/metaMint
