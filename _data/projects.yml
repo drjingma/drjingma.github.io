@@ -38,7 +38,7 @@
   title: netgsa
   owner: drjingma
   description: Network-based Gene Set Analysis
-  url: "/projects/netgsa/"
+  url: "/projects/netgsa"
   contributors:
   - login: mikehellstern
     avatar: https://avatars.githubusercontent.com/u/28374298?v=4&s=50
