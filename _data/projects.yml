@@ -1,4 +1,118 @@
 ---
+- repo: drjingma/JSEM
+  title: JSEM
+  owner: drjingma
+  description: Joint structural estimation of multiple graphical models
+  url: "/projects/JSEM/"
+  contributors:
+  - login: drjingma
+    avatar: https://avatars.githubusercontent.com/u/20731517?v=4&s=50
+    url: https://github.com/drjingma
+  commits:
+  - date: 2022-01-06 18:14:58.000000000 Z
+    message: Update README.md
+    url: https://github.com/drjingma/JSEM/commit/182d1ea4cd98a1e863e32a7d1ecab6fca835502a
+    author_login: drjingma
+    author_url: https://github.com/drjingma
+  - date: 2020-11-30 00:47:03.000000000 Z
+    message: Add instructions
+    url: https://github.com/drjingma/JSEM/commit/0399ceb6d646f6c11281edaa2a1ef88ecbf5d67f
+    author_login: drjingma
+    author_url: https://github.com/drjingma
+  - date: 2020-11-30 00:45:21.000000000 Z
+    message: Add code
+    url: https://github.com/drjingma/JSEM/commit/f45651451795473e438c941281fb8b4d2f89697f
+    author_login: drjingma
+    author_url: https://github.com/drjingma
+  - date: 2020-11-30 00:44:11.000000000 Z
+    message: Update README.md
+    url: https://github.com/drjingma/JSEM/commit/35739ffbd8d52dfa302e4fc1dda259c6d234a2ee
+    author_login: drjingma
+    author_url: https://github.com/drjingma
+  - date: 2020-11-30 00:43:54.000000000 Z
+    message: Update README.md
+    url: https://github.com/drjingma/JSEM/commit/d2247656545ee36ed005f8015b251b8b60ecaa4b
+    author_login: drjingma
+    author_url: https://github.com/drjingma
+- repo: drjingma/gmm
+  title: gmm
+  owner: drjingma
+  description: Clustering of high-dimensional Gaussian mixtures with the EM algorithm
+  url: "/projects/gmm/"
+  contributors:
+  - login: drjingma
+    avatar: https://avatars.githubusercontent.com/u/20731517?v=4&s=50
+    url: https://github.com/drjingma
+  commits:
+  - date: 2022-01-06 18:12:14.000000000 Z
+    message: Update README.md
+    url: https://github.com/drjingma/gmm/commit/19ca04c792df2fc414e0bc48d6ee0a61c9f4d2a2
+    author_login: drjingma
+    author_url: https://github.com/drjingma
+  - date: 2018-11-20 20:19:12.000000000 Z
+    message: Update file name
+    url: https://github.com/drjingma/gmm/commit/44d7a6f992bf58ff07b2850d4e3c7c3bbb052348
+    author_login: drjingma
+    author_url: https://github.com/drjingma
+  - date: 2018-11-20 20:18:40.000000000 Z
+    message: |-
+      Update README.md
+
+      Update the main code
+    url: https://github.com/drjingma/gmm/commit/ea58328388687e451d9e6e25f1589b423832770c
+    author_login: drjingma
+    author_url: https://github.com/drjingma
+  - date: 2018-11-20 20:17:22.000000000 Z
+    message: |-
+      Add files via upload
+
+      Function to get the contingency table for two vectors.
+    url: https://github.com/drjingma/gmm/commit/9dfb66a0ae73e769c22a67c957e62206dd450764
+    author_login: drjingma
+    author_url: https://github.com/drjingma
+  - date: 2018-11-20 20:16:34.000000000 Z
+    message: |-
+      Add files via upload
+
+      Function to calculate the rand index of a clustering.
+    url: https://github.com/drjingma/gmm/commit/8f4d5a8702bf35381a486c13e3b9e26c7d9189f3
+    author_login: drjingma
+    author_url: https://github.com/drjingma
+- repo: drjingma/metaMint
+  title: metaMint
+  owner: drjingma
+  description: Metabolite and microbial interaction networks
+  url: "/projects/metaMint/"
+  contributors:
+  - login: drjingma
+    avatar: https://avatars.githubusercontent.com/u/20731517?v=4&s=50
+    url: https://github.com/drjingma
+  commits:
+  - date: 2022-01-06 17:53:17.000000000 Z
+    message: Update README
+    url: https://github.com/drjingma/metaMint/commit/b7631aa4a1dfd5a718ea81b5f5639df3195008d4
+    author_login: drjingma
+    author_url: https://github.com/drjingma
+  - date: 2019-12-22 17:22:07.000000000 Z
+    message: add vignette
+    url: https://github.com/drjingma/metaMint/commit/fd6b6d16221e3bea7f951cef1fc58767834f5d90
+    author_login: drjingma
+    author_url: https://github.com/drjingma
+  - date: 2019-12-22 17:20:05.000000000 Z
+    message: Add vignette
+    url: https://github.com/drjingma/metaMint/commit/5fc0bf7e0826191d06f7490291e8b740ea251b43
+    author_login: drjingma
+    author_url: https://github.com/drjingma
+  - date: 2019-12-22 17:19:57.000000000 Z
+    message: Update NAMESPACE
+    url: https://github.com/drjingma/metaMint/commit/295b35d288b8a84ddd3a677b9846b6c5f407f5f1
+    author_login: drjingma
+    author_url: https://github.com/drjingma
+  - date: 2019-12-22 17:19:41.000000000 Z
+    message: Update NAMESPACE
+    url: https://github.com/drjingma/metaMint/commit/b32d6d26ae47999e82af61e4dfff6f2ed7436071
+    author_login: drjingma
+    author_url: https://github.com/drjingma
 - repo: drjingma/netgsa
   title: netgsa
   owner: drjingma
@@ -12,6 +126,11 @@
     avatar: https://avatars.githubusercontent.com/u/20731517?v=4&s=50
     url: https://github.com/drjingma
   commits:
+  - date: 2022-01-06 17:48:18.000000000 Z
+    message: Update README
+    url: https://github.com/drjingma/netgsa/commit/b7136da8413a3f08b452255d4c43539c0b4da4eb
+    author_login: drjingma
+    author_url: https://github.com/drjingma
   - date: 2022-01-06 17:23:19.000000000 Z
     message: Update Readme page
     url: https://github.com/drjingma/netgsa/commit/18cee25b1936a42317c2d9839bad39f9339f1f0a
@@ -133,123 +252,6 @@
     url: https://github.com/yuek9/REHE/commit/4dfecf9f171535b1c5b0ce7fb8540e38f0fd3ca7
     author_login: yuek9
     author_url: https://github.com/yuek9
-- repo: drjingma/JSEM
-  title: JSEM
-  owner: drjingma
-  description:
-  url: "/projects/JSEM/"
-  contributors:
-  - login: drjingma
-    avatar: https://avatars.githubusercontent.com/u/20731517?v=4&s=50
-    url: https://github.com/drjingma
-  commits:
-  - date: 2020-11-30 00:47:03.000000000 Z
-    message: Add instructions
-    url: https://github.com/drjingma/JSEM/commit/0399ceb6d646f6c11281edaa2a1ef88ecbf5d67f
-    author_login: drjingma
-    author_url: https://github.com/drjingma
-  - date: 2020-11-30 00:45:21.000000000 Z
-    message: Add code
-    url: https://github.com/drjingma/JSEM/commit/f45651451795473e438c941281fb8b4d2f89697f
-    author_login: drjingma
-    author_url: https://github.com/drjingma
-  - date: 2020-11-30 00:44:11.000000000 Z
-    message: Update README.md
-    url: https://github.com/drjingma/JSEM/commit/35739ffbd8d52dfa302e4fc1dda259c6d234a2ee
-    author_login: drjingma
-    author_url: https://github.com/drjingma
-  - date: 2020-11-30 00:43:54.000000000 Z
-    message: Update README.md
-    url: https://github.com/drjingma/JSEM/commit/d2247656545ee36ed005f8015b251b8b60ecaa4b
-    author_login: drjingma
-    author_url: https://github.com/drjingma
-  - date: 2020-11-30 00:42:10.000000000 Z
-    message: Initial commit
-    url: https://github.com/drjingma/JSEM/commit/ea1b02056261394a1c0820628cfc88357c544d80
-    author_login: drjingma
-    author_url: https://github.com/drjingma
-- repo: drjingma/metaMint
-  title: metaMint
-  owner: drjingma
-  description: Metabolite and microbial interaction networks
-  url: "/projects/metaMint/"
-  contributors:
-  - login: drjingma
-    avatar: https://avatars.githubusercontent.com/u/20731517?v=4&s=50
-    url: https://github.com/drjingma
-  commits:
-  - date: 2019-12-22 17:22:07.000000000 Z
-    message: add vignette
-    url: https://github.com/drjingma/metaMint/commit/fd6b6d16221e3bea7f951cef1fc58767834f5d90
-    author_login: drjingma
-    author_url: https://github.com/drjingma
-  - date: 2019-12-22 17:20:05.000000000 Z
-    message: Add vignette
-    url: https://github.com/drjingma/metaMint/commit/5fc0bf7e0826191d06f7490291e8b740ea251b43
-    author_login: drjingma
-    author_url: https://github.com/drjingma
-  - date: 2019-12-22 17:19:57.000000000 Z
-    message: Update NAMESPACE
-    url: https://github.com/drjingma/metaMint/commit/295b35d288b8a84ddd3a677b9846b6c5f407f5f1
-    author_login: drjingma
-    author_url: https://github.com/drjingma
-  - date: 2019-12-22 17:19:41.000000000 Z
-    message: Update NAMESPACE
-    url: https://github.com/drjingma/metaMint/commit/b32d6d26ae47999e82af61e4dfff6f2ed7436071
-    author_login: drjingma
-    author_url: https://github.com/drjingma
-  - date: 2019-12-22 17:19:31.000000000 Z
-    message: update NAMESPACE
-    url: https://github.com/drjingma/metaMint/commit/d12bfe0c546c12da20dcc4792e8060d7d514e10c
-    author_login: drjingma
-    author_url: https://github.com/drjingma
-- repo: drjingma/gmm
-  title: gmm
-  owner: drjingma
-  description: Clustering of high-dimensional Gaussian mixtures with the EM algorithm
-  url: "/projects/gmm/"
-  contributors:
-  - login: drjingma
-    avatar: https://avatars.githubusercontent.com/u/20731517?v=4&s=50
-    url: https://github.com/drjingma
-  commits:
-  - date: 2018-11-20 20:19:12.000000000 Z
-    message: Update file name
-    url: https://github.com/drjingma/gmm/commit/44d7a6f992bf58ff07b2850d4e3c7c3bbb052348
-    author_login: drjingma
-    author_url: https://github.com/drjingma
-  - date: 2018-11-20 20:18:40.000000000 Z
-    message: |-
-      Update README.md
-
-      Update the main code
-    url: https://github.com/drjingma/gmm/commit/ea58328388687e451d9e6e25f1589b423832770c
-    author_login: drjingma
-    author_url: https://github.com/drjingma
-  - date: 2018-11-20 20:17:22.000000000 Z
-    message: |-
-      Add files via upload
-
-      Function to get the contingency table for two vectors.
-    url: https://github.com/drjingma/gmm/commit/9dfb66a0ae73e769c22a67c957e62206dd450764
-    author_login: drjingma
-    author_url: https://github.com/drjingma
-  - date: 2018-11-20 20:16:34.000000000 Z
-    message: |-
-      Add files via upload
-
-      Function to calculate the rand index of a clustering.
-    url: https://github.com/drjingma/gmm/commit/8f4d5a8702bf35381a486c13e3b9e26c7d9189f3
-    author_login: drjingma
-    author_url: https://github.com/drjingma
-  - date: 2018-11-20 20:15:10.000000000 Z
-    message: |-
-      Add files via upload
-
-      Linear program for solving the Dantzig optimization.
-    url: https://github.com/drjingma/gmm/commit/721f108991b6668d98aeb3a9c6e4da09c65ce252
-    author_login: drjingma
-    author_url: https://github.com/drjingma
 - repo: wiggie/DNEA
   title: DNEA
   owner: wiggie
