@@ -2,7 +2,7 @@
 layout: paper
 title: An open science study of ageing in companion dogs
 image: /assets/images/papers/dap.png
-authors: Kate Creevy, Joshua Akey, Matt Kaeberlein, Daniel Promislow, The Dog Aging Project Consortium
+authors: Kate Creevy, Joshua Akey, Matt Kaeberlein, Daniel Promislow, and The Dog Aging Project Consortium (..., Jing Ma, ...)
 year: 2022
 shortref: Creevy et al. (2022). Nature.
 journal: "Nature"
