@@ -1,4 +1,4 @@
-Jing Ma's Research Website: [click to view](http://drjingma.com)
+Ma Lab Website: [click to view](http://drjingma.com)
 
 # Notes from Zhenke Wu's Research Website
 
