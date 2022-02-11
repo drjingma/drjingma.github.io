@@ -214,9 +214,6 @@ exclude:
   - "Gemfile.lock"
   
 projects:
-  - yuek9/REHE
-  - pknight24/KPR
-  - wiggie/DNEA
   - drjingma/metaMint  
   - drjingma/TestBMN
   - drjingma/gmm
