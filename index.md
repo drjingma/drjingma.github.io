@@ -14,7 +14,7 @@ categories:
 <div class="row">
 	<div class="col-md-12">
 		<div class="bigtitle logobox">
-			Statistical Machine Learning for the Microbiome 
+			Ma Lab of Statistical Metagenomics and Metabolomics 
 		</div>
 	</div>	
 </div> 
