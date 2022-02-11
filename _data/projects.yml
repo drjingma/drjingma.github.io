@@ -1,4 +1,39 @@
 ---
+- repo: drjingma/TestBMN
+  title: TestBMN
+  owner: drjingma
+  description: Testing binary Markov networks
+  url: "/projects/TestBMN/"
+  contributors:
+  - login: drjingma
+    avatar: https://avatars.githubusercontent.com/u/20731517?v=4&s=50
+    url: https://github.com/drjingma
+  commits:
+  - date: 2022-02-11 01:14:48.000000000 Z
+    message: Update README.md
+    url: https://github.com/drjingma/TestBMN/commit/d5a48fe517d0c2901de75ee561528410ade4a553
+    author_login: drjingma
+    author_url: https://github.com/drjingma
+  - date: 2022-01-05 19:19:27.000000000 Z
+    message: Update paper details
+    url: https://github.com/drjingma/TestBMN/commit/bcb6b18b8a700e0457d825a2a7a485d059cfeee6
+    author_login: drjingma
+    author_url: https://github.com/drjingma
+  - date: 2022-01-05 19:17:37.000000000 Z
+    message: Add validity check
+    url: https://github.com/drjingma/TestBMN/commit/542dfcae4b5ecaf2f91035598bb187a4a48e951e
+    author_login: drjingma
+    author_url: https://github.com/drjingma
+  - date: 2022-01-05 19:17:10.000000000 Z
+    message: Add dimensionality checker
+    url: https://github.com/drjingma/TestBMN/commit/32a2a886ffa986522291b51882004070dad7660b
+    author_login: drjingma
+    author_url: https://github.com/drjingma
+  - date: 2018-03-06 22:59:06.000000000 Z
+    message: update bib
+    url: https://github.com/drjingma/TestBMN/commit/cf7a4a8e36e21a6e2689d06ff9236a26921f9b0b
+    author_login: drjingma
+    author_url: https://github.com/drjingma
 - repo: drjingma/JSEM
   title: JSEM
   owner: drjingma
@@ -141,41 +176,6 @@
     url: https://github.com/drjingma/netgsa/commit/090b107582bcb33f33da87bbb210e624db5f2d6c
     author_login: mikehellstern
     author_url: https://github.com/mikehellstern
-- repo: drjingma/TestBMN
-  title: TestBMN
-  owner: drjingma
-  description: Testing binary Markov networks
-  url: "/projects/TestBMN/"
-  contributors:
-  - login: drjingma
-    avatar: https://avatars.githubusercontent.com/u/20731517?v=4&s=50
-    url: https://github.com/drjingma
-  commits:
-  - date: 2022-01-05 19:19:27.000000000 Z
-    message: Update paper details
-    url: https://github.com/drjingma/TestBMN/commit/bcb6b18b8a700e0457d825a2a7a485d059cfeee6
-    author_login: drjingma
-    author_url: https://github.com/drjingma
-  - date: 2022-01-05 19:17:37.000000000 Z
-    message: Add validity check
-    url: https://github.com/drjingma/TestBMN/commit/542dfcae4b5ecaf2f91035598bb187a4a48e951e
-    author_login: drjingma
-    author_url: https://github.com/drjingma
-  - date: 2022-01-05 19:17:10.000000000 Z
-    message: Add dimensionality checker
-    url: https://github.com/drjingma/TestBMN/commit/32a2a886ffa986522291b51882004070dad7660b
-    author_login: drjingma
-    author_url: https://github.com/drjingma
-  - date: 2018-03-06 22:59:06.000000000 Z
-    message: update bib
-    url: https://github.com/drjingma/TestBMN/commit/cf7a4a8e36e21a6e2689d06ff9236a26921f9b0b
-    author_login: drjingma
-    author_url: https://github.com/drjingma
-  - date: 2018-03-06 22:58:54.000000000 Z
-    message: add instructures
-    url: https://github.com/drjingma/TestBMN/commit/454250a231c12dbf4359820ffa5dc13d980f1e26
-    author_login: drjingma
-    author_url: https://github.com/drjingma
 - repo: pknight24/KPR
   title: KPR
   owner: pknight24
