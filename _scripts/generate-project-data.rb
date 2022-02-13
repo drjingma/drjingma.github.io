@@ -44,7 +44,7 @@ module Projects
 				project_title = octokit_repo.name
 				project_owner = octokit_repo.owner.login
 				project_description = octokit_repo.description
-				project_url = "/projects/#{project_title}/"
+				project_url = "/projects/#{project_title}"
 				project_date = octokit_repo.updated_at
 			
 				# load contributor metadata

@@ -3,7 +3,7 @@
   title: TestBMN
   owner: drjingma
   description: Testing binary Markov networks
-  url: "/projects/TestBMN/"
+  url: "/projects/TestBMN"
   contributors:
   - login: drjingma
     avatar: https://avatars.githubusercontent.com/u/20731517?v=4&s=50
@@ -38,7 +38,7 @@
   title: JSEM
   owner: drjingma
   description: Joint structural estimation of multiple graphical models
-  url: "/projects/JSEM/"
+  url: "/projects/JSEM"
   contributors:
   - login: drjingma
     avatar: https://avatars.githubusercontent.com/u/20731517?v=4&s=50
@@ -73,7 +73,7 @@
   title: gmm
   owner: drjingma
   description: Clustering of high-dimensional Gaussian mixtures with the EM algorithm
-  url: "/projects/gmm/"
+  url: "/projects/gmm"
   contributors:
   - login: drjingma
     avatar: https://avatars.githubusercontent.com/u/20731517?v=4&s=50
@@ -117,7 +117,7 @@
   title: metaMint
   owner: drjingma
   description: Metabolite and microbial interaction networks
-  url: "/projects/metaMint/"
+  url: "/projects/metaMint"
   contributors:
   - login: drjingma
     avatar: https://avatars.githubusercontent.com/u/20731517?v=4&s=50
@@ -152,7 +152,7 @@
   title: netgsa
   owner: drjingma
   description: Network-based Gene Set Analysis
-  url: "/projects/netgsa/"
+  url: "/projects/netgsa"
   contributors:
   - login: mikehellstern
     avatar: https://avatars.githubusercontent.com/u/28374298?v=4&s=50
