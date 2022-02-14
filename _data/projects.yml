@@ -1,4 +1,83 @@
 ---
+- repo: drjingma/netgsa
+  title: netgsa
+  owner: drjingma
+  description: Network-based Gene Set Analysis
+  url: "/projects/netgsa"
+  contributors:
+  - login: mikehellstern
+    avatar: https://avatars.githubusercontent.com/u/28374298?v=4&s=50
+    url: https://github.com/mikehellstern
+  - login: drjingma
+    avatar: https://avatars.githubusercontent.com/u/20731517?v=4&s=50
+    url: https://github.com/drjingma
+  commits:
+  - date: 2022-02-14 00:03:56.000000000 Z
+    message: add netgsa project
+    url: https://github.com/drjingma/netgsa/commit/21857667f892c7a7081cc0cdf4987ec168ed5ca6
+    author_login: drjingma
+    author_url: https://github.com/drjingma
+  - date: 2022-02-13 23:55:00.000000000 Z
+    message: add netgsa index
+    url: https://github.com/drjingma/netgsa/commit/e49507822fee52dc60bf9b16351891fb04e81656
+    author_login: drjingma
+    author_url: https://github.com/drjingma
+  - date: 2022-01-06 17:48:18.000000000 Z
+    message: Update README
+    url: https://github.com/drjingma/netgsa/commit/b7136da8413a3f08b452255d4c43539c0b4da4eb
+    author_login: drjingma
+    author_url: https://github.com/drjingma
+  - date: 2022-01-06 17:23:19.000000000 Z
+    message: Update Readme page
+    url: https://github.com/drjingma/netgsa/commit/18cee25b1936a42317c2d9839bad39f9339f1f0a
+    author_login: drjingma
+    author_url: https://github.com/drjingma
+  - date: 2021-10-03 17:18:29.000000000 Z
+    message: Updated DS_Store
+    url: https://github.com/drjingma/netgsa/commit/090b107582bcb33f33da87bbb210e624db5f2d6c
+    author_login: mikehellstern
+    author_url: https://github.com/mikehellstern
+- repo: drjingma/gmm
+  title: gmm
+  owner: drjingma
+  description: Clustering of high-dimensional Gaussian mixtures with the EM algorithm
+  url: "/projects/gmm"
+  contributors:
+  - login: drjingma
+    avatar: https://avatars.githubusercontent.com/u/20731517?v=4&s=50
+    url: https://github.com/drjingma
+  commits:
+  - date: 2022-02-13 23:55:59.000000000 Z
+    message: add gmm index
+    url: https://github.com/drjingma/gmm/commit/79eac750f03a785023849e72ecba68c864ca1f5a
+    author_login: drjingma
+    author_url: https://github.com/drjingma
+  - date: 2022-01-06 18:12:14.000000000 Z
+    message: Update README.md
+    url: https://github.com/drjingma/gmm/commit/19ca04c792df2fc414e0bc48d6ee0a61c9f4d2a2
+    author_login: drjingma
+    author_url: https://github.com/drjingma
+  - date: 2018-11-20 20:19:12.000000000 Z
+    message: Update file name
+    url: https://github.com/drjingma/gmm/commit/44d7a6f992bf58ff07b2850d4e3c7c3bbb052348
+    author_login: drjingma
+    author_url: https://github.com/drjingma
+  - date: 2018-11-20 20:18:40.000000000 Z
+    message: |-
+      Update README.md
+
+      Update the main code
+    url: https://github.com/drjingma/gmm/commit/ea58328388687e451d9e6e25f1589b423832770c
+    author_login: drjingma
+    author_url: https://github.com/drjingma
+  - date: 2018-11-20 20:17:22.000000000 Z
+    message: |-
+      Add files via upload
+
+      Function to get the contingency table for two vectors.
+    url: https://github.com/drjingma/gmm/commit/9dfb66a0ae73e769c22a67c957e62206dd450764
+    author_login: drjingma
+    author_url: https://github.com/drjingma
 - repo: drjingma/TestBMN
   title: TestBMN
   owner: drjingma
@@ -69,50 +148,6 @@
     url: https://github.com/drjingma/JSEM/commit/d2247656545ee36ed005f8015b251b8b60ecaa4b
     author_login: drjingma
     author_url: https://github.com/drjingma
-- repo: drjingma/gmm
-  title: gmm
-  owner: drjingma
-  description: Clustering of high-dimensional Gaussian mixtures with the EM algorithm
-  url: "/projects/gmm"
-  contributors:
-  - login: drjingma
-    avatar: https://avatars.githubusercontent.com/u/20731517?v=4&s=50
-    url: https://github.com/drjingma
-  commits:
-  - date: 2022-01-06 18:12:14.000000000 Z
-    message: Update README.md
-    url: https://github.com/drjingma/gmm/commit/19ca04c792df2fc414e0bc48d6ee0a61c9f4d2a2
-    author_login: drjingma
-    author_url: https://github.com/drjingma
-  - date: 2018-11-20 20:19:12.000000000 Z
-    message: Update file name
-    url: https://github.com/drjingma/gmm/commit/44d7a6f992bf58ff07b2850d4e3c7c3bbb052348
-    author_login: drjingma
-    author_url: https://github.com/drjingma
-  - date: 2018-11-20 20:18:40.000000000 Z
-    message: |-
-      Update README.md
-
-      Update the main code
-    url: https://github.com/drjingma/gmm/commit/ea58328388687e451d9e6e25f1589b423832770c
-    author_login: drjingma
-    author_url: https://github.com/drjingma
-  - date: 2018-11-20 20:17:22.000000000 Z
-    message: |-
-      Add files via upload
-
-      Function to get the contingency table for two vectors.
-    url: https://github.com/drjingma/gmm/commit/9dfb66a0ae73e769c22a67c957e62206dd450764
-    author_login: drjingma
-    author_url: https://github.com/drjingma
-  - date: 2018-11-20 20:16:34.000000000 Z
-    message: |-
-      Add files via upload
-
-      Function to calculate the rand index of a clustering.
-    url: https://github.com/drjingma/gmm/commit/8f4d5a8702bf35381a486c13e3b9e26c7d9189f3
-    author_login: drjingma
-    author_url: https://github.com/drjingma
 - repo: drjingma/metaMint
   title: metaMint
   owner: drjingma
@@ -148,31 +183,3 @@
     url: https://github.com/drjingma/metaMint/commit/b32d6d26ae47999e82af61e4dfff6f2ed7436071
     author_login: drjingma
     author_url: https://github.com/drjingma
-- repo: drjingma/netgsa
-  title: netgsa
-  owner: drjingma
-  description: Network-based Gene Set Analysis
-  url: "/projects/netgsa"
-  contributors:
-  - login: mikehellstern
-    avatar: https://avatars.githubusercontent.com/u/28374298?v=4&s=50
-    url: https://github.com/mikehellstern
-  - login: drjingma
-    avatar: https://avatars.githubusercontent.com/u/20731517?v=4&s=50
-    url: https://github.com/drjingma
-  commits:
-  - date: 2022-01-06 17:48:18.000000000 Z
-    message: Update README
-    url: https://github.com/drjingma/netgsa/commit/b7136da8413a3f08b452255d4c43539c0b4da4eb
-    author_login: drjingma
-    author_url: https://github.com/drjingma
-  - date: 2022-01-06 17:23:19.000000000 Z
-    message: Update Readme page
-    url: https://github.com/drjingma/netgsa/commit/18cee25b1936a42317c2d9839bad39f9339f1f0a
-    author_login: drjingma
-    author_url: https://github.com/drjingma
-  - date: 2021-10-03 17:18:29.000000000 Z
-    message: Updated DS_Store
-    url: https://github.com/drjingma/netgsa/commit/090b107582bcb33f33da87bbb210e624db5f2d6c
-    author_login: mikehellstern
-    author_url: https://github.com/mikehellstern
