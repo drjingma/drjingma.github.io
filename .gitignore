@@ -1,15 +1,18 @@
-_site/*
-_theme_packages/*
+# Environment files
+environment*
+
+# Compiled site
+_site/
 
 # Projects
+projects/
+!projects/index.html
 
+# Jekyll build process
+.jekyll-cache
+.jekyll-metadata
+.sass-cache
 
-Gemfile.lock
-Thumbs.db
+# Other files
 .DS_Store
-
-!.gitkeep
-
-.rbenv-version
-.rvmrc
-.Rproj.user
+.tweet-cache
