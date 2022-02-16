@@ -1,4 +1,35 @@
-Ma Lab Website: [click to view](http://drjingma.com)
+Jing Ma's Research Website: [click to view](http://drjingma.com)
+
+# Notes from mrg
+
+## Running this on a rhino node
+
+We need two things- ruby and nodejs.  Run these commands prior to using the bundle commands:
+
+```
+ml Ruby/2.7.2-GCCcore-10.2.0 nodejs/12.19.0-GCCcore-10.2.0
+```
+
+Verify that all the dependencies are up-to-date:
+
+```
+bundle install
+```
+
+This vendors gems into `vendor/bundle`.  Then you should be able to build:
+
+```
+bundle exec jekyll build
+
+``` 
+
+Once built, serve via jekyll
+
+```
+bundle exec jekyll serve -V -P 9099 -H <ip>
+```
+
+You can get `<ip>` via the command `ip addr`
 
 # Notes from Zhenke Wu's Research Website
 
