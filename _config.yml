@@ -3,7 +3,6 @@
 # permalink: /:categories/:year/:month/:day/:title 
 permalink: /:categories/:title 
 
-exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
 highlighter: rouge
 
 #markdown: redcarpet
@@ -191,6 +190,12 @@ redcarpet:
    - strikethrough
 
 exclude:
+  - ".rvmrc"
+  - ".rbenv-version"
+  - "README.md"
+  - "Rakefile"
+  - "changelog.md"
+  - "vendor"
   - "*.branches"
   - "*.kml"
   - "*.log"
