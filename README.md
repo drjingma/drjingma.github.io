@@ -1,10 +1,37 @@
 Jing Ma's Research Website: [click to view](http://drjingma.com)
 
-# Notes from mrg
+# Deploying these Pages
 
-## Running this on a rhino node
+To deploy these pages to GitHub pages we build the full site outside of github and deploy the site using `git subtree`.  This is required to allow us to properly process the project update scripts prior to processing with Jekyll (not possible with GitHub Pages actions)
 
-We need two things- ruby and nodejs.  Run these commands prior to using the bundle commands:
+## No Jekyll
+
+To disable jekyll processing of this site, create the file `.nojekyll` in the root directory of the repo.
+
+## Set Up the Branch
+
+The repository is configured to include the `_site` directory (remove this from `.gitignore`).  This is a change from the typicall Jekyll site which ignores the `_site` directory as this contains the rendered pages.
+
+First update and build the site:
+
+```
+bundle exec ruby _scripts/update-and-preprocess.rb
+bundle exec jekyll build
+```
+
+When the build is complete, check out the `_site` directory into a new branch named `deploy`:
+
+```
+git subtree push --prefix _site origin deploy
+```
+
+## Configure GitHub
+
+Now configure GitHub Pages to deploy this branch.  In `setting/pages` for the repo, configure the source branch to `deploy` and save changes.  This will trigger a build of the site.
+
+# Configuring the Development Environment on SciComp Hosts
+
+We need two things- ruby and nodejs.  These are not typically installed on compute nodes, but are available in modules.  Run these commands prior to using the bundle commands:
 
 ```
 ml Ruby/2.7.2-GCCcore-10.2.0 nodejs/12.19.0-GCCcore-10.2.0
@@ -29,7 +56,7 @@ Once built, serve via jekyll
 bundle exec jekyll serve -V -P 9099 -H <ip>
 ```
 
-You can get `<ip>` via the command `ip addr`
+You can get `<ip>` via the command `ip addr`.  This will then be able to view the site via the URL `http://<ip>:9099`
 
 # Notes from Zhenke Wu's Research Website
 
