@@ -1,0 +1,22 @@
+# Environment files
+environment*
+
+# Compiled site
+
+# Projects
+projects/*
+!projects/.placeholder
+
+# Jekyll build process
+.jekyll-cache
+.jekyll-metadata
+.sass-cache
+vendor/*
+
+# Other files
+.DS_Store
+.tweet-cache
+.Rproj.user
+
+#
+Gemfile.lock
