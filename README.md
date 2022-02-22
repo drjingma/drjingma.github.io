@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Jing Ma's Research Website: [click to view](http://drjingma.com)
 
 # Deploying these Pages
@@ -96,3 +97,7 @@ You can get `<ip>` via the command `ip addr`.  This will then be able to view th
     - For each repo (in the folder `/_data`), the `url` should not end with `/`. For example, use `url: /projects/baker`, instead of `url: /projects/baker/`
 * navigation:
     - For example, the "papers" tab is specified in the folder "papers/". At the top, `title` is for tab name; `group` can be either `navigation` or `subnavigation` depending on whether you want to show this tab or collapse into the "More" tab; `navorder` specifies the order appearing in the navigation bar (1 for the first tab).
+=======
+# About
+This is the actual Homepage deployed.
+>>>>>>> 97a92c72ac2e9c183b993d1cb82370182a122e21
