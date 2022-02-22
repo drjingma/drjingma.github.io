@@ -1,4 +1,39 @@
 ---
+- repo: drjingma/JSEM
+  title: JSEM
+  owner: drjingma
+  description: Joint structural estimation of multiple graphical models
+  url: "/projects/JSEM"
+  contributors:
+  - login: drjingma
+    avatar: https://avatars.githubusercontent.com/u/20731517?v=4&s=50
+    url: https://github.com/drjingma
+  commits:
+  - date: 2022-02-17 18:41:48.000000000 Z
+    message: Update
+    url: https://github.com/drjingma/JSEM/commit/3a8602a65d8561b3e6744f40d41fa950d9e17ad4
+    author_login: drjingma
+    author_url: https://github.com/drjingma
+  - date: 2022-02-17 18:41:00.000000000 Z
+    message: Update
+    url: https://github.com/drjingma/JSEM/commit/4912d87eff728fafc2f88f9168af90792c214e08
+    author_login: drjingma
+    author_url: https://github.com/drjingma
+  - date: 2022-01-06 18:14:58.000000000 Z
+    message: Update README.md
+    url: https://github.com/drjingma/JSEM/commit/182d1ea4cd98a1e863e32a7d1ecab6fca835502a
+    author_login: drjingma
+    author_url: https://github.com/drjingma
+  - date: 2020-11-30 00:47:03.000000000 Z
+    message: Add instructions
+    url: https://github.com/drjingma/JSEM/commit/0399ceb6d646f6c11281edaa2a1ef88ecbf5d67f
+    author_login: drjingma
+    author_url: https://github.com/drjingma
+  - date: 2020-11-30 00:45:21.000000000 Z
+    message: Add code
+    url: https://github.com/drjingma/JSEM/commit/f45651451795473e438c941281fb8b4d2f89697f
+    author_login: drjingma
+    author_url: https://github.com/drjingma
 - repo: drjingma/netgsa
   title: netgsa
   owner: drjingma
@@ -111,41 +146,6 @@
   - date: 2018-03-06 22:59:06.000000000 Z
     message: update bib
     url: https://github.com/drjingma/TestBMN/commit/cf7a4a8e36e21a6e2689d06ff9236a26921f9b0b
-    author_login: drjingma
-    author_url: https://github.com/drjingma
-- repo: drjingma/JSEM
-  title: JSEM
-  owner: drjingma
-  description: Joint structural estimation of multiple graphical models
-  url: "/projects/JSEM"
-  contributors:
-  - login: drjingma
-    avatar: https://avatars.githubusercontent.com/u/20731517?v=4&s=50
-    url: https://github.com/drjingma
-  commits:
-  - date: 2022-01-06 18:14:58.000000000 Z
-    message: Update README.md
-    url: https://github.com/drjingma/JSEM/commit/182d1ea4cd98a1e863e32a7d1ecab6fca835502a
-    author_login: drjingma
-    author_url: https://github.com/drjingma
-  - date: 2020-11-30 00:47:03.000000000 Z
-    message: Add instructions
-    url: https://github.com/drjingma/JSEM/commit/0399ceb6d646f6c11281edaa2a1ef88ecbf5d67f
-    author_login: drjingma
-    author_url: https://github.com/drjingma
-  - date: 2020-11-30 00:45:21.000000000 Z
-    message: Add code
-    url: https://github.com/drjingma/JSEM/commit/f45651451795473e438c941281fb8b4d2f89697f
-    author_login: drjingma
-    author_url: https://github.com/drjingma
-  - date: 2020-11-30 00:44:11.000000000 Z
-    message: Update README.md
-    url: https://github.com/drjingma/JSEM/commit/35739ffbd8d52dfa302e4fc1dda259c6d234a2ee
-    author_login: drjingma
-    author_url: https://github.com/drjingma
-  - date: 2020-11-30 00:43:54.000000000 Z
-    message: Update README.md
-    url: https://github.com/drjingma/JSEM/commit/d2247656545ee36ed005f8015b251b8b60ecaa4b
     author_login: drjingma
     author_url: https://github.com/drjingma
 - repo: drjingma/metaMint
