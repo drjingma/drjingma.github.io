@@ -29,7 +29,7 @@ git subtree push --prefix _site origin deploy
 
 Now configure GitHub Pages to deploy this branch.  In `setting/pages` for the repo, configure the source branch to `deploy` and save changes.  This will trigger a build of the site.
 
-It is import to reveal the changes by creating a pull request and merge conflicts before the website can be displayed correctly. 
+It is import to review the changes by creating a pull request and merge conflicts before the website can be displayed correctly. 
 
 # Configuring the Development Environment on SciComp Hosts
 
