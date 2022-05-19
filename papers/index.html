@@ -1,41 +1,8 @@
-<<<<<<< HEAD
----
-layout: default
-title: "papers"
-description: "Research papers from the lab"
-group: navigation
-navorder: 1
----
-
-{% for paper in site.categories.papers %}
-{% capture prev_year %}{{ this_year }}{% endcapture %}
-{% capture this_year %}{{ paper.year }}{% endcapture %}
-
-
-{% if forloop.first %}
-    {% assign counter = 0 %}
-<div class="row">
-    <div class="col-md-12">
-      <h2>{{ this_year }}</h2>
-<hr style="height:1px;border:none;color:#808088;background-color:#808088;" />    </div>
-</div>
-<div class="row">
-  {% elsif this_year != prev_year and this_year > "2017" %}
-    {% assign counter = 0 %}
-</div>
-<div class="row">
-    <div class="col-md-12">
-      {% if this_year != "2018" %}
-      <h2>{{ this_year }}</h2>
-      {% else %}
-      <h2>2018 and earlier</h2>
-      {% endif %}
-=======
 
 <!DOCTYPE html>
 <html lang="en">
   <head>
-	<link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Jing Ma, PhD" />
+	<link type="application/atom+xml" rel="alternate" href="http://drjingma.com/feed.xml" title="Jing Ma, PhD" />
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
@@ -163,22 +130,6 @@ navorder: 1
     
   
     
-      
-    
-  
-    
-  
-    
-      
-    
-  
-    
-  
-    
-  
-    
-      
-    
   
     
   
@@ -230,20 +181,6 @@ navorder: 1
   
     
       
-    
-  
-    
-      
-    
-  
-    
-      
-    
-  
-    
-  
-    
-  
     
   
     
@@ -326,22 +263,6 @@ navorder: 1
     
   
     
-      
-    
-  
-    
-  
-    
-      
-    
-  
-    
-  
-    
-  
-    
-      
-    
   
     
   
@@ -393,20 +314,6 @@ navorder: 1
   
     
       
-    
-  
-    
-      
-    
-  
-    
-      
-    
-  
-    
-  
-    
-  
     
   
     
@@ -498,32 +405,12 @@ navorder: 1
       
       <h2>2021</h2>
       
->>>>>>> deploy
       <hr style="height:1px;border:none;color:#808088;background-color:#808088;" />
 
     </div>
 </div>
 
 <div class="row">
-<<<<<<< HEAD
-  {% else %}
-    {% assign counter = counter | plus: 1 %}
-    {% assign mod = counter | modulo: 3 %}
-    {% if mod == 0 %}
-</div>
-
-<div class="row">
-    {% endif %}
-  {% endif %}
-  <div class="col-lg-4 paperbox">
-    		<div class="media">
-  				<a class="pull-right" href="{{ paper.url }}">
-    				<img width=100 class="media-object" src="{{ paper.image }}">
-  				</a>
- 			 	  <div class="media-body">
-    				<div class="smallhead media-heading"><a href="{{ paper.url }}" class="off">{{ paper.title }}</a></div>
-    				<p class="note">{{ paper.shortref }}</p>
-=======
   
   <div class="col-lg-4 paperbox">
     		<div class="media">
@@ -533,32 +420,20 @@ navorder: 1
  			 	  <div class="media-body">
     				<div class="smallhead media-heading"><a href="/papers/diffVAR" class="off">Direct estimation of differential Granger causality between two high-dimensional time series</a></div>
     				<p class="note">Wang et al. (2021). arXiv.</p>
->>>>>>> deploy
   			  </div>
 			   </div>
   <!--  <div class="media">
       <div class="media-body">
-<<<<<<< HEAD
-        <div class="smallhead mb-1"><a href="{{ paper.url }}" class="off">{{ paper.title }}</a></div>
-        <p class="note">{{ paper.ref }}</p>
-      </div>
-      <a href="{{ paper.url }}">
-        <img class="ml-3" width=100 class="media-object" src="{{ paper.image }}">
-=======
         <div class="smallhead mb-1"><a href="/papers/diffVAR" class="off">Direct estimation of differential Granger causality between two high-dimensional time series</a></div>
         <p class="note"></p>
       </div>
       <a href="/papers/diffVAR">
         <img class="ml-3" width=100 class="media-object" src="/assets/images/papers/diffVAR1.png">
->>>>>>> deploy
       </a>
     </div> -->
     <div class="bigspacer"></div>
     <div class="spacer"></div>
   </div>
-<<<<<<< HEAD
-{% endfor %}
-=======
 
 
 
@@ -1082,7 +957,6 @@ navorder: 1
     <div class="spacer"></div>
   </div>
 
->>>>>>> deploy
 </div>
   
 
@@ -1093,19 +967,6 @@ navorder: 1
 <div class="bigspacer"></div>
 <div class="container">
     <div class="bigspacer"></div>
-<<<<<<< HEAD
-    {% for paper in site.categories.papers %}
-    {% if paper.type == "preprint"%}
-      {% cycle 'add rows': '<div class="row">', '', '' %}
-	   	<div class="col-md-4 paperbox">
-			   <div class="media">
-  				<a class="pull-right" href="{{ paper.url }}">
-    				<img width=100 class="media-object" src="{{ paper.image }}">
-  				</a>
- 			 	  <div class="media-body">
-    				<div class="smallhead media-heading"><a href="{{ paper.url }}" class="off">{{ paper.title }}</a></div>
-    				<p class="note">{{ paper.shortref }}</p>
-=======
     
     
     
@@ -1119,18 +980,11 @@ navorder: 1
  			 	  <div class="media-body">
     				<div class="smallhead media-heading"><a href="/papers/diffVAR" class="off">Direct estimation of differential Granger causality between two high-dimensional time series</a></div>
     				<p class="note">Wang et al. (2021). arXiv.</p>
->>>>>>> deploy
   			  </div>
 			   </div>
 		  	<div class="bigspacer"></div>
 			  <div class="spacer"></div>
       </div>
-<<<<<<< HEAD
-      {% cycle 'close rows': '', '', '</div>' %}
-    {% endif %}
-    {% endfor %}
-{% cycle 'close rows': '', '</div><div class="bigspacer"></div>', '</div><div class="bigspacer"></div>' %}
-=======
       
     
     
@@ -1181,7 +1035,6 @@ navorder: 1
     
     
 </div><div class="bigspacer"></div>
->>>>>>> deploy
 </div>
 <hr/>
 
@@ -1189,19 +1042,6 @@ navorder: 1
 <div class="bigspacer"></div>
 <div class="container">
     <div class="bigspacer"></div>
-<<<<<<< HEAD
-    {% for paper in site.categories.papers %}
-    {% if paper.type == "twentytwentyone"%}
-       {% cycle 'add rows2': '<div class="row">', '', '' %}
-        <div class="col-md-4 paperbox">
-            <div class="media">
-                <a class="pull-right" href="{{ paper.url }}">
-                    <img width=100 class="media-object" src="{{ paper.image }}">
-                        </a>
-                <div class="media-body">
-                    <div class="smallhead media-heading"><a href="{{ paper.url }}" class="off">{{ paper.title }}</a></div>
-                    <p class="note">{{ paper.shortref }}</p>
-=======
     
     
     
@@ -1217,18 +1057,11 @@ navorder: 1
                 <div class="media-body">
                     <div class="smallhead media-heading"><a href="/papers/netgsa" class="off">netgsa Fast computation and interactive visualization for topology-based pathway enrichment analysis</a></div>
                     <p class="note">Hellstern et al. (2021). PLoS Comp Bio.</p>
->>>>>>> deploy
                 </div>
             </div>
             <div class="bigspacer"></div>
             <div class="spacer"></div>
         </div>
-<<<<<<< HEAD
-      {% cycle 'close rows2': '', '', '</div>' %}
-    {% endif %}
-    {% endfor %}
-{% cycle 'close rows2': '', '</div><div class="bigspacer"></div>', '</div><div class="bigspacer"></div>' %}
-=======
       
     
     
@@ -1293,7 +1126,6 @@ navorder: 1
     
     
 
->>>>>>> deploy
 </div>
 <hr/>
 
@@ -1301,19 +1133,6 @@ navorder: 1
 <div class="bigspacer"></div>
 <div class="container">
    <div class="bigspacer"></div>
-<<<<<<< HEAD
-   {% for paper in site.categories.papers %}
-   {% if paper.type == "twentytwenty"%}
-      {% cycle 'add rows4': '<div class="row">', '', '' %}
-		  <div class="col-md-4 paperbox">
-			   <div class="media">
-  			  	<a class="pull-right" href="{{ paper.url }}">
-    				   <img width=100 class="media-object" src="{{ paper.image }}">
-  				  </a>
- 			 	 <div class="media-body">
-    				<div class="smallhead media-heading"><a href="{{ paper.url }}" class="off">{{ paper.title }}</a></div>
-    				<p class="note">{{ paper.shortref }}</p>
-=======
    
    
    
@@ -1337,18 +1156,11 @@ navorder: 1
  			 	 <div class="media-body">
     				<div class="smallhead media-heading"><a href="/papers/metamint" class="off">Joint microbial and metabolite network estimation with the censored Gaussian graphical model</a></div>
     				<p class="note">Ma. (2020). Statistics in Biosciences.</p>
->>>>>>> deploy
   			 </div>
 		  	</div>
 			  <div class="bigspacer"></div>
 			  <div class="spacer"></div>
       </div>
-<<<<<<< HEAD
-      {% cycle 'close rows4': '', '', '</div>' %}
-   {% endif %}
-   {% endfor %}
-{% cycle 'close rows4': '', '</div><div class="bigspacer"></div>', '</div><div class="bigspacer"></div>' %}
-=======
       
    
    
@@ -1389,7 +1201,6 @@ navorder: 1
    
    
 </div><div class="bigspacer"></div>
->>>>>>> deploy
 </div>
 <hr/>
 
@@ -1397,28 +1208,6 @@ navorder: 1
 <div class="bigspacer"></div>
 <div class="container">
     <div class="bigspacer"></div>
-<<<<<<< HEAD
-    {% for paper in site.categories.papers %}
-    {% if paper.type == "twentynineteen"%}
-       {% cycle 'add rows3': '<div class="row">', '', '' %}
-        <div class="col-md-4 paperbox">
-            <div class="media">
-                <a class="pull-right" href="{{ paper.url }}">
-                    <img width=100 class="media-object" src="{{ paper.image }}">
-                        </a>
-                <div class="media-body">
-                    <div class="smallhead media-heading"><a href="{{ paper.url }}" class="off">{{ paper.title }}</a></div>
-                    <p class="note">{{ paper.shortref }}</p>
-                </div>
-            </div>
-            <div class="bigspacer"></div>
-            <div class="spacer"></div>
-        </div>
-      {% cycle 'close rows3': '', '', '</div>' %}
-    {% endif %}
-    {% endfor %}
-{% cycle 'close rows3': '', '</div><div class="bigspacer"></div>', '</div><div class="bigspacer"></div>' %}
-=======
     
     
     
@@ -1455,7 +1244,6 @@ navorder: 1
     
     
 
->>>>>>> deploy
 </div>
 <hr/>
 
@@ -1463,19 +1251,6 @@ navorder: 1
 <div class="bigspacer"></div>
 <div class="container">
     <div class="bigspacer"></div>
-<<<<<<< HEAD
-    {% for paper in site.categories.papers %}
-    {% if paper.type == "twentyeighteen"%}
-       {% cycle 'add rows2': '<div class="row">', '', '' %}
-        <div class="col-md-4 paperbox">
-            <div class="media">
-                <a class="pull-right" href="{{ paper.url }}">
-                    <img width=100 class="media-object" src="{{ paper.image }}">
-                        </a>
-                <div class="media-body">
-                    <div class="smallhead media-heading"><a href="{{ paper.url }}" class="off">{{ paper.title }}</a></div>
-                    <p class="note">{{ paper.shortref }}</p>
-=======
     
     
     
@@ -1513,18 +1288,11 @@ navorder: 1
                 <div class="media-body">
                     <div class="smallhead media-heading"><a href="/papers/handbook-gm" class="off">Graphical models in genetics, genomics and metagenomics</a></div>
                     <p class="note">Li and Ma (2018). Handbook of Graphical Models.</p>
->>>>>>> deploy
                 </div>
             </div>
             <div class="bigspacer"></div>
             <div class="spacer"></div>
         </div>
-<<<<<<< HEAD
-      {% cycle 'close rows2': '', '', '</div>' %}
-    {% endif %}
-    {% endfor %}
-{% cycle 'close rows2': '', '</div><div class="bigspacer"></div>', '</div><div class="bigspacer"></div>' %}
-=======
       
     
     
@@ -1583,7 +1351,6 @@ navorder: 1
     
     
 </div><div class="bigspacer"></div>
->>>>>>> deploy
 </div>
 
 <div class="bigspacer"></div>
@@ -1592,8 +1359,6 @@ navorder: 1
 
 <!-- Infinite scroll -->	
 <script async src="/js/infinite-scroll.js"></script>
-<<<<<<< HEAD
-=======
 
    </div>
 
@@ -1654,4 +1419,3 @@ navorder: 1
 </html>
 
 
->>>>>>> deploy
