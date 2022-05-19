@@ -1,8 +1,24 @@
+<<<<<<< HEAD
+---
+layout: default
+title: Jing Ma / about
+categories:
+ - home
+---
+{% include JB/setup %}
+{% for page in site.categories.misc %}
+{% if page.about %}
+	{% assign aboutpage = page %}
+{% endif %}
+{% endfor %}
+
+{{ aboutpage.content }}
+=======
 
 <!DOCTYPE html>
 <html lang="en">
   <head>
-	<link type="application/atom+xml" rel="alternate" href="http://drjingma.com/feed.xml" title="Jing Ma, PhD" />
+	<link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Jing Ma, PhD" />
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
@@ -512,3 +528,4 @@ Work Phone: 206.667.2897
 </html>
 
 
+>>>>>>> deploy

@@ -1,3 +1,19 @@
+<<<<<<< HEAD
+---
+layout: default
+title: Jing Ma / about
+categories:
+ - home
+---
+{% include JB/setup %}
+{% for page in site.categories.misc %}
+{% if page.about %}
+	{% assign aboutpage = page %}
+{% endif %}
+{% endfor %}
+
+{{ aboutpage.content }}
+=======
 
 <!DOCTYPE html>
 <html lang="en">
@@ -512,3 +528,4 @@ Work Phone: 206.667.2897
 </html>
 
 
+>>>>>>> deploy

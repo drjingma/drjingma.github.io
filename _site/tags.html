@@ -1,8 +1,31 @@
+<<<<<<< HEAD
+---
+layout: page
+title: Tags
+header: Posts By Tag
+group: 
+---
+{% include JB/setup %}
+
+<ul class="tag_box inline">
+  {% assign tags_list = site.tags %}  
+  {% include JB/tags_list %}
+</ul>
+
+
+{% for tag in site.tags %} 
+  <h2 id="{{ tag[0] }}-ref">{{ tag[0] }}</h2>
+  <ul>
+    {% assign pages_list = tag[1] %}  
+    {% include JB/pages_list %}
+  </ul>
+{% endfor %}
+=======
 
 <!DOCTYPE html>
 <html lang="en">
   <head>
-	<link type="application/atom+xml" rel="alternate" href="http://drjingma.com/feed.xml" title="Jing Ma, PhD" />
+	<link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Jing Ma, PhD" />
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
@@ -676,3 +699,4 @@
 </html>
 
 
+>>>>>>> deploy

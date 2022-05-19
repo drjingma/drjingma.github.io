@@ -1,8 +1,20 @@
+<<<<<<< HEAD
+---
+layout: default
+title: "projects"
+description: "Research projects from the lab"
+navtab: "projects"
+group: navigation
+navorder: 2
+---
+
+{% include JB/setup %}
+=======
 
 <!DOCTYPE html>
 <html lang="en">
   <head>
-	<link type="application/atom+xml" rel="alternate" href="http://drjingma.com/feed.xml" title="Jing Ma, PhD" />
+	<link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Jing Ma, PhD" />
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
@@ -417,13 +429,68 @@
    <!-- Content -->
    <div class="container">
       
+>>>>>>> deploy
 
 <div class="bigspacer"></div>
 
 <div class="container">
+<<<<<<< HEAD
+{% for project in site.data.projects %}
+
+    {% cycle 'add rows': '<div class="row">', '', '' %}
+		<div class="col-md-4 projectbox">
+			<div class="head">
+				<a href="{{ project.url }}" class="off">{{ project.title }}</a>
+			</div>	
+			<div class="smallspacer"></div>
+			<div class="note">
+				<a href="{{ project.url }}" class="off">{{ project.description }}</a>
+=======
 
 
     <div class="row">
+		<div class="col-md-4 projectbox">
+			<div class="head">
+				<a href="/projects/JSEM" class="off">JSEM</a>
+			</div>	
+			<div class="smallspacer"></div>
+			<div class="note">
+				<a href="/projects/JSEM" class="off">Joint structural estimation of multiple graphical models</a>
+>>>>>>> deploy
+			</div>
+			<div class="smallspacer"></div>
+			 <div class="smallnote">
+				Updated
+<<<<<<< HEAD
+				<a class="off" href="{{ project.commits.first.url }}">
+				{{ project.commits.first.date | date_to_string }}
+				</a>
+				by
+				<a class="off" href="{{ project.commits.first.author_url }}">				
+				{{ project.commits.first.author_login }}
+=======
+				<a class="off" href="https://github.com/drjingma/JSEM/commit/3a8602a65d8561b3e6744f40d41fa950d9e17ad4">
+				17 Feb 2022
+				</a>
+				by
+				<a class="off" href="https://github.com/drjingma">				
+				drjingma
+>>>>>>> deploy
+				</a>
+			</div> 
+			<div class="bigspacer"></div>
+			<div class="spacer"></div>
+		</div>
+<<<<<<< HEAD
+    {% cycle 'close rows': '', '', '</div>' %}
+{% endfor %}
+{% cycle 'close rows': '', '</div>', '</div>' %}	
+</div>
+=======
+    
+
+
+    
 		<div class="col-md-4 projectbox">
 			<div class="head">
 				<a href="/projects/netgsa" class="off">netgsa</a>
@@ -435,34 +502,8 @@
 			<div class="smallspacer"></div>
 			 <div class="smallnote">
 				Updated
-				<a class="off" href="https://github.com/drjingma/netgsa/commit/db6bba8c38eee36dee9242ca53e8dc8c288bfb30">
-				22 Feb 2022
-				</a>
-				by
-				<a class="off" href="https://github.com/drjingma">				
-				drjingma
-				</a>
-			</div> 
-			<div class="bigspacer"></div>
-			<div class="spacer"></div>
-		</div>
-    
-
-
-    
-		<div class="col-md-4 projectbox">
-			<div class="head">
-				<a href="/projects/JSEM" class="off">JSEM</a>
-			</div>	
-			<div class="smallspacer"></div>
-			<div class="note">
-				<a href="/projects/JSEM" class="off">Joint structural estimation of multiple graphical models</a>
-			</div>
-			<div class="smallspacer"></div>
-			 <div class="smallnote">
-				Updated
-				<a class="off" href="https://github.com/drjingma/JSEM/commit/3a8602a65d8561b3e6744f40d41fa950d9e17ad4">
-				17 Feb 2022
+				<a class="off" href="https://github.com/drjingma/netgsa/commit/21857667f892c7a7081cc0cdf4987ec168ed5ca6">
+				13 Feb 2022
 				</a>
 				by
 				<a class="off" href="https://github.com/drjingma">				
@@ -613,3 +654,4 @@
 </html>
 
 
+>>>>>>> deploy

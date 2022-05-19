@@ -1,10 +1,40 @@
+<<<<<<< HEAD
+---
+layout: null
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>{{ site.name | xml_escape }}</title>
+    <description>{{ site.description | xml_escape }}</description>
+    <link>{{ site.url }}</link>
+    <atom:link href="{{ site.url }}/feed.xml" rel="self" type="application/rss+xml" />
+    {% for post in site.categories.blog limit:25 %}
+      <item>
+        <title>{{ post.title | xml_escape }}</title>
+        <description>{{ post.content | xml_escape }}</description>
+        <pubDate>{{ post.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
+        <link>{{ site.url }}{{ post.url }}</link>
+        <guid isPermaLink="true">{{ site.url }}{{ post.url }}</guid>
+      </item>
+    {% endfor %}
+        {% for post in site.categories.news limit:25 %}
+      <item>
+        <title>{{ post.title | xml_escape }}</title>
+        <description>{{ post.content | xml_escape }}</description>
+        <pubDate>{{ post.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
+        <link>{{ site.url }}{{ post.url }}</link>
+        <guid isPermaLink="true">{{ site.url }}{{ post.url }}</guid>
+      </item>
+    {% endfor %}
+=======
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Jing Ma, PhD</title>
     <description>Statistical Machine Learning for the Microbiome</description>
-    <link>http://drjingma.com</link>
-    <atom:link href="http://drjingma.com/feed.xml" rel="self" type="application/rss+xml" />
+    <link>http://localhost:4000</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
         <title>Talk by R. A. Fisher (1947)</title>
@@ -16,8 +46,8 @@
 
 </description>
         <pubDate>Sun, 26 Aug 2018 00:00:00 -0700</pubDate>
-        <link>http://drjingma.com/blog/fisher</link>
-        <guid isPermaLink="true">http://drjingma.com/blog/fisher</guid>
+        <link>http://localhost:4000/blog/fisher</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/fisher</guid>
       </item>
     
       <item>
@@ -62,8 +92,8 @@ by Albert Einstein&lt;br /&gt;&lt;/p&gt;
 
 </description>
         <pubDate>Fri, 10 Nov 2017 00:00:00 -0800</pubDate>
-        <link>http://drjingma.com/blog/whatibelieve</link>
-        <guid isPermaLink="true">http://drjingma.com/blog/whatibelieve</guid>
+        <link>http://localhost:4000/blog/whatibelieve</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/whatibelieve</guid>
       </item>
     
         
@@ -74,8 +104,8 @@ by Albert Einstein&lt;br /&gt;&lt;/p&gt;
 &lt;p&gt;Her paper “REHE: Fast Variance Components Estimation for Linear Mixed Models” proposes a new method for estimating the variance components in linear mixed models.&lt;/p&gt;
 </description>
         <pubDate>Wed, 28 Jul 2021 00:00:00 -0700</pubDate>
-        <link>http://drjingma.com/news/WNAR</link>
-        <guid isPermaLink="true">http://drjingma.com/news/WNAR</guid>
+        <link>http://localhost:4000/news/WNAR</link>
+        <guid isPermaLink="true">http://localhost:4000/news/WNAR</guid>
       </item>
     
       <item>
@@ -85,8 +115,8 @@ by Albert Einstein&lt;br /&gt;&lt;/p&gt;
 &lt;p&gt;This project is in collaboration with on Dr. &lt;a href=&quot;https://www.fredhutch.org/en/faculty-lab-directory/phipps-amanda.html&quot;&gt;Amanda Phipps&lt;/a&gt; (associate professor of epidemiology, University of Washington, and associate professor in the Public Health Sciences Division), Dr. &lt;a href=&quot;https://www.fredhutch.org/en/research/divisions/vaccine-infectious-disease-division/faculty-labs/vidd-staff-scientists-physicians/minot-samuel.html&quot;&gt;Sam Minot&lt;/a&gt; (associate director of data science applications, Hutch Data Core) and Dr. &lt;a href=&quot;https://www.fredhutch.org/en/faculty-lab-directory/dey-neelendu.html&quot;&gt;Neelendu Dey&lt;/a&gt; (assistant professor in the Clinical Research Division).&lt;/p&gt;
 </description>
         <pubDate>Fri, 02 Jul 2021 00:00:00 -0700</pubDate>
-        <link>http://drjingma.com/news/mri-pilot</link>
-        <guid isPermaLink="true">http://drjingma.com/news/mri-pilot</guid>
+        <link>http://localhost:4000/news/mri-pilot</link>
+        <guid isPermaLink="true">http://localhost:4000/news/mri-pilot</guid>
       </item>
     
       <item>
@@ -94,8 +124,8 @@ by Albert Einstein&lt;br /&gt;&lt;/p&gt;
         <description>&lt;p&gt;&lt;a href=&quot;https://www.linkedin.com/in/iliasmoysidis/&quot;&gt;Ilias Moysidis&lt;/a&gt; obtained his Ph.D. in Statistics from Penn State University in 2021. Welcome, Ilias!&lt;/p&gt;
 </description>
         <pubDate>Mon, 21 Jun 2021 00:00:00 -0700</pubDate>
-        <link>http://drjingma.com/news/moysidis</link>
-        <guid isPermaLink="true">http://drjingma.com/news/moysidis</guid>
+        <link>http://localhost:4000/news/moysidis</link>
+        <guid isPermaLink="true">http://localhost:4000/news/moysidis</guid>
       </item>
     
       <item>
@@ -103,8 +133,8 @@ by Albert Einstein&lt;br /&gt;&lt;/p&gt;
         <description>&lt;p&gt;Congratulations, &lt;a href=&quot;https://taryue.github.io/&quot;&gt;Yue&lt;/a&gt;! Yue has done amazing work in dimensionality reduction of structured microbiome data and high-dimensional inference. Check out his paper &lt;a href=&quot;/papers/GMDbiplot&quot;&gt;here&lt;/a&gt; and &lt;a href=&quot;/papers/GMDR&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
 </description>
         <pubDate>Sat, 15 Aug 2020 00:00:00 -0700</pubDate>
-        <link>http://drjingma.com/news/wang</link>
-        <guid isPermaLink="true">http://drjingma.com/news/wang</guid>
+        <link>http://localhost:4000/news/wang</link>
+        <guid isPermaLink="true">http://localhost:4000/news/wang</guid>
       </item>
     
       <item>
@@ -112,8 +142,8 @@ by Albert Einstein&lt;br /&gt;&lt;/p&gt;
         <description>&lt;p&gt;We are looking for dogs for the largest-ever study of aging in canines! You can find out more about the Dog Aging Project &lt;a href=&quot;https://dogagingproject.org/&quot;&gt;here&lt;/a&gt; or from &lt;a href=&quot;https://www.nytimes.com/aponline/2019/11/14/health/ap-us-med-aging-dogs-study.html&quot;&gt;this article&lt;/a&gt; in New York Times.&lt;/p&gt;
 </description>
         <pubDate>Wed, 20 Nov 2019 00:00:00 -0800</pubDate>
-        <link>http://drjingma.com/news/DAP</link>
-        <guid isPermaLink="true">http://drjingma.com/news/DAP</guid>
+        <link>http://localhost:4000/news/DAP</link>
+        <guid isPermaLink="true">http://localhost:4000/news/DAP</guid>
       </item>
     
       <item>
@@ -121,8 +151,8 @@ by Albert Einstein&lt;br /&gt;&lt;/p&gt;
         <description>&lt;p&gt;I will be visiting &lt;a href=&quot;https://www.stat.tamu.edu/&quot;&gt;Department of Statistics&lt;/a&gt; at Texas A&amp;amp;M University as Assistant Professor, during the academic year 2019-2020.&lt;/p&gt;
 </description>
         <pubDate>Mon, 05 Aug 2019 00:00:00 -0700</pubDate>
-        <link>http://drjingma.com/news/new-position</link>
-        <guid isPermaLink="true">http://drjingma.com/news/new-position</guid>
+        <link>http://localhost:4000/news/new-position</link>
+        <guid isPermaLink="true">http://localhost:4000/news/new-position</guid>
       </item>
     
       <item>
@@ -131,8 +161,8 @@ by Albert Einstein&lt;br /&gt;&lt;/p&gt;
 
 </description>
         <pubDate>Mon, 20 May 2019 00:00:00 -0700</pubDate>
-        <link>http://drjingma.com/news/fhcrc</link>
-        <guid isPermaLink="true">http://drjingma.com/news/fhcrc</guid>
+        <link>http://localhost:4000/news/fhcrc</link>
+        <guid isPermaLink="true">http://localhost:4000/news/fhcrc</guid>
       </item>
     
       <item>
@@ -141,8 +171,8 @@ by Albert Einstein&lt;br /&gt;&lt;/p&gt;
 
 </description>
         <pubDate>Wed, 25 Jul 2018 00:00:00 -0700</pubDate>
-        <link>http://drjingma.com/news/bd2k</link>
-        <guid isPermaLink="true">http://drjingma.com/news/bd2k</guid>
+        <link>http://localhost:4000/news/bd2k</link>
+        <guid isPermaLink="true">http://localhost:4000/news/bd2k</guid>
       </item>
     
       <item>
@@ -179,8 +209,8 @@ by Albert Einstein&lt;br /&gt;&lt;/p&gt;
 
 </description>
         <pubDate>Fri, 16 Feb 2018 00:00:00 -0800</pubDate>
-        <link>http://drjingma.com/news/postdoc</link>
-        <guid isPermaLink="true">http://drjingma.com/news/postdoc</guid>
+        <link>http://localhost:4000/news/postdoc</link>
+        <guid isPermaLink="true">http://localhost:4000/news/postdoc</guid>
       </item>
     
       <item>
@@ -194,8 +224,8 @@ by Albert Einstein&lt;br /&gt;&lt;/p&gt;
 &lt;/ul&gt;
 </description>
         <pubDate>Wed, 25 Oct 2017 00:00:00 -0700</pubDate>
-        <link>http://drjingma.com/news/symposium</link>
-        <guid isPermaLink="true">http://drjingma.com/news/symposium</guid>
+        <link>http://localhost:4000/news/symposium</link>
+        <guid isPermaLink="true">http://localhost:4000/news/symposium</guid>
       </item>
     
       <item>
@@ -203,9 +233,10 @@ by Albert Einstein&lt;br /&gt;&lt;/p&gt;
         <description>&lt;p&gt;Jing will join &lt;a href=&quot;http://www.fredhutch.org/en/labs/phs.html&quot;&gt;Biostatistics within Division of Public Health Sciences &lt;/a&gt; as Assistant Professor, starting from August 1st, 2017.&lt;/p&gt;
 </description>
         <pubDate>Wed, 05 Jul 2017 00:00:00 -0700</pubDate>
-        <link>http://drjingma.com/news/new_position</link>
-        <guid isPermaLink="true">http://drjingma.com/news/new_position</guid>
+        <link>http://localhost:4000/news/new_position</link>
+        <guid isPermaLink="true">http://localhost:4000/news/new_position</guid>
       </item>
     
+>>>>>>> deploy
   </channel>
 </rss>

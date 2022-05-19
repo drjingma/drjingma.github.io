@@ -1,3 +1,15 @@
+<<<<<<< HEAD
+---
+layout: default
+title: "blog"
+description: ""
+navtab: "blog"
+group: navigation
+navorder: 6
+---
+
+<div class="row">
+=======
 
 <!DOCTYPE html>
 <html lang="en">
@@ -417,6 +429,7 @@
    <!-- Content -->
    <div class="container">
       <div class="row">
+>>>>>>> deploy
 	<div class="col-md-12">
 		<div class="centered-pills">
 			<ul class="nav nav-pills note">
@@ -438,9 +451,19 @@
 
 <div class="post-list">
 
+<<<<<<< HEAD
+{% for post in site.categories.blog limit: 8 %}
+
+	{% for member in site.categories.team %}
+		{% if member.title == post.author %}
+			{% assign author = member %}
+		{% endif %}
+	{% endfor %}
+=======
 
 
 	
+>>>>>>> deploy
 
 	<div class="blog-post">
 		<div class="row">
@@ -449,6 +472,16 @@
 				<div class="media">
 					<div class="media-body">
 						<div class="title media-heading">
+<<<<<<< HEAD
+							<a href="{{ post.url }}" class="off">{{ post.title }}</a>
+						</div>
+						<p>
+						<div class="smallhead">
+							{{ post.date | date: "%-d %b %Y" }}
+							{% if author %}
+							by <a class="off" href="{{ author.url }}">{{ author.handle }}</a>
+							{% endif %}		
+=======
 							<a href="/blog/fisher" class="off">Talk by R. A. Fisher (1947)</a>
 						</div>
 						<p>
@@ -457,6 +490,7 @@
 							
 							by <a class="off" href="/team/jingma">Jing Ma</a>
 									
+>>>>>>> deploy
 						</div>
 					</div>
 				</div>
@@ -469,6 +503,19 @@
 		<div class="row">
 			<div class="col-md-1"></div>
 			<div class="col-md-10">	
+<<<<<<< HEAD
+				{% if post.image %}
+				{% if post.link %}
+				<a href="{{ post.link }}">
+					<img class="offset" src="{{ post.image }}">
+				</a>			
+				{% else %}
+				<img class="offset" src="{{ post.image }}">
+				{% endif %}				
+				{% endif %}
+				<div class="post">
+					{{ post.content }}
+=======
 				
 				<div class="post">
 					<p>The following was an excerpt from the book “The Lady Tasting Tea”, originally from Fisher’s talk on the nature of science and scientific investigation with the BBC radio network. These words partly refer to Fisher’s experience with the then preeminent journal <i>Biometrika</i>, which was edited by Karl Pearson. Fisher’s important mathematical proof of the statistical distribution of Galton’s correlation coefficient was merely published as a footnote to a larger paper in which Pearson and his assistant displayed tables of the distribution under selected parameter values. Fisher never published another paper in <i>Biometrika</i>.</p>
@@ -478,6 +525,7 @@
 <p>“A scientifi career is peculiar in some ways. Its raison d’etre is the increase of natural knowledge. Occasionally, therefore, an increase of natural knowledge occurs. But this is tactless, and feelings are hurt. For in some small degree it is inevitable that views previously expounded are shown to be either obsolete or false. Most people, I think, can recognize this and take it in good part if what they have been teaching for ten years or so comes to need a little revision; but some undoubtedly take it hard, as a blow to their amour propre, or even as an invasion of the territory they have come to think of as exclusively their own, and they must react with the same ferocity as we can see in the robins and chaffinches these spring days when they resent an intrusion into their little territories. I do not think anything can be done about it. It is inherent in the nature of our profession; but a young scientist may be warned and advised that when he has a jewel to offer for the enrichment of mankind some certainly will wish to turn and rend them.”</p>
 
 
+>>>>>>> deploy
 				</div>	
 			</div>			
 			<div class="col-md-1"></div>
@@ -488,6 +536,9 @@
 
 	</div>
 
+<<<<<<< HEAD
+{% endfor %}
+=======
 
 
 	
@@ -571,6 +622,7 @@ by Albert Einstein<br /></p>
 	</div>
 
 
+>>>>>>> deploy
 
 </div>
 
@@ -592,6 +644,8 @@ by Albert Einstein<br /></p>
 
 <!-- Infinite scroll -->	
 <script async src="/js/infinite-scroll.js"></script>
+<<<<<<< HEAD
+=======
 
    </div>
 
@@ -652,3 +706,4 @@ by Albert Einstein<br /></p>
 </html>
 
 
+>>>>>>> deploy

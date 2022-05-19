@@ -1,8 +1,19 @@
+<<<<<<< HEAD
+---
+layout: default
+title: "team"
+navtab: "team"
+description: "People in the group"
+group: navigation
+navorder: 4
+---
+{% include JB/setup %}
+=======
 
 <!DOCTYPE html>
 <html lang="en">
   <head>
-	<link type="application/atom+xml" rel="alternate" href="http://drjingma.com/feed.xml" title="Jing Ma, PhD" />
+	<link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Jing Ma, PhD" />
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
@@ -417,6 +428,7 @@
    <!-- Content -->
    <div class="container">
       
+>>>>>>> deploy
 
 
 <style>
@@ -440,6 +452,22 @@
 <hr/>
 
 <div class="row">
+<<<<<<< HEAD
+{% for member in site.categories.team reversed %}
+	{% if member.alum == false %}
+	    {% cycle 'add rows': '<div class="row">', '', '' %}
+			<div class="col-lg-4 memberbox">
+				<div class="media">
+	  				<a class="pull-left" href="{{ member.url }}">
+	    				<img class="media-object member-photo" src="{{ member.image }}">
+	  				</a>
+	 			 	<div class="media-body">
+	    				<div class="head media-heading member-name">
+	    				  <a href="{{ member.url }}" class="off">{{ member.title }}</a>
+	    				</div>
+	    				<p class="note">{{ member.position }}</p>
+						{% if member.cv %}		
+=======
 
 	
 	    <div class="row">
@@ -454,12 +482,25 @@
 	    				</div>
 	    				<p class="note">Principal Investigator</p>
 								
+>>>>>>> deploy
 						<div class="smallhead">
 							CV
 						</div>	
 						<div class="pad-left note">
 							<div class="smallspacer"></div>
 							<i class="fa fa-file-text-o fa-fw"></i>			
+<<<<<<< HEAD
+							<a class="off" href="{{ member.cv }}">{{ member.cv | split: '/' | last }}</a>
+						</div>		
+						<div class="bigspacer"></div>		
+						{% endif %}
+	  			</div>
+				</div>
+	     </div>	  
+	    {% cycle 'close rows': '', '', '</div><div class="bigspacer"></div>' %}
+	{% endif %}
+{% endfor %}
+=======
 							<a class="off" href="/assets/pdfs/team/jingma-cv.pdf">jingma-cv.pdf</a>
 						</div>		
 						<div class="bigspacer"></div>		
@@ -494,7 +535,25 @@
 	
 
 	
+	    
+			<div class="col-lg-4 memberbox">
+				<div class="media">
+	  				<a class="pull-left" href="/team/iliasmoysidis">
+	    				<img class="media-object member-photo" src="/assets/images/team/Moysidis.jpg">
+	  				</a>
+	 			 	<div class="media-body">
+	    				<div class="head media-heading member-name">
+	    				  <a href="/team/iliasmoysidis" class="off">Ilias Moysidis</a>
+	    				</div>
+	    				<p class="note">Postdoc</p>
+						
+	  			</div>
+				</div>
+	     </div>	  
+	    </div><div class="bigspacer"></div>
+	
 
+>>>>>>> deploy
 </div>
 
 <div class="bigspacer"></div>
@@ -509,11 +568,43 @@
 <hr/>
 
 <div class="row">
+<<<<<<< HEAD
+{% for member in site.categories.team reversed %}
+	{% if member.alum == true %}
+	    {% cycle 'add rows': '<div class="row">', '', '' %}
+			<div class="col-lg-4 memberbox">
+				<div class="media">
+	  				<a class="pull-left" href="{{ member.url }}">
+	    				<img class="media-object member-photo" src="{{ member.image }}">
+	  				</a>
+	 			 	<div class="media-body">
+	    				<div class="head media-heading member-name">
+	    				  <a href="{{ member.url }}" class="off">{{ member.title }}</a>
+	    				</div>
+	    				<p class="note">{{ member.position }}</p>
+						{% if member.cv %}		
+						<div class="smallhead">
+							CV
+						</div>	
+						<div class="pad-left note">
+							<div class="smallspacer"></div>
+							<i class="fa fa-file-text-o fa-fw"></i>			
+							<a class="off" href="{{ member.cv }}">{{ member.cv | split: '/' | last }}</a>
+						</div>		
+						<div class="bigspacer"></div>		
+						{% endif %}
+	  			</div>
+				</div>
+	     </div>	  
+	    {% cycle 'close rows': '', '', '</div><div class="bigspacer"></div>' %}
+	{% endif %}
+{% endfor %}
+=======
 
 	
 
 	
-	    
+	    <div class="row">
 			<div class="col-lg-4 memberbox">
 				<div class="media">
 	  				<a class="pull-left" href="/team/kunyue">
@@ -528,11 +619,11 @@
 	  			</div>
 				</div>
 	     </div>	  
-	    </div><div class="bigspacer"></div>
+	    
 	
 
 	
-	    <div class="row">
+	    
 			<div class="col-lg-4 memberbox">
 				<div class="media">
 	  				<a class="pull-left" href="/team/yuewang">
@@ -553,28 +644,14 @@
 	
 
 	
-	    
-			<div class="col-lg-4 memberbox">
-				<div class="media">
-	  				<a class="pull-left" href="/team/iliasmoysidis">
-	    				<img class="media-object member-photo" src="/assets/images/team/Moysidis.jpg">
-	  				</a>
-	 			 	<div class="media-body">
-	    				<div class="head media-heading member-name">
-	    				  <a href="/team/iliasmoysidis" class="off">Ilias Moysidis</a>
-	    				</div>
-	    				<p class="note">Postdoc</p>
-						
-	  			</div>
-				</div>
-	     </div>	  
-	    
-	
 
+>>>>>>> deploy
 </div>
 
 </div>
 
+<<<<<<< HEAD
+=======
 
    </div>
 
@@ -635,3 +712,4 @@
 </html>
 
 
+>>>>>>> deploy

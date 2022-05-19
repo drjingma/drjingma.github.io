@@ -1,3 +1,14 @@
+<<<<<<< HEAD
+---
+layout: default
+title: "team"
+navtab: "team"
+description: "People in the group"
+group: navigation
+navorder: 4
+---
+{% include JB/setup %}
+=======
 
 <!DOCTYPE html>
 <html lang="en">
@@ -417,6 +428,7 @@
    <!-- Content -->
    <div class="container">
       
+>>>>>>> deploy
 
 
 <style>
@@ -440,6 +452,22 @@
 <hr/>
 
 <div class="row">
+<<<<<<< HEAD
+{% for member in site.categories.team reversed %}
+	{% if member.alum == false %}
+	    {% cycle 'add rows': '<div class="row">', '', '' %}
+			<div class="col-lg-4 memberbox">
+				<div class="media">
+	  				<a class="pull-left" href="{{ member.url }}">
+	    				<img class="media-object member-photo" src="{{ member.image }}">
+	  				</a>
+	 			 	<div class="media-body">
+	    				<div class="head media-heading member-name">
+	    				  <a href="{{ member.url }}" class="off">{{ member.title }}</a>
+	    				</div>
+	    				<p class="note">{{ member.position }}</p>
+						{% if member.cv %}		
+=======
 
 	
 	    <div class="row">
@@ -454,12 +482,25 @@
 	    				</div>
 	    				<p class="note">Principal Investigator</p>
 								
+>>>>>>> deploy
 						<div class="smallhead">
 							CV
 						</div>	
 						<div class="pad-left note">
 							<div class="smallspacer"></div>
 							<i class="fa fa-file-text-o fa-fw"></i>			
+<<<<<<< HEAD
+							<a class="off" href="{{ member.cv }}">{{ member.cv | split: '/' | last }}</a>
+						</div>		
+						<div class="bigspacer"></div>		
+						{% endif %}
+	  			</div>
+				</div>
+	     </div>	  
+	    {% cycle 'close rows': '', '', '</div><div class="bigspacer"></div>' %}
+	{% endif %}
+{% endfor %}
+=======
 							<a class="off" href="/assets/pdfs/team/jingma-cv.pdf">jingma-cv.pdf</a>
 						</div>		
 						<div class="bigspacer"></div>		
@@ -512,6 +553,7 @@
 	    </div><div class="bigspacer"></div>
 	
 
+>>>>>>> deploy
 </div>
 
 <div class="bigspacer"></div>
@@ -526,6 +568,38 @@
 <hr/>
 
 <div class="row">
+<<<<<<< HEAD
+{% for member in site.categories.team reversed %}
+	{% if member.alum == true %}
+	    {% cycle 'add rows': '<div class="row">', '', '' %}
+			<div class="col-lg-4 memberbox">
+				<div class="media">
+	  				<a class="pull-left" href="{{ member.url }}">
+	    				<img class="media-object member-photo" src="{{ member.image }}">
+	  				</a>
+	 			 	<div class="media-body">
+	    				<div class="head media-heading member-name">
+	    				  <a href="{{ member.url }}" class="off">{{ member.title }}</a>
+	    				</div>
+	    				<p class="note">{{ member.position }}</p>
+						{% if member.cv %}		
+						<div class="smallhead">
+							CV
+						</div>	
+						<div class="pad-left note">
+							<div class="smallspacer"></div>
+							<i class="fa fa-file-text-o fa-fw"></i>			
+							<a class="off" href="{{ member.cv }}">{{ member.cv | split: '/' | last }}</a>
+						</div>		
+						<div class="bigspacer"></div>		
+						{% endif %}
+	  			</div>
+				</div>
+	     </div>	  
+	    {% cycle 'close rows': '', '', '</div><div class="bigspacer"></div>' %}
+	{% endif %}
+{% endfor %}
+=======
 
 	
 
@@ -571,10 +645,13 @@
 
 	
 
+>>>>>>> deploy
 </div>
 
 </div>
 
+<<<<<<< HEAD
+=======
 
    </div>
 
@@ -635,3 +712,4 @@
 </html>
 
 
+>>>>>>> deploy

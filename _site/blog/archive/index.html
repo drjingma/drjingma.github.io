@@ -1,8 +1,18 @@
+<<<<<<< HEAD
+---
+layout: default
+title: Jing Ma / blog / archive
+categories: 
+ - blog
+---
+
+<div class="row">
+=======
 
 <!DOCTYPE html>
 <html lang="en">
   <head>
-	<link type="application/atom+xml" rel="alternate" href="http://drjingma.com/feed.xml" title="Jing Ma, PhD" />
+	<link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Jing Ma, PhD" />
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
@@ -417,6 +427,7 @@
    <!-- Content -->
    <div class="container">
       <div class="row">
+>>>>>>> deploy
 	<div class="col-md-12">
 		<div class="centered-pills">
 			<ul class="nav nav-pills note">
@@ -436,6 +447,27 @@
 	</div>
 </div>
 
+<<<<<<< HEAD
+{% for post in site.categories.blog %}
+
+	{% for member in site.categories.team %}
+		{% if member.title == post.author %}
+			{% assign author = member %}
+		{% endif %}
+	{% endfor %}
+
+    {% cycle 'add rows': '<div class="row">', nil, nil %}
+		<div class="col-md-4 postbox">
+			<div class="smallhead">
+				<a href="{{ post.url }}" class="off">{{ post.title }}</a>
+			</div>	
+			<div class="smallspacer"></div>
+			<div class="smallnote">
+				{{ post.date | date: "%-d %b %Y" }}
+				{% if author %}
+				by <a class="off" href="{{ author.url }}">{{ author.handle }}</a>
+				{% endif %}	
+=======
 
 
 	
@@ -451,10 +483,16 @@
 				
 				by <a class="off" href="/team/jingma">Jing Ma</a>
 					
+>>>>>>> deploy
 			</div>
 			<div class="bigspacer"></div>
 			<div class="spacer"></div>		
         </div>
+<<<<<<< HEAD
+    {% cycle 'close rows': nil, nil, '</div>' %}
+{% endfor %}
+{% cycle 'close rows': nil, '</div>', '</div>' %}
+=======
     </div>
 
 
@@ -538,3 +576,4 @@
 </html>
 
 
+>>>>>>> deploy

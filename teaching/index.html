@@ -1,3 +1,15 @@
+<<<<<<< HEAD
+---
+layout: default
+title: "teaching"
+description: ""
+navtab: "teaching"
+group: navigation
+navorder: 3
+---
+
+{% include JB/setup %}
+=======
 
 <!DOCTYPE html>
 <html lang="en">
@@ -417,6 +429,7 @@
    <!-- Content -->
    <div class="container">
       
+>>>>>>> deploy
 
 <div class="row">
 	<div class="col-md-12">
@@ -441,11 +454,23 @@
 
 <div class="post-list">
 
+<<<<<<< HEAD
+{% for post in site.categories.teaching limit: 8 %}
+
+	{% for member in site.categories.team %}
+		{% if member.title == post.author %}
+			{% assign author = member %}
+		{% endif %}
+	{% endfor %}
+
+  {% if post.master==true %}
+=======
 
 
 	
 
   
+>>>>>>> deploy
 								
 	<div class="teaching-post">
 		<div class="row">
@@ -454,6 +479,17 @@
 				<div class="media">
 					<div class="media-body">
 						<div class="title media-heading">
+<<<<<<< HEAD
+							<a href="{{ post.url }}" class="off">{{ post.title }}</a>
+						</div>
+						<p>
+						<div class="smallhead">
+							{{ post.date | date_to_string }}
+							
+							{% if author %}
+							by <a class="off" href="{{ author.url }}">{{ author.handle }}</a>
+							{% endif %}	
+=======
 							<a href="/teaching/312" class="off">STAT312: Statistics for Biology</a>
 						</div>
 						<p>
@@ -463,6 +499,7 @@
 							
 							by <a class="off" href="/team/jingma">Jing Ma</a>
 								
+>>>>>>> deploy
 
 						</div>
 					</div>
@@ -476,6 +513,13 @@
 		<div class="row">
 			<div class="col-md-1"></div>
 			<div class="col-md-10">	
+<<<<<<< HEAD
+				{% if post.image %}
+				<img class="offset" src="{{ post.image }}">
+				{% endif %}
+				<div class="post">
+					{{ post.content }}
+=======
 				
 				<div class="post">
 					
@@ -483,6 +527,7 @@
 
 <p>Course materials are available on Texas A&amp;M University eCampus or <a href="https://github.com/drjingma/Courses/tree/master/Stat312">GitHub</a>.</p>
 
+>>>>>>> deploy
 				</div>	
 			</div>			
 			<div class="col-md-1"></div>
@@ -492,9 +537,15 @@
 		<div class="spacer"></div>	
 
 	</div>
+<<<<<<< HEAD
+{% endif %}
+
+{% endfor %}
+=======
 
 
 
+>>>>>>> deploy
 
 </div>
 
@@ -515,6 +566,9 @@
 </div> -->
 
 <!-- Infinite scroll -->	
+<<<<<<< HEAD
+<script async src="/js/infinite-scroll.js"></script>
+=======
 <script async src="/js/infinite-scroll.js"></script>
    </div>
 
@@ -575,3 +629,4 @@
 </html>
 
 
+>>>>>>> deploy
