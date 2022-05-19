@@ -1,4 +1,42 @@
 ---
+- repo: drjingma/netgsa
+  title: netgsa
+  owner: drjingma
+  description: Network-based Gene Set Analysis
+  url: "/projects/netgsa"
+  contributors:
+  - login: mikehellstern
+    avatar: https://avatars.githubusercontent.com/u/28374298?v=4&s=50
+    url: https://github.com/mikehellstern
+  - login: drjingma
+    avatar: https://avatars.githubusercontent.com/u/20731517?v=4&s=50
+    url: https://github.com/drjingma
+  commits:
+  - date: 2022-02-22 15:49:02.000000000 Z
+    message: Update README.md
+    url: https://github.com/drjingma/netgsa/commit/db6bba8c38eee36dee9242ca53e8dc8c288bfb30
+    author_login: drjingma
+    author_url: https://github.com/drjingma
+  - date: 2022-02-22 15:47:38.000000000 Z
+    message: Change index to README
+    url: https://github.com/drjingma/netgsa/commit/1b2505ee9a37105b4eaec3653492a5afbb7a9de0
+    author_login: drjingma
+    author_url: https://github.com/drjingma
+  - date: 2022-02-14 00:03:56.000000000 Z
+    message: add netgsa project
+    url: https://github.com/drjingma/netgsa/commit/21857667f892c7a7081cc0cdf4987ec168ed5ca6
+    author_login: drjingma
+    author_url: https://github.com/drjingma
+  - date: 2022-02-13 23:55:00.000000000 Z
+    message: add netgsa index
+    url: https://github.com/drjingma/netgsa/commit/e49507822fee52dc60bf9b16351891fb04e81656
+    author_login: drjingma
+    author_url: https://github.com/drjingma
+  - date: 2022-01-06 17:48:18.000000000 Z
+    message: Update README
+    url: https://github.com/drjingma/netgsa/commit/b7136da8413a3f08b452255d4c43539c0b4da4eb
+    author_login: drjingma
+    author_url: https://github.com/drjingma
 - repo: drjingma/JSEM
   title: JSEM
   owner: drjingma
@@ -34,44 +72,6 @@
     url: https://github.com/drjingma/JSEM/commit/f45651451795473e438c941281fb8b4d2f89697f
     author_login: drjingma
     author_url: https://github.com/drjingma
-- repo: drjingma/netgsa
-  title: netgsa
-  owner: drjingma
-  description: Network-based Gene Set Analysis
-  url: "/projects/netgsa"
-  contributors:
-  - login: mikehellstern
-    avatar: https://avatars.githubusercontent.com/u/28374298?v=4&s=50
-    url: https://github.com/mikehellstern
-  - login: drjingma
-    avatar: https://avatars.githubusercontent.com/u/20731517?v=4&s=50
-    url: https://github.com/drjingma
-  commits:
-  - date: 2022-02-14 00:03:56.000000000 Z
-    message: add netgsa project
-    url: https://github.com/drjingma/netgsa/commit/21857667f892c7a7081cc0cdf4987ec168ed5ca6
-    author_login: drjingma
-    author_url: https://github.com/drjingma
-  - date: 2022-02-13 23:55:00.000000000 Z
-    message: add netgsa index
-    url: https://github.com/drjingma/netgsa/commit/e49507822fee52dc60bf9b16351891fb04e81656
-    author_login: drjingma
-    author_url: https://github.com/drjingma
-  - date: 2022-01-06 17:48:18.000000000 Z
-    message: Update README
-    url: https://github.com/drjingma/netgsa/commit/b7136da8413a3f08b452255d4c43539c0b4da4eb
-    author_login: drjingma
-    author_url: https://github.com/drjingma
-  - date: 2022-01-06 17:23:19.000000000 Z
-    message: Update Readme page
-    url: https://github.com/drjingma/netgsa/commit/18cee25b1936a42317c2d9839bad39f9339f1f0a
-    author_login: drjingma
-    author_url: https://github.com/drjingma
-  - date: 2021-10-03 17:18:29.000000000 Z
-    message: Updated DS_Store
-    url: https://github.com/drjingma/netgsa/commit/090b107582bcb33f33da87bbb210e624db5f2d6c
-    author_login: mikehellstern
-    author_url: https://github.com/mikehellstern
 - repo: drjingma/gmm
   title: gmm
   owner: drjingma
