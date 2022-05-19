@@ -29,6 +29,8 @@ git subtree push --prefix _site origin deploy
 
 Now configure GitHub Pages to deploy this branch.  In `setting/pages` for the repo, configure the source branch to `deploy` and save changes.  This will trigger a build of the site.
 
+It is import to reveal the changes by creating a pull request and merge conflicts before the website can be displayed correctly. 
+
 # Configuring the Development Environment on SciComp Hosts
 
 We need two things- ruby and nodejs.  These are not typically installed on compute nodes, but are available in modules.  Run these commands prior to using the bundle commands:
@@ -58,7 +60,7 @@ bundle exec jekyll serve -V -P 9099 -H <ip>
 
 You can get `<ip>` via the command `ip addr`.  This will then be able to view the site via the URL `http://<ip>:9099`
 
-# Notes from Zhenke Wu's Research Website
+# Notes from Zhenke Wu
 
 * After cloning the repo to your local folder, you'll need to install jekyll to build and test your modified site. 
 
