@@ -1,19 +1,8 @@
-<<<<<<< HEAD
----
-layout: default
-title: "news"
-navtab: "news"
-description: ""
-group: navigation
-navorder: 5
----
-{% include JB/setup %}
-=======
 
 <!DOCTYPE html>
 <html lang="en">
   <head>
-	<link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Jing Ma, PhD" />
+	<link type="application/atom+xml" rel="alternate" href="http://drjingma.com/feed.xml" title="Jing Ma, PhD" />
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
@@ -141,22 +130,6 @@ navorder: 5
     
   
     
-      
-    
-  
-    
-  
-    
-      
-    
-  
-    
-  
-    
-  
-    
-      
-    
   
     
   
@@ -208,20 +181,6 @@ navorder: 5
   
     
       
-    
-  
-    
-      
-    
-  
-    
-      
-    
-  
-    
-  
-    
-  
     
   
     
@@ -304,22 +263,6 @@ navorder: 5
     
   
     
-      
-    
-  
-    
-  
-    
-      
-    
-  
-    
-  
-    
-  
-    
-      
-    
   
     
   
@@ -371,20 +314,6 @@ navorder: 5
   
     
       
-    
-  
-    
-      
-    
-  
-    
-      
-    
-  
-    
-  
-    
-  
     
   
     
@@ -428,7 +357,6 @@ navorder: 5
    <!-- Content -->
    <div class="container">
       
->>>>>>> deploy
 
 <div class="row">
 	<div class="col-md-12">
@@ -453,61 +381,22 @@ navorder: 5
 <!--
 <div class="pager">
   
-<<<<<<< HEAD
-	{% if paginator.previous_page %}
-		{% if paginator.previous_page == 1 %}
-		<a class="prev" href="/{{ page.category }}/">
-			<i class="fa fa-chevron-left fa-lg"></i>
-		</a>
-		{% else %}
-		<a class="prev" href="/{{ page.category }}/page{{ paginator.previous_page }}">
-			<i class="fa fa-chevron-left fa-lg"></i>
-		</a>
-		{% endif %}  		
-	{% endif %}  
-  
-	{% if paginator.next_page %}  
-	<a class="next" href="/{{ page.category }}/page{{ paginator.next_page }}">
-		<i class="fa fa-chevron-right fa-lg"></i>
-	</a>	
-	{% endif %}  	
-=======
 	  
   
 	  	
->>>>>>> deploy
     
 </div>
 
 -->
 
-<<<<<<< HEAD
-{% for post in site.categories.news %}
-
-	{% for member in site.categories.team %}
-		{% if member.handle == post.author_handle %}
-			{% assign author = member %}
-		{% endif %}
-	{% endfor %}
-=======
 
 
 	
->>>>>>> deploy
 
 	<div class="bigspacer"></div>
 	<div class="row">
 		<div class="col-md-3">
 			<div class="head">
-<<<<<<< HEAD
-				{{ post.title }}
-			</div>
-			<div class="smallnote">
-				{{ post.date | date_to_string }}
-				{% if author %}
-				by <a class="off" href="{{ author.url }}">{{ author.handle }}</a>
-				{% endif %}				
-=======
 				Kun Yue receives Best Student Paper Award
 			</div>
 			<div class="smallnote">
@@ -515,35 +404,21 @@ navorder: 5
 				
 				by <a class="off" href="/team/jingma">Jing Ma</a>
 								
->>>>>>> deploy
 			</div>	
 		</div>
 		<div class="col-md-8">		
 			<div style="height:5px;"></div>			
-<<<<<<< HEAD
-			{% if post.image %}
-			<a href="{{ post.url }}"><img class="offset" src="{{ post.image }}"></a>
-			{% endif %}
-			<div class="post">
-				{{ post.content }}
-=======
 			
 			<div class="post">
 				<p>Congratulations to <a href="team/kunyue">Kun Yue</a>, who who has been named a winner of Best Student Paper for the <a href="http://www.wnar.org/resources/Documents/WNAR_2021_student_competition.pdf">2021 WNAR Student Paper Competition</a>!</p>
 
 <p>Her paper “REHE: Fast Variance Components Estimation for Linear Mixed Models” proposes a new method for estimating the variance components in linear mixed models.</p>
 
->>>>>>> deploy
 			</div>
 		</div>			
 		<div class="col-md-1"></div>
 	</div>		
 
-<<<<<<< HEAD
-{% endfor %}
-
-<div class="bigspacer"></div>
-=======
 
 
 	
@@ -926,4 +801,3 @@ navorder: 5
 </html>
 
 
->>>>>>> deploy

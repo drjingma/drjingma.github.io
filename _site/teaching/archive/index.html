@@ -1,18 +1,8 @@
-<<<<<<< HEAD
----
-layout: default
-title: Jing Ma / teaching / archive
-categories: 
- - teaching
----
-
-<div class="row">
-=======
 
 <!DOCTYPE html>
 <html lang="en">
   <head>
-	<link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Jing Ma, PhD" />
+	<link type="application/atom+xml" rel="alternate" href="http://drjingma.com/feed.xml" title="Jing Ma, PhD" />
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
@@ -140,22 +130,6 @@ categories:
     
   
     
-      
-    
-  
-    
-  
-    
-      
-    
-  
-    
-  
-    
-  
-    
-      
-    
   
     
   
@@ -207,20 +181,6 @@ categories:
   
     
       
-    
-  
-    
-      
-    
-  
-    
-      
-    
-  
-    
-  
-    
-  
     
   
     
@@ -303,22 +263,6 @@ categories:
     
   
     
-      
-    
-  
-    
-  
-    
-      
-    
-  
-    
-  
-    
-  
-    
-      
-    
   
     
   
@@ -370,20 +314,6 @@ categories:
   
     
       
-    
-  
-    
-      
-    
-  
-    
-      
-    
-  
-    
-  
-    
-  
     
   
     
@@ -427,7 +357,6 @@ categories:
    <!-- Content -->
    <div class="container">
       <div class="row">
->>>>>>> deploy
 	<div class="col-md-12">
 		<div class="centered-pills">
 			<ul class="nav nav-pills note-button">
@@ -447,27 +376,6 @@ categories:
 	</div>
 </div>
 
-<<<<<<< HEAD
-{% for post in site.categories.teaching %}
-
-	{% for member in site.categories.team %}
-		{% if member.title == post.author %}
-			{% assign author = member %}
-		{% endif %}
-	{% endfor %}
-
-    {% cycle 'add rows': '<div class="row">', '', '' %}
-		<div class="col-md-4 postbox">
-			<div class="smallhead">
-				<a href="{{ post.url }}" class="off">{{ post.title }}</a>
-			</div>	
-			<div class="smallspacer"></div>
-			<div class="smallnote">
-				{{ post.date | date_to_string }}
-				{% if author %}
-				by <a class="off" href="{{ author.url }}">{{ author.handle }}</a>
-				{% endif %}	
-=======
 
 
 	
@@ -483,16 +391,10 @@ categories:
 				
 				by <a class="off" href="/team/jingma">Jing Ma</a>
 					
->>>>>>> deploy
 			</div>
 			<div class="bigspacer"></div>
 			<div class="spacer"></div>		
         </div>
-<<<<<<< HEAD
-    {% cycle 'close rows': '', '', '</div>' %}
-{% endfor %}
-{% cycle 'close rows': '', '</div>', '</div>' %}
-=======
     
 
 </div>
@@ -556,4 +458,3 @@ categories:
 </html>
 
 
->>>>>>> deploy
