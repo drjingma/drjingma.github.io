@@ -12,18 +12,17 @@ markdown: kramdown
 #
 title : Jing Ma, PhD
 tagline: Principal Investigator 
-url: http://drjingma.com
+url: https://drjingma.com
 name : Jing Ma, PhD
-description: Statistical Machine Learning for the Microbiome 
+description: Statistical Metagenomics and Metabolomics 
 
 institution:
-  url: https://www.fredhutch.org/en.html
-  name: Fred Hutchinson Cancer Research Center
+  url: https://www.fhcc.org/
+  name: Fred Hutchinson Cancer Center
 department:
   url: https://www.fredhutch.org/en/research/divisions/public-health-sciences-division.html 
   name: Public Health Sciences Division 
-  address: 1100 Fairview Ave N
-  office: Robert M. Arnold Building M2-B847 
+  address: 1100 Fairview Ave N., Mail Stop M2-B500
   city: Seattle, WA 98109
   logo: 
   map: https://goo.gl/maps/Ahtvgf7vTHppYBe58
@@ -33,7 +32,7 @@ author :
   email : jingma@fredhutch.org
   github : drjingma
   twitter : drjingma
-  uri: http://drjingma.com
+  uri: https://drjingma.com
 #  feedburner : feedname
 
 # The production_url is only used when full-domain names are needed
@@ -44,7 +43,7 @@ author :
 # Else if you are pushing to username.github.io, replace with your username.
 # Finally if you are pushing to a GitHub project page, include the project name at the end.
 #
-production_url : http://drjingma.com
+production_url : https://drjingma.com
 
 # All Jekyll-Bootstrap specific configurations are namespaced into this hash
 #
