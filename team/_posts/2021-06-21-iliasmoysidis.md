@@ -17,7 +17,7 @@ web: www.linkedin.com/in/iliasmoysidis/
 field: stat
 ---
 
-Ilias received his Ph.D. in Statistics from Pennsylvania State University in 2021. Yue was a postdoctoral research fellow in Ma Lab from 2021-2022. 
+Ilias received his Ph.D. in Statistics from Pennsylvania State University in 2021. Ilias was a postdoctoral research fellow in Ma Lab from 2021-2022. 
 
 
 
