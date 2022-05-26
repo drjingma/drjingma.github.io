@@ -6,7 +6,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-    <title>Jing Ma / news / archive</title>
+    <title>Notes</title>
     
     <meta name="author" content="Jing Ma">
 
@@ -397,249 +397,177 @@
    <!-- Content -->
    <div class="container">
       
+<div class="page-header">
+  <h1>Notes </h1>
+</div>
 
 <div class="row">
-	<div class="col-md-12">
-		<div class="centered-pills">
-			<ul class="nav nav-pills note-button">
-				<li role="presentation">
-					<a class="off" href="/news/">
-						<i class="fa fa-refresh fa-fw"></i> Timeline
-					</a>
-				</li>
-				<li role="presentation" class="active">
-					<a class="off" href="/news/archive/">
-						<i class="fa fa-list-ul fa-fw"></i> Index
-					</a>
-				</li>
-			</ul>
-		</div>
-		<div class="bigspacer"></div>
-	</div>
+  <div class="col-xs-12">
+    <h1 id="notes">Notes</h1>
+
+<h2 id="details">Details</h2>
+
+<p>To modify styles:</p>
+<ul>
+  <li>pages: assets/themes/css/style.scss</li>
+  <li>before entering pages: assets/themes/lab/css/style.scss</li>
+</ul>
+
+<h2 id="goals">Goals</h2>
+
+<ul>
+  <li>Must have
+    <ul>
+      <li>Site is available</li>
+      <li>Modern tools</li>
+      <li>Modern look and feel</li>
+      <li>Source code available</li>
+      <li>Blog</li>
+      <li>Trusted users can update</li>
+      <li>Separation of content and style
+        <ul>
+          <li>Themes separate</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>Nice to have
+    <ul>
+      <li>Mobile-friendly</li>
+      <li>Tags for papers, protocols</li>
+      <li>Share</li>
+      <li>Search</li>
+      <li>Analytics</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="approach">Approach</h2>
+
+<ul>
+  <li>GitHub Pages</li>
+  <li>Jekyll + Bootstrap (and Jekyll Bootstrap)</li>
+  <li>Sass support for CSS</li>
+  <li>Google Fonts</li>
+</ul>
+
+<h2 id="what-im-currently-blocked-on">What I’m Currently Blocked On</h2>
+
+<p>Issues are tracked at GitHub <a href="https://github.com/drummondlab/drummondlab.github.io/issues">github-issues</a>.</p>
+
+<ul>
+  <li>Many style choices need to be updated.</li>
+  <li>Bottom bar</li>
+  <li>No Projects page</li>
+  <li>Content
+    <ul>
+      <li>Lab members</li>
+      <li>Publications</li>
+      <li>
+        <p>Protocols</p>
+
+        <p>&copy; 2022 Jing Ma
+    with help from <a href="http://jekyllbootstrap.com" target="_blank" title="The Definitive Jekyll Blogging Framework">Jekyll Bootstrap</a>
+    and <a href="http://twitter.github.com/bootstrap/" target="_blank">Twitter Bootstrap</a>
+  </p>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+<p>This site has useful stuff on social media links etc.
+http://erjjones.github.io/blog/How-I-built-my-blog-in-one-day/</p>
+
+<p><a href="https://twitter.com/share" class="twitter-share-button">Tweet</a>
+<script>
+	!function(d,s,id){
+		var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';
+		if(!d.getElementById(id)){
+			js=d.createElement(s);
+			js.id=id;
+			js.src=p+'://platform.twitter.com/widgets.js';
+			fjs.parentNode.insertBefore(js,fjs);
+		}
+	}(document, 'script', 'twitter-wjs');
+</script></p>
+
+<h2 id="layout">Layout</h2>
+
+<p>I’m inspired by [Trevor Bedford]’s clean, functional [site][1]. I intend to copy it—part of Trevor’s intent.</p>
+
+<ul>
+  <li>Home
+    <ul>
+      <li>Research</li>
+      <li>Papers
+        <ul>
+          <li>Queuosine modification of tRNA and codon usage</li>
+          <li>The relationship between mRNA and protein levels</li>
+          <li>Heat triggers reversible…</li>
+        </ul>
+      </li>
+      <li>Team</li>
+      <li>Blog</li>
+      <li>Protocols</li>
+      <li>Misc
+        <ul>
+          <li>About</li>
+          <li>Join</li>
+          <li>Contact</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+<p>Each of the major areas is structured like a blog. For example:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>research/
+	index.html
+	_posts/
+		2015-04-18-heat-shock-aggregation.md
+papers/
+	index.html
+	_posts/
+		2014-12-09-queuosine.md
+protocols/
+	index.html
+	_posts/
+		2015-04-18-yeast-lysis.md
+team/
+	index.html
+	_posts/
+		2011-10-01-d-allan-drummond.md
+news/
+	index.html
+	_posts/
+		2015-04-09-pg-paper-accepted.md
+</code></pre></div></div>
+
+<p>For team, use a tag to indicate ‘current’ vs ‘alumni’?</p>
+
+<h2 id="to-do">To do</h2>
+
+<ul>
+  <li>Home page
+    <ul>
+      <li>Text</li>
+      <li>Links to About, Join, Contact</li>
+    </ul>
+  </li>
+  <li>About page</li>
+  <li>Twitter/Disqus…</li>
+</ul>
+
+<h2 id="hosting">Hosting</h2>
+
+<p>Name registration at [NameCheap]. Custom domain via [GitHub Pages].
+[NameCheap]: https://www.namecheap.com</p>
+
+
+  </div>
 </div>
 
-
-
-	
-
-    <div class="row">
-		<div class="col-md-4 postbox">
-			<div class="smallhead">
-				<a href="/news/WNAR" class="off">Kun Yue receives Best Student Paper Award</a>
-			</div>	
-			<div class="smallspacer"></div>
-			<div class="smallnote">
-				28 Jul 2021
-				
-				by <a class="off" href="/team/jingma">Jing Ma</a>
-					
-			</div>
-			<div class="bigspacer"></div>
-			<div class="spacer"></div>		
-        </div>
-    
-
-
-	
-
-    
-		<div class="col-md-4 postbox">
-			<div class="smallhead">
-				<a href="/news/mri-pilot" class="off">Jing receives Microbiome Research Pilot Award</a>
-			</div>	
-			<div class="smallspacer"></div>
-			<div class="smallnote">
-				02 Jul 2021
-				
-				by <a class="off" href="/team/jingma">Jing Ma</a>
-					
-			</div>
-			<div class="bigspacer"></div>
-			<div class="spacer"></div>		
-        </div>
-    
-
-
-	
-
-    
-		<div class="col-md-4 postbox">
-			<div class="smallhead">
-				<a href="/news/moysidis" class="off">Ilias Moysidis joins the group</a>
-			</div>	
-			<div class="smallspacer"></div>
-			<div class="smallnote">
-				21 Jun 2021
-				
-				by <a class="off" href="/team/jingma">Jing Ma</a>
-					
-			</div>
-			<div class="bigspacer"></div>
-			<div class="spacer"></div>		
-        </div>
-    </div>
-
-
-	
-
-    <div class="row">
-		<div class="col-md-4 postbox">
-			<div class="smallhead">
-				<a href="/news/wang" class="off">Postdoc Yue Wang joins ASU</a>
-			</div>	
-			<div class="smallspacer"></div>
-			<div class="smallnote">
-				15 Aug 2020
-				
-				by <a class="off" href="/team/jingma">Jing Ma</a>
-					
-			</div>
-			<div class="bigspacer"></div>
-			<div class="spacer"></div>		
-        </div>
-    
-
-
-	
-
-    
-		<div class="col-md-4 postbox">
-			<div class="smallhead">
-				<a href="/news/DAP" class="off">Launch of the Dog Aging Project</a>
-			</div>	
-			<div class="smallspacer"></div>
-			<div class="smallnote">
-				20 Nov 2019
-				
-				by <a class="off" href="/team/jingma">Jing Ma</a>
-					
-			</div>
-			<div class="bigspacer"></div>
-			<div class="spacer"></div>		
-        </div>
-    
-
-
-	
-
-    
-		<div class="col-md-4 postbox">
-			<div class="smallhead">
-				<a href="/news/new-position" class="off">Jing will visit Texas A&M Statistics</a>
-			</div>	
-			<div class="smallspacer"></div>
-			<div class="smallnote">
-				05 Aug 2019
-				
-				by <a class="off" href="/team/jingma">Jing Ma</a>
-					
-			</div>
-			<div class="bigspacer"></div>
-			<div class="spacer"></div>		
-        </div>
-    </div>
-
-
-	
-
-    <div class="row">
-		<div class="col-md-4 postbox">
-			<div class="smallhead">
-				<a href="/news/fhcrc" class="off">Machine learning helps elucidate chronic kidney disease progression</a>
-			</div>	
-			<div class="smallspacer"></div>
-			<div class="smallnote">
-				20 May 2019
-				
-				by <a class="off" href="/team/jingma">Jing Ma</a>
-					
-			</div>
-			<div class="bigspacer"></div>
-			<div class="spacer"></div>		
-        </div>
-    
-
-
-	
-
-    
-		<div class="col-md-4 postbox">
-			<div class="smallhead">
-				<a href="/news/bd2k" class="off">Jing receives the Jayne Koskinas Ted Giovanis Foundation Award</a>
-			</div>	
-			<div class="smallspacer"></div>
-			<div class="smallnote">
-				25 Jul 2018
-				
-				by <a class="off" href="/team/jingma">Jing Ma</a>
-					
-			</div>
-			<div class="bigspacer"></div>
-			<div class="spacer"></div>		
-        </div>
-    
-
-
-	
-
-    
-		<div class="col-md-4 postbox">
-			<div class="smallhead">
-				<a href="/news/postdoc" class="off">Application for postdoc is closed</a>
-			</div>	
-			<div class="smallspacer"></div>
-			<div class="smallnote">
-				16 Feb 2018
-				
-				by <a class="off" href="/team/jingma">Jing Ma</a>
-					
-			</div>
-			<div class="bigspacer"></div>
-			<div class="spacer"></div>		
-        </div>
-    </div>
-
-
-	
-
-    <div class="row">
-		<div class="col-md-4 postbox">
-			<div class="smallhead">
-				<a href="/news/symposium" class="off">Save the date: 2018 Fred Hutch Microbiome Symposium</a>
-			</div>	
-			<div class="smallspacer"></div>
-			<div class="smallnote">
-				25 Oct 2017
-				
-				by <a class="off" href="/team/jingma">Jing Ma</a>
-					
-			</div>
-			<div class="bigspacer"></div>
-			<div class="spacer"></div>		
-        </div>
-    
-
-
-	
-
-    
-		<div class="col-md-4 postbox">
-			<div class="smallhead">
-				<a href="/news/new_position" class="off">Jing will join Fred Hutch Biostatistics</a>
-			</div>	
-			<div class="smallspacer"></div>
-			<div class="smallnote">
-				05 Jul 2017
-				
-				by <a class="off" href="/team/jingma">Jing Ma</a>
-					
-			</div>
-			<div class="bigspacer"></div>
-			<div class="spacer"></div>		
-        </div>
-    
-
-</div>
 
    </div>
 
