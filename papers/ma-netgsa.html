@@ -6,7 +6,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-    <title>Jing Ma / news / archive</title>
+    <title>Network-based pathway enrichment analysis with incomplete network information</title>
     
     <meta name="author" content="Jing Ma">
 
@@ -397,249 +397,202 @@
    <!-- Content -->
    <div class="container">
       
+<!-- 
+Branched from Trevor Bedford's source, https://github.com/blab/blotter/blob/master/_layouts/paper.html
+with gratitude.
+-->
+
+<div class="bigspacer"></div>
 
 <div class="row">
-	<div class="col-md-12">
-		<div class="centered-pills">
-			<ul class="nav nav-pills note-button">
-				<li role="presentation">
-					<a class="off" href="/news/">
-						<i class="fa fa-refresh fa-fw"></i> Timeline
-					</a>
-				</li>
-				<li role="presentation" class="active">
-					<a class="off" href="/news/archive/">
-						<i class="fa fa-list-ul fa-fw"></i> Index
-					</a>
-				</li>
-			</ul>
+	<div class="col-md-3">
+		<div class="media">
+			
+			<img class="pull-left pad-right media-object paper-image" src="/assets/images/papers/netgsa.png">
+			
 		</div>
-		<div class="bigspacer"></div>
+	</div>
+
+	<div class="col-md-9">
+		<div class="media-body titlebox">
+			<div class="title media-heading">
+				Network-based pathway enrichment analysis with incomplete network information
+			</div>
+			<p>
+			<div class="smallhead">
+				
+				
+				
+				     
+					 
+				     
+				 
+					 
+	 								<a href="http://drjingma.com">Jing Ma</a>, 
+					 
+				 
+				
+				
+				     
+					 
+				     
+				 
+					 
+	 								Ali Shojaie,
+	                 
+				 
+				
+				
+				     
+					 
+				     
+					 
+					 
+     								George Michailidis (2016).
+                     
+				 
+				
+				
+				<!-- Jing Ma, Ali Shojaie, George Michailidis,  -->
+				<span class="journal">
+				Bioinformatics
+				</span>
+				
+				
+				
+				<!-- (2016). -->
+			</div>
+		</div>
 	</div>
 </div>
 
+<div class="bigspacer"></div>
 
+<div class="row">
+	<div class="col-md-3">
+		<div class="bigspacer"></div>
+		<div class="glyphbox note"> <!-- DAD: what is this class? -->
+			
+			<div class="smallhead">
+				Full text
+			</div>	
+			<div class="pad-left note">
+				<div class="smallspacer"></div>
+				
+				
+					<i class="fa fa-file-pdf-o fa-fw"></i>
+					<a class="off" href="/assets/pdfs/papers/2016-Ma-NetGSA.pdf">PDF</a>
+					<br/>
+				
+				
+			</div>
+			<div class="bigspacer"></div>			
+			
+
+			
+			<div class="smallhead">
+				Supplement
+			</div>	
+			<div class="pad-left note">
+				<div class="smallspacer"></div>
+				<i class="fa fa-paperclip fa-fw"></i>
+				<a class="off" href="/assets/pdfs/papers/2016-ma-netgsa-supp.pdf">2016-ma-netgsa-supp.pdf</a>
+			</div>
+			<div class="bigspacer"></div>			
+				
+			
+			
+			<div class="smallhead">
+				Slides
+			</div>	
+			<div class="pad-left note">
+				<div class="smallspacer"></div>
+				<i class="fa fa-paperclip fa-fw"></i>
+				<a class="off" href="/assets/pdfs/papers/2018-01-24-fhcrc-biostat.pdf">2018-01-24-fhcrc-biostat.pdf</a>
+			</div>
+			<div class="bigspacer"></div>			
+			
+			
+			
+			<div class="smallhead">
+				DOI
+			</div>
+			<div class="pad-left note">
+				<div class="smallspacer"></div>
+				<i class="fa fa-external-link fa-fw"></i>
+				<a class="off" href="http://dx.doi.org/10.1093/bioinformatics/btw410">10.1093/bioinformatics/btw410</a>
+			</div>
+			<div class="bigspacer"></div>			
+			
+			
+			
+
+			
+			
+			
+			<div class="smallhead">
+				Source code
+			</div>	
+			<div class="pad-left note">
+				<div class="smallspacer"></div>
+				<i class="fa fa-cog fa-fw"></i>
+				<a class="off" href="https://github.com/drjingma">github.com/drjingma</a>
+			</div>
+			<div class="bigspacer"></div>
+			
+
+			
+
+			
+
+			<div class="smallhead">
+				Share
+			</div>
+		    <!-- Paste the 3 next lines where you want the sharing button(s) to appear -->
+		    <div class="post-sharing">
+		     
+
+  
+  		<!-- Twitter -->
+<i class="fa fa-twitter fa-fw"></i>
+<a class="off" href="https://twitter.com/share?url=&text=" data-text="Network-based pathway enrichment analysis with incomplete network information" data-via="" data-related="drjingma" target="_blank">tweet</a>
 
 	
 
-    <div class="row">
-		<div class="col-md-4 postbox">
-			<div class="smallhead">
-				<a href="/news/WNAR" class="off">Kun Yue receives Best Student Paper Award</a>
-			</div>	
-			<div class="smallspacer"></div>
-			<div class="smallnote">
-				28 Jul 2021
-				
-				by <a class="off" href="/team/jingma">Jing Ma</a>
-					
-			</div>
-			<div class="bigspacer"></div>
-			<div class="spacer"></div>		
-        </div>
-    
 
+		    </div>
 
+		</div>
+	</div>
+	
+	<div class="col-md-8">	
+		<div class="post">
+			<h1 id="abstract">Abstract</h1>
+
+<h4 id="motivation">Motivation:</h4>
+
+<p>Pathway enrichment analysis has become a key tool for biomedical researchers to gain insight into the underlying biology of differentially expressed genes, proteins and metabolites. It reduces complexity and provides a system-level view of changes in cellular activity in response to treatments and/or in disease states. Methods that use existing pathway network information have been shown to outperform simpler methods that only take into account pathway membership. However, despite significant progress in understanding the association amongst members of biological pathways, and expansion of data bases containing information about interactions of biomolecules, the existing network information may be incomplete or inaccurate and is not cell-type or disease condition-specific.</p>
+
+<h4 id="results">Results:</h4>
+
+<p>We propose a constrained network estimation framework that combines network estimation based on cell- and condition-specific high-dimensional Omics data with interaction information from existing data bases. The resulting pathway topology information is subsequently used to provide a framework for simultaneous testing of differences in expression levels of pathway members, as well as their interactions. We study the asymptotic properties of the proposed network estimator and the test for pathway enrichment, and investigate its small sample performance in simulated and real data settings.</p>
+
+<h4 id="availability-and-implementation">Availability and Implementation:</h4>
+
+<p>The proposed method has been implemented in the R-package netgsa available on <a href="https://cran.r-project.org/web/packages/netgsa/index.html">CRAN</a>.</p>
+
+<p><strong>Keywords</strong> Pathway enrichment analysis.</p>
+
+		</div>	
+	</div>
 	
 
-    
-		<div class="col-md-4 postbox">
-			<div class="smallhead">
-				<a href="/news/mri-pilot" class="off">Jing receives Microbiome Research Pilot Award</a>
-			</div>	
-			<div class="smallspacer"></div>
-			<div class="smallnote">
-				02 Jul 2021
-				
-				by <a class="off" href="/team/jingma">Jing Ma</a>
-					
-			</div>
-			<div class="bigspacer"></div>
-			<div class="spacer"></div>		
-        </div>
-    
-
-
-	
-
-    
-		<div class="col-md-4 postbox">
-			<div class="smallhead">
-				<a href="/news/moysidis" class="off">Ilias Moysidis joins the group</a>
-			</div>	
-			<div class="smallspacer"></div>
-			<div class="smallnote">
-				21 Jun 2021
-				
-				by <a class="off" href="/team/jingma">Jing Ma</a>
-					
-			</div>
-			<div class="bigspacer"></div>
-			<div class="spacer"></div>		
-        </div>
-    </div>
-
-
-	
-
-    <div class="row">
-		<div class="col-md-4 postbox">
-			<div class="smallhead">
-				<a href="/news/wang" class="off">Postdoc Yue Wang joins ASU</a>
-			</div>	
-			<div class="smallspacer"></div>
-			<div class="smallnote">
-				15 Aug 2020
-				
-				by <a class="off" href="/team/jingma">Jing Ma</a>
-					
-			</div>
-			<div class="bigspacer"></div>
-			<div class="spacer"></div>		
-        </div>
-    
-
-
-	
-
-    
-		<div class="col-md-4 postbox">
-			<div class="smallhead">
-				<a href="/news/DAP" class="off">Launch of the Dog Aging Project</a>
-			</div>	
-			<div class="smallspacer"></div>
-			<div class="smallnote">
-				20 Nov 2019
-				
-				by <a class="off" href="/team/jingma">Jing Ma</a>
-					
-			</div>
-			<div class="bigspacer"></div>
-			<div class="spacer"></div>		
-        </div>
-    
-
-
-	
-
-    
-		<div class="col-md-4 postbox">
-			<div class="smallhead">
-				<a href="/news/new-position" class="off">Jing will visit Texas A&M Statistics</a>
-			</div>	
-			<div class="smallspacer"></div>
-			<div class="smallnote">
-				05 Aug 2019
-				
-				by <a class="off" href="/team/jingma">Jing Ma</a>
-					
-			</div>
-			<div class="bigspacer"></div>
-			<div class="spacer"></div>		
-        </div>
-    </div>
-
-
-	
-
-    <div class="row">
-		<div class="col-md-4 postbox">
-			<div class="smallhead">
-				<a href="/news/fhcrc" class="off">Machine learning helps elucidate chronic kidney disease progression</a>
-			</div>	
-			<div class="smallspacer"></div>
-			<div class="smallnote">
-				20 May 2019
-				
-				by <a class="off" href="/team/jingma">Jing Ma</a>
-					
-			</div>
-			<div class="bigspacer"></div>
-			<div class="spacer"></div>		
-        </div>
-    
-
-
-	
-
-    
-		<div class="col-md-4 postbox">
-			<div class="smallhead">
-				<a href="/news/bd2k" class="off">Jing receives the Jayne Koskinas Ted Giovanis Foundation Award</a>
-			</div>	
-			<div class="smallspacer"></div>
-			<div class="smallnote">
-				25 Jul 2018
-				
-				by <a class="off" href="/team/jingma">Jing Ma</a>
-					
-			</div>
-			<div class="bigspacer"></div>
-			<div class="spacer"></div>		
-        </div>
-    
-
-
-	
-
-    
-		<div class="col-md-4 postbox">
-			<div class="smallhead">
-				<a href="/news/postdoc" class="off">Application for postdoc is closed</a>
-			</div>	
-			<div class="smallspacer"></div>
-			<div class="smallnote">
-				16 Feb 2018
-				
-				by <a class="off" href="/team/jingma">Jing Ma</a>
-					
-			</div>
-			<div class="bigspacer"></div>
-			<div class="spacer"></div>		
-        </div>
-    </div>
-
-
-	
-
-    <div class="row">
-		<div class="col-md-4 postbox">
-			<div class="smallhead">
-				<a href="/news/symposium" class="off">Save the date: 2018 Fred Hutch Microbiome Symposium</a>
-			</div>	
-			<div class="smallspacer"></div>
-			<div class="smallnote">
-				25 Oct 2017
-				
-				by <a class="off" href="/team/jingma">Jing Ma</a>
-					
-			</div>
-			<div class="bigspacer"></div>
-			<div class="spacer"></div>		
-        </div>
-    
-
-
-	
-
-    
-		<div class="col-md-4 postbox">
-			<div class="smallhead">
-				<a href="/news/new_position" class="off">Jing will join Fred Hutch Biostatistics</a>
-			</div>	
-			<div class="smallspacer"></div>
-			<div class="smallnote">
-				05 Jul 2017
-				
-				by <a class="off" href="/team/jingma">Jing Ma</a>
-					
-			</div>
-			<div class="bigspacer"></div>
-			<div class="spacer"></div>		
-        </div>
-    
-
+	<div class="col-md-1"></div>
 </div>
+
+<div class="bigspacer"></div>
+
+
 
    </div>
 
