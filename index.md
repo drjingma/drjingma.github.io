@@ -22,7 +22,7 @@ categories:
 
 The Ma Lab at [Fred Hutchinson Cancer Center](https://www.fredhutch.org/en/faculty-lab-directory/ma-jing.html) specializes in statistical and computational methods for genomic data, in particular microbiome data. We employ a variety of statistical learning methods, ranging from dimensionality reduction, graphical models, and high-dimensional inference, to address the analytical challenges faced with interpreting omics data. The long-term goals of our research are to enhance biomarker discoveries through powerful and robust statistical inference, and to translate these findings to advance clinical research.
 
-**Keywords**: network analysis, high-dimensional inference, data integration
+**Keywords**: microbiome, network analysis, high-dimensional inference, data integration
 
 <!--
 Our lab collaborates with Dr. [Daniel Promislow](http://www.promislowlab.org/) on the [Dog Aging Project](https://dogagingproject.org/), supported by U19 grant AG057377 from the National Institute of Aging, a part of the National Institutes of Health. 
