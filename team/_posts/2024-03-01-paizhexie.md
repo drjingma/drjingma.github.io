@@ -1,21 +1,21 @@
 ---
 layout: member
 title: Paizhe Xie
-position: Research Assistant
-institute: University of Washington
+position: PhD student
+institute: Washington University
 handle: Paizhe Xie
-email: paizhe@uw.edu
+email: 
 twitter: 
 github: 
 scholar: 
 image: /assets/images/team/Paizhe_Xie.jpg
 cv: 
-alum: false
+alum: true
 web: www.linkedin.com/in/paizhe-xie-14a2a3260/
 field: 
 ---
 
-Paizhe is a Master student in the [Department of Statistics](https://stat.uw.edu/about-us/people/paizhe-xie) at the University of Washington. He is currently working on regression analysis of compositional data. 
+Paizhe was a Master student RA in Ma Lab from 2024-2025. He graduated from the master program in the Department of Statistics at the University of Washington. He is currently a PhD student in Statistics and Data Science at Washington University in St. Louis. 
 
 
 
