@@ -1,11 +1,11 @@
 ---
 layout: paper
-title: The first comorbidity networks in companion dogs in the Dog Aging Project
+title: Constructing the first comorbidity networks in companion dogs in the Dog Aging Project
 image: /assets/images/papers/Fang_comorbidity.png
 authors: Antoinette Fang, Lakshin Kumar, Kate E Creevy, Dog Aging Project Consortium, Daniel EL Promislow, Jing Ma
-year: 2024
-shortref: Fang et al. (2024). bioRxiv.
-journal: "bioRxiv"
+year: 2025
+shortref: Fang et al. (2025). PLOS Comp Bio.
+journal: "PLOS Computational Biology"
 arXiv: 
 pdf: 
 supplement:
