@@ -30,3 +30,13 @@ gem "rspec"
 gem 'github-pages', group: :jekyll_plugins
 
 gem 'jekyll-twitter-plugin'
+
+gem "webrick", "~> 1.9"
+
+gem "faraday-retry", "~> 2.3"
+
+gem "csv", "~> 3.3"
+
+gem "base64", "~> 0.2.0"
+
+gem "bigdecimal", "~> 3.2"
