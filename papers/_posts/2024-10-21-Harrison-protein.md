@@ -3,9 +3,9 @@ layout: paper
 title: Protein catabolites as blood-based biomarkers of aging physiology Findings from the Dog Aging Project.
 image: 
 authors: Benjamin R Harrison, Maria Partida-Aguilar, Abbey Marye, Danijel Djukovic, Mandy Kauffman, Matthew D Dunbar, Blaise L Mariner, Brianah M McCoy, Yadid M Algavi, Efrat Muller, Shiri Baum, Tal Bamberger, Dan Raftery, Kate E Creevy, Dog Aging Project Consortium (..., Jing Ma, ...), Anne Avery, Elhanan Borenstein, Noah Snyder-Mackler, Daniel E Promislow
-year: 2024
-shortref: Harrison et al. (2024). bioRxiv.
-journal: "bioRxiv"
+year: 2025
+shortref: Harrison et al. (2025). Aging Cell.
+journal: "Aging Cell"
 arXiv: 
 pdf: 
 supplement:
