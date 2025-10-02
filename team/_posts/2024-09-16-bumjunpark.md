@@ -15,7 +15,7 @@ web: https://bpark67.github.io/
 field: 
 ---
 
-Bumjun is a second-year PhD student in the [Department of Biostatistics](https://www.biostat.washington.edu/people/bumjun-park) at the University of Washington. Bumjun is currently working on inference for microbial networks. 
+Bumjun is a third-year PhD student in the [Department of Biostatistics](https://www.biostat.washington.edu/people/bumjun-park) at the University of Washington. Bumjun is currently working on inference for microbial networks. 
 
 
 
