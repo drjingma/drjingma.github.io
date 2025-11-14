@@ -4,7 +4,7 @@ title: Paizhe Xie
 position: PhD student
 institute: Washington University
 handle: Paizhe Xie
-email: 
+email: paizhexie@gmail.com
 twitter: 
 github: 
 scholar: 
