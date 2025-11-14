@@ -4,7 +4,7 @@ title: Characterizing dog cognitive aging using spontaneous problem-solving meas
 image: 
 authors: Stephanie H Hargrave, Emily E Bray, Stephanie McGrath, Gene E Alexander, Theadora A Block, Naomi Chao, Martin Darvas, Laura E L C Douglas, Janet Galante, Brenda S Kennedy, Breonna Kusick, Julie A Moreno, Daniel E L Promislow, David A Raichlen, Lorelei R Switzer, Lily Tees, Mikayla Underwood Aguilar, Silvan R Urfer, Dog Aging Project Consortium (..., Jing Ma, ...), Evan L MacLean
 year: 2024
-shortref: Wilkins et al. (2024). GeroScience.
+shortref: Hargrave et al. (2025). GeroScience.
 journal: "GeroScience"
 arXiv: 
 pdf: 
