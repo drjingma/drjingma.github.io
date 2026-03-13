@@ -3,15 +3,15 @@ layout: paper
 title: Inference for microbe--metabolite association networks using a latent graph model
 image: /assets/images/papers/noisybiSBM.png
 authors: Jing Ma 
-year: 2025
-shortref: Ma. (2025). arXiv.
-journal: "arXiv"
-pdf: 
+year: 2026
+shortref: Ma. (2026). Biometrics.
+journal: "Biometrics"
+pdf: /assets/pdfs/papers/2026-Ma-noisybiSBM.pdf
 supplement:
 slides: /assets/pdfs/talks/2025-07-17-Banff.pdf
 arXiv: 2506.12275
 github: https://github.com/drjingma/metaMint
-doi: 
+doi: 10.1093/biomtc/ujag042
 external_link:
 dryad_doi:
 video_link:
