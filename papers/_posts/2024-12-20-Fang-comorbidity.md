@@ -7,7 +7,7 @@ year: 2025
 shortref: Fang et al. (2025). PLOS Comp Bio.
 journal: "PLOS Computational Biology"
 arXiv: 
-pdf: 
+pdf: /assets/pdfs/papers/2025-Fang-comorbidity.pdf
 supplement:
 slides: 
 github: https://github.com/aeyfang/pbc-dap-network
