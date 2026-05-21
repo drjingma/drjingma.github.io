@@ -3,9 +3,9 @@ layout: paper
 title: Mapping the canine microbiome Insights from the Dog Aging Project
 image: /assets/images/papers/microbiome_age.jpg
 authors: T Bamberger, E Muller, YM. Algavi, A Greenier, C Adjangba, E Slikas, L Brassington, B Mariner, B McCoy, BR. Harrison, M Partida-Aguilar, A Marye, A Harris, E Rout, Dog Aging Project Consortium (..., Jing Ma, ...), A Avery, DEL Promislow, N Snyder-Mackler, E Borenstein.
-year: 2025
-shortref: Bamberger et al. (2025). bioRxiv.
-journal: "bioRxiv"
+year: 2026
+shortref: Bamberger et al. (2026). Nat. Commun.
+journal: "Nature Communications"
 arXiv: 
 pdf: 
 supplement:
