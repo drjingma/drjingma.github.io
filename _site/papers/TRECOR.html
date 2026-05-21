@@ -6,8 +6,8 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-    <title>Save the date: 2018 Fred Hutch Microbiome Symposium</title>
-    <meta name="description" content="symposium">
+    <title>Bayesian covariance regression for differential network analysis of zero-inflated microbiome data</title>
+    
     <meta name="author" content="Jing Ma">
 
     <!-- Enable responsive viewport -->
@@ -317,78 +317,135 @@
    <!-- Content -->
    <div class="container">
       
-<div class="page-header">
-  <h1>Save the date: 2018 Fred Hutch Microbiome Symposium </h1>
+<!-- 
+Branched from Trevor Bedford's source, https://github.com/blab/blotter/blob/master/_layouts/paper.html
+with gratitude.
+-->
+
+<div class="bigspacer"></div>
+
+<div class="row">
+	<div class="col-md-3">
+		<div class="media">
+			
+			<img class="pull-left pad-right media-object paper-image" src="/assets/images/papers/p_pop_tree.png">
+			
+		</div>
+	</div>
+
+	<div class="col-md-9">
+		<div class="media-body titlebox">
+			<div class="title media-heading">
+				Bayesian covariance regression for differential network analysis of zero-inflated microbiome data
+			</div>
+			<p>
+			<div class="smallhead">
+				
+				
+				
+				     
+					 
+				     
+				 
+					 
+	 								<a href="http://www.linkedin.com/in/zichun-xu-768161205/">Zichun Xu</a>, 
+					 
+				 
+				
+				
+				     
+					 
+				     
+					 
+					 
+     								<a href="http://drjingma.com">Jing Ma</a> (2026). 
+					 
+				 
+				
+				
+				<!-- Zichun Xu, Jing Ma,  -->
+				<span class="journal">
+				arXiv
+				</span>
+				
+				
+				
+				<!-- (2026). -->
+			</div>
+		</div>
+	</div>
 </div>
 
-<div class="row post-full">
-  <div class="col-xs-12">
-    <div class="date">
-      <span>25 October 2017</span>
-    </div>
-    <div class="content">
-      <p>Fred Hutch is excited to host the <a href="http://www.fredhutch.org/en/labs/phs/projects/biostats/events/pastevents/microbiome2018/agenda.html">2018 Microbiome Symposium</a> on March 16th, 2018! Sessons include</p>
-<ul>
-  <li>Making sense of the human microbiome,</li>
-  <li>Microbiome and infectious disease,</li>
-  <li>Bioinformatics for the microbiome,</li>
-  <li>Microbiome data analysis.</li>
-</ul>
+<div class="bigspacer"></div>
 
-    </div>
+<div class="row">
+	<div class="col-md-3">
+		<div class="bigspacer"></div>
+		<div class="glyphbox note"> <!-- DAD: what is this class? -->
+			
 
-  
-    <ul class="tag_box inline">
-      <li><i class="glyphicon glyphicon-open"></i></li>
-      
-      
+				
+			
+			
+			
+			
+			
+			
+			<div class="smallhead">
+				ArXiv.org
+			</div>
+			<div class="pad-left note">
+				<div class="smallspacer"></div>
+				<i class="fa fa-external-link fa-fw"></i>
+				<a class="off" href="http://arxiv.org/abs/2604.02286">2604.02286</a>
+			</div>
+			<div class="bigspacer"></div>			
+			
 
+			
+			
+			
+			<div class="smallhead">
+				Source code
+			</div>	
+			<div class="pad-left note">
+				<div class="smallspacer"></div>
+				<i class="fa fa-cog fa-fw"></i>
+				<a class="off" href="https://github.com/zichun-xu/TRECOR">github.com/zichun-xu/TRECOR</a>
+			</div>
+			<div class="bigspacer"></div>
+			
 
-  
-     
-    	<li><a href="/categories.html#news-ref">
-    		news<span>19</span>
+			
 
-    	</a></li>
-    
-  
+			
 
+			<div class="smallhead">
+				Share
+			</div>
+		    <!-- Paste the 3 next lines where you want the sharing button(s) to appear -->
+		    <div class="post-sharing">
+		     
+		    </div>
 
-    </ul>
-    
+		</div>
+	</div>
+	
+	<div class="col-md-8">	
+		<div class="post">
+			<h1 id="abstract">Abstract</h1>
 
-  
-    <ul class="tag_box inline">
-      <li><i class="glyphicon glyphicon-tags"></i></li>
-      
-      
+<p>Microbial interaction networks can rewire in response to host and environmental factors, yet most existing methods for network estimation treat the covariance structure as static across samples. We propose TRECOR, a Bayesian covariance regression framework for inferring covariate-dependent microbial covariation networks from zero-inflated compositional count data. The method models microbiome counts through a latent multivariate normal distribution defined on the internal nodes of a phylogenetic tree, where both the mean and covariance of the latent variables depend on covariates. The covariance is decomposed into a sparse baseline component, representing a stable microbial covariation network, and a low-rank covariate-dependent perturbation that captures network rewiring. By exploiting the binomial factorization of the multinomial distribution under the logistic-tree-normal representation, the model achieves full conjugacy and posterior inference proceeds via an efficient Gibbs sampler. In simulations, TRECOR substantially outperforms covariance regression applied to transformed counts, demonstrating the importance of explicitly modeling the compositional sampling layer. Applied to gut microbiome data from 531 individuals across three countries, we find that age has the largest effect on microbial covariation, which is a pattern not revealed by mean-based analysis alone. The age-associated differential network is enriched for Enterobacteriaceae and related families, consistent with known developmental shifts in the gut microbiota, while country-associated differential networks implicate diet-related taxa.</p>
 
+		</div>	
+	</div>
+	
 
-  
-     
-    	<li><a href="/tags.html#symposium-ref">symposium<span>1 </span></a></li>
-    
-  
-
-
-
-    </ul>
-    
-  
-    <hr>
-    <ul class="pagination">
-    
-      <li class="prev"><a href="/misc/about" title="About">&laquo; Previous</a></li>
-    
-      <li><a href="/archive.html">Archive</a></li>
-    
-      <li class="next"><a href="/blog/whatibelieve" title="What I believe -- by Einstein (1930)">Next &raquo;</a></li>
-    
-    </ul>
-    <hr>
-    
-  </div>
+	<div class="col-md-1"></div>
 </div>
+
+<div class="bigspacer"></div>
+
 
 
    </div>
