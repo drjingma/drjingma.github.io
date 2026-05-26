@@ -10,6 +10,21 @@
     <meta name="description" content="">
     <meta name="author" content="Jing Ma">
 
+    
+    
+    
+    
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="news">
+    <meta property="og:description" content="{% include JB/setup %} Timeline Index {% for post in site.categories.news %} {% for member in site.categories.team %} {% if member.handle == post.author_handle %} {% assign author = member %} {% endif %} {% endfor %} {{ post.title }} {{ post.date | date_to_string }} {% if author %} by {{ author.h...">
+    <meta property="og:url" content="https://drjingma.com/news/">
+    <meta property="og:image" content="https://drjingma.com/assets/images/logo/favicon.ico">
+    <meta property="og:site_name" content="Jing Ma, PhD">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="news">
+    <meta name="twitter:description" content="{% include JB/setup %} Timeline Index {% for post in site.categories.news %} {% for member in site.categories.team %} {% if member.handle == post.author_handle %} {% assign author = member %} {% endif %} {% endfor %} {{ post.title }} {{ post.date | date_to_string }} {% if author %} by {{ author.h...">
+    <meta name="twitter:image" content="https://drjingma.com/assets/images/logo/favicon.ico">
+
     <!-- Enable responsive viewport -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 

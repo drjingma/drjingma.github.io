@@ -10,6 +10,21 @@
     
     <meta name="author" content="Jing Ma">
 
+    
+    
+    
+    
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="Categories">
+    <meta property="og:description" content="{% include JB/setup %} {% assign categories_list = site.categories %} {% include JB/categories_list %} {% for category in site.categories %} {{ category[0] | join: "/" }} {% assign pages_list = category[1] %} {% include JB/pages_list %} {% endfor %}">
+    <meta property="og:url" content="https://drjingma.com/categories">
+    <meta property="og:image" content="https://drjingma.com/assets/images/logo/favicon.ico">
+    <meta property="og:site_name" content="Jing Ma, PhD">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Categories">
+    <meta name="twitter:description" content="{% include JB/setup %} {% assign categories_list = site.categories %} {% include JB/categories_list %} {% for category in site.categories %} {{ category[0] | join: "/" }} {% assign pages_list = category[1] %} {% include JB/pages_list %} {% endfor %}">
+    <meta name="twitter:image" content="https://drjingma.com/assets/images/logo/favicon.ico">
+
     <!-- Enable responsive viewport -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
