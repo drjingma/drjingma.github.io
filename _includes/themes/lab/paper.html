@@ -204,9 +204,15 @@ with gratitude.
 			<div class="smallhead">
 				Share
 			</div>
-		    <!-- Paste the 3 next lines where you want the sharing button(s) to appear -->
-		    <div class="post-sharing">
-		     {% include JB/sharing %}
+		    <div class="pad-left note post-sharing">
+		     <div class="smallspacer"></div>
+		     {% assign share_url = page.url | prepend: site.url | url_encode %}
+		     {% assign share_title = page.title | url_encode %}
+		     <i class="fa fa-linkedin fa-fw"></i>
+		     <a class="off" href="https://www.linkedin.com/sharing/share-offsite/?url={{ share_url }}" target="_blank" rel="noopener">LinkedIn</a>
+		     <br/>
+		     <i class="fa fa-cloud fa-fw"></i>
+		     <a class="off" href="https://bsky.app/intent/compose?text={{ share_title }}%20{{ share_url }}" target="_blank" rel="noopener">Bluesky</a>
 		    </div>
 
 		</div>
