@@ -9,7 +9,7 @@ twitter:
 github: bpark67
 scholar: D_UoBWgAAAAJ
 image: /assets/images/team/Bumjun_Park.jpg
-cv: /assets/pdfs/team/Park_cv_241117.pdf
+cv: 
 alum: true
 web: https://bpark67.github.io/
 field: 

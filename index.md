@@ -29,7 +29,6 @@ Our lab collaborates with Dr. [Daniel Promislow](http://www.promislowlab.org/) o
 
 For a complete list of publications, see my [Google Scholar](http://scholar.google.com/citations?user=TClZmdkAAAAJ). For more details about my background, read my [CV](/assets/pdfs/team/jingma-cv.pdf). The best way to contact me is through [email](/team/jingma). 
 
-Our current research focuses on integrative analysis of microbiome multi-omics data with applications to cancer biology and aging. 
 -->
 
 

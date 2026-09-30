@@ -2,34 +2,28 @@ Ma Lab Website in development: [click to view](https://drjingma.com/)
 
 # Deploying these Pages
 
-To deploy these pages to GitHub pages we build the full site outside of github and deploy the site using `git subtree`.  This is required to allow us to properly process the project update scripts prior to processing with Jekyll (not possible with GitHub Pages actions)
+The site is deployed by the GitHub Actions workflow `.github/workflows/jekyll.yml`. Every push to `main` builds the site with Jekyll on GitHub and publishes it to GitHub Pages (custom domain set in `CNAME`). The workflow can also be run manually from the Actions tab.
 
-## No Jekyll
+To publish a change:
 
-To disable jekyll processing of this site, create the file `.nojekyll` in the root directory of the repo.
-
-## Set Up the Branch
-
-The repository is configured to include the `_site` directory (remove this from `.gitignore`).  This is a change from the typicall Jekyll site which ignores the `_site` directory as this contains the rendered pages.
-
-First update and build the site:
+1. Edit or add the source files (e.g. a paper in `papers/_posts/`, a news item in `news/_posts/`, a member in `team/_posts/`, and PDFs/images under `assets/`).
+2. Build locally to check the result:
 
 ```
-bundle exec ruby _scripts/update-and-preprocess.rb
-bundle exec jekyll build
+bundle exec jekyll build      # or: bundle exec jekyll serve, then open http://localhost:4000
 ```
 
-When the build is complete, check out the `_site` directory into a new branch named `deploy`:
+3. Commit and push to `main`:
 
 ```
-git subtree push --prefix _site origin deploy
+git add -A
+git commit -m "describe the change"
+git push origin main
 ```
 
-## Configure GitHub
+4. Check the run under the repository's Actions tab; the site updates when the deploy job finishes.
 
-Now configure GitHub Pages to deploy this branch.  In `setting/pages` for the repo, configure the source branch to `deploy` and save changes.  This will trigger a build of the site.
-
-It is import to review the changes by creating a pull request and merge conflicts before the website can be displayed correctly. 
+The `_site` directory is tracked in the repository, but GitHub Pages serves the copy built by the workflow, not the committed one. `_scripts/update-and-preprocess.rb` is not needed: it only updates GitHub project repositories, and `_config.yml` lists none.
 
 # Configuring the Development Environment on SciComp Hosts
 

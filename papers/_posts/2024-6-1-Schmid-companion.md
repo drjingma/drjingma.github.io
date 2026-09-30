@@ -7,7 +7,7 @@ year: 2024
 shortref: Schmid et al. (2024). GeroScience.
 journal: "GeroScience"
 arXiv: 
-pdf: /assets/pdfs/papers/2024-Pearson.pdf
+pdf: /assets/pdfs/papers/2024-Schmid.pdf
 supplement:
 slides: 
 github: 
